@@ -9,7 +9,7 @@ import { DataManagerService } from '@app/datamanager.service';
 })
 export class AppComponent {
   title = 'asami-portfolio';
-  projects;
+  subscription;
 
   constructor(
     private dataManager: DataManagerService
@@ -17,10 +17,14 @@ export class AppComponent {
 
 
   ngOnInit() {
-    this.dataManager.fetchProjects().subscribe((data) => {
-      console.log(data);
-      this.projects = data;
-    })
+    // this.subscription = this.dataManager.fetchProjects().subscribe((data) => {
+    //   console.log(data);
+    //   this.dataManager.setProjects(data);
+    // })
+  }
+
+  ngOnDestroy() {
+    this.subscription.ubsubscribe();
   }
 
 }

@@ -23,14 +23,11 @@ export class ProjectComponent implements OnInit {
   ngOnInit() {
     this.projectTitle = this.route.snapshot.params['shortTitle'];
 
-    this.dataManager.fetchProjects().subscribe((data) => {
-      console.log(data);
-      this.projects = data;
+      this.projects = this.dataManager.getProjects();
       this.currentProject = this.projects.find((item) => {
        return item.shortTitle === this.projectTitle;
      });
      console.log(this.currentProject);
-    })
   }
 
 }

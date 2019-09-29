@@ -1,20 +1,20 @@
 [
   {
-    "id": 1,
     "shortTitle": "chair",
     "longTitle": "wooden chair",
-    "description": "<p>you can sit on it and it is made of wood</p>"
+    "description": "<p>you can sit on it and it is made of wood</p>",
+    "related": ["table", "alexey"]
   },
   {
-    "id": 2,
     "shortTitle": "table",
     "longTitle": "this is table",
-    "description": "<p>it is metal and you can have dinner at it</p>"
+    "description": "<p>it is metal and you can have dinner at it</p>",
+    "related": ["chair", "alexey"]
   },
   {
-    "id": 3,
     "shortTitle": "alexey",
     "longTitle": "this is danna",
-    "description": "<p>danna-san</p>"
+    "description": "<p>danna-san</p>",
+    "related": ["chair", "table"]
   }
 ]

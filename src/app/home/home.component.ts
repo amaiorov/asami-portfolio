@@ -14,14 +14,19 @@ export class HomeComponent implements OnInit {
 
   constructor(
     private dataManager: DataManagerService
-
-  ) { }
+  ) {
+    this.projects = dataManager.getProjects();
+  }
 
   ngOnInit() {
-    this.dataManager.fetchProjects().subscribe((data) => {
-      console.log(data);
-      this.projects = data;
-    })
+    console.log(this.projects);
+    // this.projects = this.dataManager.projects.subscribe((data) => {
+    //   alert('got data')
+    // });
+    // this.dataManager.fetchProjects().subscribe((data) => {
+    //   console.log(data);
+    //   this.projects = data;
+    // })
 
   }
 
