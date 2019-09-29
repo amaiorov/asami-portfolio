@@ -10,9 +10,9 @@ import { DataManagerService } from '@app/datamanager.service';
 })
 export class ProjectComponent implements OnInit {
 
-  projectTitle;
-  currentProject;
   projects;
+  currentProject;
+  relatedProjects;
 
   constructor(
     private router: Router,
@@ -21,13 +21,23 @@ export class ProjectComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    this.projectTitle = this.route.snapshot.params['shortTitle'];
+    this.router.routeReuseStrategy.shouldReuseRoute = () => {
+      return false
+    };
 
-      this.projects = this.dataManager.getProjects();
-      this.currentProject = this.projects.find((item) => {
-       return item.shortTitle === this.projectTitle;
-     });
-     console.log(this.currentProject);
+    this.projects = this.dataManager.getProjects();
+    this.currentProject = this.getProjectByShortTitle(this.route.snapshot.params['shortTitle']);
+    this.relatedProjects = this.currentProject.related.map(item => {
+      return this.getProjectByShortTitle(item);
+    });
+    console.log(this.currentProject);
+    console.log(this.relatedProjects);
+  }
+
+  getProjectByShortTitle(title) {
+    return this.projects.find((item) => {
+      return item.shortTitle === title;
+    });
   }
 
 }

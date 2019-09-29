@@ -17,14 +17,6 @@ export class AppComponent {
 
 
   ngOnInit() {
-    // this.subscription = this.dataManager.fetchProjects().subscribe((data) => {
-    //   console.log(data);
-    //   this.dataManager.setProjects(data);
-    // })
-  }
-
-  ngOnDestroy() {
-    this.subscription.ubsubscribe();
   }
 
 }

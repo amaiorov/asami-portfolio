@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProjectComponent } from './project/project.component';
 import { PageNotFoundComponent } from './pagenotfound/pagenotfound.component';
+import { NavComponent } from './nav/nav.component';
 
 export function dataManagerFactory(provider: DataManagerService) {
   return () => provider.load();
@@ -23,7 +24,8 @@ export function dataManagerFactory(provider: DataManagerService) {
     AboutComponent,
     ContactComponent,
     ProjectComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
