@@ -1,4 +1,4 @@
-<h1>{{currentProject.longTitle}}</h1>
+<h1>{{currentProject?.longTitle}}</h1>
 <h3>Description</h3>
 <div [innerHTML]="currentProject?.description"></div>
 
@@ -7,3 +7,5 @@
     <a routerLink="{{'/project/' + project.shortTitle}}">{{project.longTitle}}</a>
   </li>
 </ul>
+
+<a routerLink="/project/asd">bad link</a>

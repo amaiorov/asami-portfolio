@@ -22,15 +22,20 @@ export class ProjectComponent implements OnInit {
 
   ngOnInit() {
     this.router.routeReuseStrategy.shouldReuseRoute = () => {
-      return false
+      return false;
     };
 
     this.projects = this.dataManager.getProjects();
     this.currentProject = this.getProjectByShortTitle(this.route.snapshot.params['shortTitle']);
+    console.log(this.currentProject);
+    if (!this.currentProject) {
+      this.router.navigate(['not-found'], {replaceUrl: true});
+      return;
+    };
+
     this.relatedProjects = this.currentProject.related.map(item => {
       return this.getProjectByShortTitle(item);
     });
-    console.log(this.currentProject);
     console.log(this.relatedProjects);
   }
 
