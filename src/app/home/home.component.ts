@@ -19,15 +19,6 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log(this.projects);
-    // this.projects = this.dataManager.projects.subscribe((data) => {
-    //   alert('got data')
-    // });
-    // this.dataManager.fetchProjects().subscribe((data) => {
-    //   console.log(data);
-    //   this.projects = data;
-    // })
-
   }
 
 }

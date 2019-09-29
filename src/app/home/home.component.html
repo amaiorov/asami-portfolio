@@ -1,11 +1,9 @@
-<h2>Home page</h2>
-<br /><br />
-<a routerLink="/about">about</a>
-<br />
-<a routerLink="/contact">contact</a>
-<br />
-<ul>
-  <li *ngFor="let project of projects">
-    <a routerLink="{{'/project/' + project.shortTitle}}">{{project.longTitle}}</a>
+<h1>Hi! I'm Asami</h1>
+<p>I am an art director/designer with over 15 years of experience in various companies and mediums</p>
+
+<h2>Projects</h2>
+<ul class="projects">
+  <li *ngFor="let project of projects" [ngStyle]="{'background-image':'url(' + project.thumb + ')'}" routerLink="{{'/project/' + project.id}}">
+    <span>{{project.shortTitle}}</span>
   </li>
 </ul>

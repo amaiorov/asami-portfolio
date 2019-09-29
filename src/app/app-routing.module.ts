@@ -20,7 +20,7 @@ const routes: Routes = [
     component: ContactComponent
   },
   {
-    path: 'project/:shortTitle',
+    path: 'project/:id',
     component: ProjectComponent
   },
   {

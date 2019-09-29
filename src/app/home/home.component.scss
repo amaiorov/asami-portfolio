@@ -1,0 +1,22 @@
+.projects {
+  display: flex;
+  margin-bottom: 24px;
+  li {
+    margin: 8px;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    border: 1px solid #999;
+    background-size: auto 100%;
+    background-position: 50% 50%;
+    &:focus, &:active {
+      outline: none;
+    }
+    span {
+      position: absolute;
+      width: 100%;
+      bottom: -24px;
+      text-align: center;
+    }
+  }
+}

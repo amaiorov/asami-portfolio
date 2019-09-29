@@ -1,11 +1,12 @@
 <h1>{{currentProject?.longTitle}}</h1>
 <h3>Description</h3>
+<img src="{{currentProject.hero}}" />
 <div [innerHTML]="currentProject?.description"></div>
 
-<ul>
-  <li *ngFor="let project of relatedProjects">
-    <a routerLink="{{'/project/' + project.shortTitle}}">{{project.longTitle}}</a>
+<ul class="related">
+  <li *ngFor="let project of relatedProjects" [ngStyle]="{'background-image':'url(' + project.thumb + ')'}" routerLink="{{'/project/' + project.id}}">
+    <span>{{project.shortTitle}}</span>
   </li>
 </ul>
 
-<a routerLink="/project/asd">bad link</a>
+<a routerLink="/project/asd">this is a bad link</a>
