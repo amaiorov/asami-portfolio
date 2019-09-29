@@ -1,0 +1,11 @@
+<h2>Home page</h2>
+<br /><br />
+<a routerLink="/about">about</a>
+<br />
+<a routerLink="/contact">contact</a>
+<br />
+<ul>
+  <li *ngFor="let project of projects">
+    <a routerLink="{{'/project/' + project.shortTitle}}">{{project.longTitle}}</a>
+  </li>
+</ul>

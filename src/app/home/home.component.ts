@@ -1,26 +1,28 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 import { DataManagerService } from '@app/datamanager.service';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.scss']
 })
-export class AppComponent {
-  title = 'asami-portfolio';
+export class HomeComponent implements OnInit {
+
+  // @Input() projects;
   projects;
 
   constructor(
     private dataManager: DataManagerService
-  ) { }
 
+  ) { }
 
   ngOnInit() {
     this.dataManager.fetchProjects().subscribe((data) => {
       console.log(data);
       this.projects = data;
     })
+
   }
 
 }
