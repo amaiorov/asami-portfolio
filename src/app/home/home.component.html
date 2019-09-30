@@ -3,7 +3,7 @@
 
 <h2>Projects</h2>
 <ul class="projects">
-  <li *ngFor="let project of projects" [ngStyle]="{'background-image':'url(' + project.thumbnailUrl + ')'}" routerLink="{{'/project/' + project.id}}">
-    <span>{{project.shortTitle}}</span>
+  <li *ngFor="let project of projects" [ngStyle]="{'background-image':'url(' + project.thumbnailUrl + ')'}" routerLink="{{ '/project/' + project.id }}">
+    <span>{{ project.shortTitle }}</span>
   </li>
 </ul>

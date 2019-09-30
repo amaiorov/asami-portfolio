@@ -1,18 +1,32 @@
-<h1>{{currentProject?.longTitle}}</h1>
+<h1>{{ currentProject?.longTitle }}</h1>
 <h3>Description</h3>
-<img src="{{currentProject.heroUrl}}" />
+<img src="{{ currentProject.heroUrl }}" />
 <div [innerHTML]="currentProject?.description"></div>
 
-<ul class="gallery">
+
+<section class="blocks">
+  blocks
+  <div *ngFor="let block of currentProject.blocks">
+    <h2 *ngIf="block.headline" class="headline">{{ block.headline }}</h2>
+    <div *ngIf="block.image" class="images">
+      <div *ngFor="let image of block.image">
+        <img src="{{ image }}" />
+      </div>
+    </div>
+    <div *ngIf="block.description" class="description">{{ block.description }}</div>
+  </div>
+</section>
+
+<!-- <ul class="gallery">
   <li *ngFor="let slide of currentProject.gallery">
-    <img src="{{slide.imageUrl}}" />
-    <span>{{slide.title}}</span>
+    <img src="{{ slide.imageUrl }}" />
+    <span>{{ slide.title }}</span>
   </li>
-</ul>
+</ul> -->
 
 <ul class="related">
-  <li *ngFor="let project of relatedProjects" [ngStyle]="{'background-image':'url(' + project.thumbnailUrl + ')'}" routerLink="{{'/project/' + project.id}}">
-    <span>{{project.shortTitle}}</span>
+  <li *ngFor="let project of relatedProjects" [ngStyle]="{'background-image':'url(' + project.thumbnailUrl + ')'}" routerLink="{{ '/project/' + project.id }}">
+    <span>{{ project.shortTitle }}</span>
   </li>
 </ul>
 
