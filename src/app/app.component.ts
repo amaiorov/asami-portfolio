@@ -9,12 +9,10 @@ import { DataManagerService } from '@app/datamanager.service';
 })
 export class AppComponent {
   title = 'asami-portfolio';
-  subscription;
 
   constructor(
     private dataManager: DataManagerService
   ) { }
-
 
   ngOnInit() {
   }

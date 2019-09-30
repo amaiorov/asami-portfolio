@@ -2,6 +2,20 @@ img {
   height: 200px;
 }
 
+.blocks {
+  > div {
+    position: relative;
+    margin-bottom: 64px;
+    .images {
+      img {
+        margin-bottom: 24px;
+      }
+    }
+    &:after {
+    }
+  }
+}
+
 .gallery {
   display: flex;
   margin-bottom: 24px;
