@@ -1,10 +1,17 @@
 <h1>{{currentProject?.longTitle}}</h1>
 <h3>Description</h3>
-<img src="{{currentProject.hero}}" />
+<img src="{{currentProject.heroUrl}}" />
 <div [innerHTML]="currentProject?.description"></div>
 
+<ul class="gallery">
+  <li *ngFor="let slide of currentProject.gallery">
+    <img src="{{slide.imageUrl}}" />
+    <span>{{slide.title}}</span>
+  </li>
+</ul>
+
 <ul class="related">
-  <li *ngFor="let project of relatedProjects" [ngStyle]="{'background-image':'url(' + project.thumb + ')'}" routerLink="{{'/project/' + project.id}}">
+  <li *ngFor="let project of relatedProjects" [ngStyle]="{'background-image':'url(' + project.thumbnailUrl + ')'}" routerLink="{{'/project/' + project.id}}">
     <span>{{project.shortTitle}}</span>
   </li>
 </ul>

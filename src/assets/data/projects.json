@@ -3,27 +3,58 @@
     "id": "chair",
     "shortTitle": "Chair",
     "longTitle": "Wooden chair",
-    "hero": "http://lorempixel.com/600/200/cats/1/",
-    "thumb": "http://lorempixel.com/100/100/cats/1/",
+    "heroUrl": "http://lorempixel.com/600/200/cats/1/",
+    "thumbnailUrl": "http://lorempixel.com/100/100/cats/1/",
+    "gallery": [
+      {
+        "imageUrl": "http://lorempixel.com/320/180/cats/1/",
+        "title": "this is a cat 1"
+      },
+      {
+        "imageUrl": "http://lorempixel.com/320/180/cats/2/",
+        "title": "this is a cat 2"
+      },
+      {
+        "imageUrl": "http://lorempixel.com/320/180/cats/3/",
+        "title": "this is a cat 3"
+      },
+      {
+        "imageUrl": "http://lorempixel.com/320/180/cats/4/",
+        "title": "this is a cat 4"
+      },
+      {
+        "imageUrl": "http://lorempixel.com/320/180/cats/5/",
+        "title": "this is a cat 4"
+      }
+    ],
     "description": "<p>you can sit on it and it is made of wood</p>",
-    "related": ["table", "alexey"]
+    "related": [
+      "table",
+      "alexey"
+    ]
   },
   {
     "id": "table",
     "shortTitle": "Table",
     "longTitle": "This is the table project",
-    "hero": "http://lorempixel.com/600/200/cats/2/",
-    "thumb": "http://lorempixel.com/100/100/cats/2/",
-    "description": "<p>it is metal and you can have dinner at it</p>",
-    "related": ["chair", "alexey"]
+    "heroUrl": "http://lorempixel.com/600/200/cats/2/",
+    "thumbnailUrl": "http://lorempixel.com/100/100/cats/2/",
+    "description": "<p>it is wood/glass and you can have dinner at it</p>",
+    "related": [
+      "chair",
+      "alexey"
+    ]
   },
   {
     "id": "alexey",
     "shortTitle": "Alexey",
     "longTitle": "This is the danna project",
-    "hero": "http://lorempixel.com/600/200/cats/3/",
-    "thumb": "http://lorempixel.com/100/100/cats/3/",
+    "heroUrl": "http://lorempixel.com/600/200/cats/3/",
+    "thumbnailUrl": "http://lorempixel.com/100/100/cats/3/",
     "description": "<p>danna-san, suteki! ♥♥♥</p>",
-    "related": ["chair", "table"]
+    "related": [
+      "chair",
+      "table"
+    ]
   }
 ]
