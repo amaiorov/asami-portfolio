@@ -8,6 +8,7 @@ import { catchError, tap } from 'rxjs/operators';
 })
 export class DataManagerService {
   projects;
+  categories;
 
   constructor(
     private http: HttpClient
@@ -43,6 +44,10 @@ export class DataManagerService {
       .get('assets/data/projects.json')
       .subscribe(response => {
         this.projects = response;
+        // this.categories = [...new Set(response.map(item => item.category))];
+        // console.log([...new Set(response.map(item => item.category))]);
+        this.categories = this.projects.map(item => item.category);
+        this.categories = this.categories.filter((item, index) => this.categories.indexOf(item) === index);
         resolve(true);
       })
     })
@@ -56,6 +61,11 @@ export class DataManagerService {
   getProjects() {
     console.log('get projects');
     return this.projects;
+  }
+
+  getCategories() {
+    console.log('get categories');
+    return this.categories;
   }
 
 }

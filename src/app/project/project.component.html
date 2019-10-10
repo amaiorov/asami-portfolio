@@ -1,8 +1,21 @@
 <h1>{{ currentProject?.longTitle }}</h1>
-<h3>Description</h3>
-<img src="{{ currentProject.heroUrl }}" />
-<div [innerHTML]="currentProject?.description"></div>
 
+<!-- project image -->
+<img src="{{ currentProject.heroUrl }}" />
+
+<!-- project client -->
+<section>
+  <strong>Client:</strong> {{ currentProject?.client }}
+</section>
+
+<!-- project duration -->
+<section>
+  <strong>Duration:</strong> {{ currentProject.startDate }} &mdash; {{ currentProject.endDate || 'current' }}
+</section>
+
+<!-- project description -->
+<strong>Description</strong>
+<div [innerHTML]="currentProject?.description"></div>
 
 <section class="blocks">
   <div *ngFor="let block of currentProject.blocks">
@@ -28,5 +41,3 @@
     <span>{{ project.shortTitle }}</span>
   </li>
 </ul>
-
-<a routerLink="/project/asd">this is a bad link</a>

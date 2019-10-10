@@ -1,8 +1,12 @@
 [
   {
     "id": "chair",
+    "category": "product",
     "shortTitle": "Chair",
     "longTitle": "Wooden chair",
+    "startDate": "2015",
+    "endDate": "2019",
+    "client": "West Elm",
     "heroUrl": "http://lorempixel.com/600/200/cats/1/",
     "thumbnailUrl": "http://lorempixel.com/100/100/cats/1/",
     "gallery": [
@@ -35,8 +39,12 @@
   },
   {
     "id": "table",
+    "category": "graphic",
     "shortTitle": "Table",
     "longTitle": "This is the table project",
+    "startDate": "2012",
+    "endDate": "2013",
+    "client": "Crate and Barrel",
     "heroUrl": "http://lorempixel.com/600/200/cats/2/",
     "thumbnailUrl": "http://lorempixel.com/100/100/cats/2/",
     "description": "<p>it is wood/glass and you can have dinner at it</p>",
@@ -70,14 +78,60 @@
   },
   {
     "id": "alexey",
+    "category": "photography",
     "shortTitle": "Alexey",
     "longTitle": "This is the danna project",
+    "startDate": "2015",
+    "client": "danna",
     "heroUrl": "http://lorempixel.com/600/200/cats/3/",
     "thumbnailUrl": "http://lorempixel.com/100/100/cats/3/",
     "description": "<p>danna-san, suteki! ♥♥♥</p>",
     "related": [
       "chair",
       "table"
+    ]
+  },
+  {
+    "id": "nyanko",
+    "category": "photography",
+    "shortTitle": "Nyanko Sensei",
+    "longTitle": "Cats from Shizuoka are great",
+    "startDate": "2015",
+    "endDate": "2019",
+    "client": "Nya Inc.",
+    "heroUrl": "https://shop.r10s.jp/felicefm/cabinet/compass1535031681.jpg",
+    "thumbnailUrl": "https://shop.r10s.jp/felicefm/cabinet/compass1535031681.jpg",
+    "description": "<p>Nya nya nya~~</p>",
+    "related": [
+      "alexey",
+      "kot"
+    ]
+  },
+  {
+    "id": "kot",
+    "category": "photography",
+    "shortTitle": "Nyavinchi",
+    "longTitle": "Kot Nyavinchi",
+    "startDate": "2015",
+    "endDate": "2019",
+    "client": "Nya Inc.",
+    "heroUrl": "https://static-eu.insales.ru/images/products/1/3671/184340055/MT-MRT101703-20.jpg",
+    "thumbnailUrl": "https://static-eu.insales.ru/images/products/1/3671/184340055/MT-MRT101703-20.jpg",
+    "description": "<p>Nya nya nya~~</p>",
+    "blocks": [
+      {
+        "headline": "This is my family",
+        "image": [
+          "https://cs2.livemaster.ru/storage/c0/d6/a95b347778db5e722ad354316emo--kukly-i-igrushki-kot-kolbaskin.jpg",
+          "https://images.ru.prom.st/573072798_myagkaya-igrushka-kolbaskin.jpg",
+          "https://static-eu.insales.ru/images/products/1/1783/184329975/eb6e7811afa473e3cca62f74fa8360f6.jpg"
+        ],
+        "description": "It's a dummy text again"
+      }
+    ],
+    "related": [
+      "alexey",
+      "nyanko"
     ]
   }
 ]

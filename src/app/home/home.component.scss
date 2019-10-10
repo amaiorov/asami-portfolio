@@ -1,3 +1,22 @@
+@import '~assets/scss/variables.scss';
+
+h1 {
+  padding-bottom: 34px;
+  @media (max-width: $break-medium) {
+    padding-bottom: 25px;
+  }
+}
+
+p {
+  font-size: 4.4rem;
+  font-weight: 300;
+  line-height: 6.4rem;
+  @media (max-width: $break-medium) {
+    font-size: 2.7rem;
+    line-height: 3.4rem;
+  }
+}
+
 .projects {
   display: flex;
   margin-bottom: 24px;
@@ -17,6 +36,27 @@
       width: 100%;
       bottom: -24px;
       text-align: center;
+      &.category {
+        bottom: auto;
+        top: -4px;
+        right: -4px;
+        padding: 2px 4px;
+        background: #000;
+        color: #fff;
+        width: auto;
+      }
+    }
+  }
+}
+
+.categories {
+  > span {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 4px;
+    &.selected {
+      background: #999;
+      color: #fff;
     }
   }
 }

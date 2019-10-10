@@ -25,7 +25,6 @@ export class ProjectComponent implements OnInit {
 
     this.projects = this.dataManager.getProjects();
     this.currentProject = this.getProjectById(this.route.snapshot.params['id']);
-    console.log(this.currentProject);
     if (!this.currentProject) {
       this.router.navigate(['not-found'], {replaceUrl: true});
       return;
@@ -37,7 +36,6 @@ export class ProjectComponent implements OnInit {
     this.relatedProjects = this.currentProject.related.map(item => {
       return this.getProjectById(item);
     });
-    console.log(this.relatedProjects);
   }
 
   getProjectById(id) {

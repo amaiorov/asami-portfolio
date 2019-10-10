@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 import { DataManagerService } from '@app/datamanager.service';
 
@@ -13,6 +13,13 @@ export class AppComponent {
   constructor(
     private dataManager: DataManagerService
   ) { }
+
+  @HostListener('document:keyup', ['$event'])
+    handleKeyboardEvent(event: KeyboardEvent) {
+      if (event.key === 'd') {
+        document.body.classList.toggle('debug');
+      }
+    }
 
   ngOnInit() {
   }

@@ -1,9 +1,13 @@
 <h1>Hi! I'm Asami</h1>
-<p>I am an art director/designer with over 15 years of experience in various companies and mediums</p>
-
+<p>I am an Art Director and Product Designer from Japan, currently based in New York. In my 15+ years of experience, I have been focusing on creating the best ideas and meaningfull creation for my clients.</p>
+<div class="categories">
+  <span (click)="setCategory()" [ngClass]="{selected: !currentCategory}">All</span>
+  <span *ngFor="let category of categories" (click)="setCategory(category)" [ngClass]="{selected: currentCategory === category}">{{ category | titlecase }}</span>
+</div>
 <h2>Projects</h2>
 <ul class="projects">
   <li *ngFor="let project of projects" [ngStyle]="{'background-image':'url(' + project.thumbnailUrl + ')'}" routerLink="{{ '/project/' + project.id }}">
     <span>{{ project.shortTitle }}</span>
+    <span class="category">{{ project.category | titlecase }}</span>
   </li>
 </ul>
