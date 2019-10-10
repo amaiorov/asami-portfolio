@@ -5,7 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "git": "ng build --prod --output-path docs --base-href ./ && git add . && git commit -m \"deploy to github pages\" && git push",
+    "build:github": "ng build --prod --output-path docs --base-href ./",
+    "deploy:github": "func() { npm run build:github && git add . && git commit -m \"DEPLOY - $1\" && git push; }; func",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
