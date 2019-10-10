@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "git": "npm run build --prod && git commit -a -m \"deploy to github pages\" && git push",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
