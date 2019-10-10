@@ -38,7 +38,7 @@ export class DataManagerService {
   }
 
   load() {
-    console.log('LOAD DATA')
+    console.log('LOAD DATA');
     return new Promise((resolve, reject) => {
       this.http
       .get('assets/data/projects.json')
@@ -49,8 +49,8 @@ export class DataManagerService {
         this.categories = this.projects.map(item => item.category);
         this.categories = this.categories.filter((item, index) => this.categories.indexOf(item) === index);
         resolve(true);
-      })
-    })
+      });
+    });
   }
 
   setProjects(projects) {

@@ -24,7 +24,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
-  setCategory(category) {
+  setCategory(category?) {
     this.currentCategory = category;
     this.filterProjects(category);
   }

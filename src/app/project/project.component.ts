@@ -28,7 +28,7 @@ export class ProjectComponent implements OnInit {
     if (!this.currentProject) {
       this.router.navigate(['not-found'], {replaceUrl: true});
       return;
-    };
+    }
 
   }
 
