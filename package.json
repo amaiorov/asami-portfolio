@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:github": "ng build --prod --output-path docs --base-href ./",
+    "build:github": "ng build --prod --output-path docs --base-href ./ && cp docs/index.html docs/404.html",
     "deploy:github": "func() { npm run build:github && git add . && git commit -m \"DEPLOY - $1\" && git push; }; func",
     "test": "ng test",
     "lint": "ng lint",
