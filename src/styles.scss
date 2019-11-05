@@ -38,6 +38,23 @@ img {
   display: block;
 }
 
+p {
+  margin: 32px 0;
+}
+
+a {
+  &.button {
+    padding: 12px 28px;
+    font-size: 22px;
+    text-decoration: none;
+    display: inline-block;
+    &.black {
+      background: $off-black;
+      color: $off-white;
+    }
+  }
+}
+
 .debug *[class] {
   position: relative;
   border: 2px dashed rgba(255,0,0,0.5);

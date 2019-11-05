@@ -2,6 +2,11 @@
   {
     "id": "chair",
     "category": "product",
+    "tags": [
+      "Brand Direction",
+      "Art Direction",
+      "Interior Design"
+    ],
     "shortTitle": "Chair",
     "longTitle": "Wooden chair",
     "startDate": "2015",
