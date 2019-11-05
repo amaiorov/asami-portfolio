@@ -12,7 +12,7 @@
     "startDate": "2015",
     "endDate": "2019",
     "client": "West Elm",
-    "heroUrl": "http://lorempixel.com/600/200/cats/1/",
+    "heroUrl": "http://lorempixel.com/600/300/cats/1/",
     "thumbnailUrl": "http://lorempixel.com/100/100/cats/1/",
     "gallery": [
       {
@@ -45,20 +45,23 @@
   {
     "id": "table",
     "category": "graphic",
+    "tags": [
+      "Logo and Print Design"
+    ],
     "shortTitle": "Table",
     "longTitle": "This is the table project",
     "startDate": "2012",
     "endDate": "2013",
     "client": "Crate and Barrel",
-    "heroUrl": "http://lorempixel.com/600/200/cats/2/",
+    "heroUrl": "http://lorempixel.com/600/300/cats/2/",
     "thumbnailUrl": "http://lorempixel.com/100/100/cats/2/",
     "description": "<p>it is wood/glass and you can have dinner at it</p>",
     "blocks": [
       {
         "headline": "How to start the business",
         "image": [
-          "http://lorempixel.com/600/200/cats/5",
-          "http://lorempixel.com/600/200/cats/6"
+          "http://lorempixel.com/600/300/cats/5",
+          "http://lorempixel.com/600/300/cats/6"
         ],
         "description": "It's a dummy text"
       },
@@ -69,9 +72,9 @@
       {
         "headline": "How to start the business - part 2",
         "image": [
-          "http://lorempixel.com/600/200/cats/7",
-          "http://lorempixel.com/600/200/cats/8",
-          "http://lorempixel.com/600/200/cats/9"
+          "http://lorempixel.com/600/300/cats/7",
+          "http://lorempixel.com/600/300/cats/8",
+          "http://lorempixel.com/600/300/cats/9"
         ],
         "description": "It's a dummy text again"
       }
@@ -84,11 +87,16 @@
   {
     "id": "alexey",
     "category": "photography",
+    "tags": [
+      "Product Design",
+      "Print Design",
+      "Sale Strategy"
+    ],
     "shortTitle": "Alexey",
     "longTitle": "This is the danna project",
     "startDate": "2015",
     "client": "danna",
-    "heroUrl": "http://lorempixel.com/600/200/cats/3/",
+    "heroUrl": "http://lorempixel.com/600/300/cats/3/",
     "thumbnailUrl": "http://lorempixel.com/100/100/cats/3/",
     "description": "<p>danna-san, suteki! ♥♥♥</p>",
     "related": [
@@ -99,6 +107,11 @@
   {
     "id": "nyanko",
     "category": "photography",
+    "tags": [
+      "Art Direction",
+      "Print Design",
+      "Industrial Design"
+    ],
     "shortTitle": "Nyanko Sensei",
     "longTitle": "Cats from Shizuoka are great",
     "startDate": "2015",
@@ -115,6 +128,11 @@
   {
     "id": "kot",
     "category": "photography",
+    "tags": [
+      "Art Direction",
+      "Photoshoot",
+      "Product Design"
+    ],
     "shortTitle": "Nya Vinchi",
     "longTitle": "Kot Nya Vinchi",
     "startDate": "2015",
@@ -137,6 +155,36 @@
     "related": [
       "alexey",
       "nyanko"
+    ]
+  },
+  {
+    "id": "empty",
+    "category": "photography",
+    "tags": [
+      "Brand Direction",
+      "Art Direction",
+      "Interior Design"
+    ],
+    "shortTitle": "empty",
+    "longTitle": "empty",
+    "startDate": "2020",
+    "endDate": "2020",
+    "client": "empty",
+    "heroUrl": "",
+    "thumbnailUrl": "",
+    "description": "none",
+    "blocks": [
+      {
+        "headline": "This is my family",
+        "image": [
+          "",
+          "",
+          ""
+        ],
+        "description": "It's a dummy text again"
+      }
+    ],
+    "related": [
     ]
   }
 ]

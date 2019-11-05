@@ -7,9 +7,13 @@
 </div>
 
 <ul class="projects">
-  <li *ngFor="let project of projects" [ngStyle]="{'background-image':'url(' + project.thumbnailUrl + ')'}" routerLink="{{ '/project/' + project.id }}">
-    <span>{{ project.shortTitle }}</span>
-    <span *ngFor="let tag of project.tags">{{ tag }}</span>
+  <li *ngFor="let project of projects" routerLink="{{ '/project/' + project.id }}">
+    <!-- <div class="image" [ngStyle]="{'background-image':'url(' + project.heroUrl + ')'}"></div> -->
+    <img [src]="project.heroUrl" />
+    <h4>{{ project.shortTitle }}</h4>
+    <div class="tags">
+      <span *ngFor="let tag of project.tags">{{ tag }}</span>
+    </div>
     <!-- <span class="category">{{ project.category | titlecase }}</span> -->
   </li>
 </ul>
