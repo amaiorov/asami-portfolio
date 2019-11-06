@@ -2,5 +2,7 @@
 
 :host {
   display: block;
-  background: $off-white;
+  margin: 0 auto;
+  box-sizing: border-box;
+  @include mq-all;
 }

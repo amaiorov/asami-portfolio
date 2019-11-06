@@ -8,7 +8,7 @@ import { DataManagerService } from '@app/datamanager.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'asami-portfolio';
+  // title = 'asami-portfolio';
 
   constructor(
     private dataManager: DataManagerService

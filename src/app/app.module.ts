@@ -3,16 +3,17 @@ import { APP_INITIALIZER, NgModule } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { HttpClientModule } from '@angular/common/http';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule } from '@app/app-routing.module';
 import { DataManagerService } from '@app/datamanager.service';
-import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
-import { ContactComponent } from './contact/contact.component';
-import { ProjectComponent } from './project/project.component';
-import { PageNotFoundComponent } from './pagenotfound/pagenotfound.component';
-import { NavComponent } from './nav/nav.component';
-import { FooterComponent } from './footer/footer.component';
+import { AppComponent } from '@app/app.component';
+import { ContentComponent } from '@app/components/content.component';
+import { HomeComponent } from '@app/components/home/home.component';
+import { AboutComponent } from '@app/components/about/about.component';
+import { ContactComponent } from '@app/components/contact/contact.component';
+import { ProjectComponent } from '@app/components/project/project.component';
+import { PageNotFoundComponent } from '@app/components/pagenotfound/pagenotfound.component';
+import { NavComponent } from '@app/components/nav/nav.component';
+import { FooterComponent } from '@app/components/footer/footer.component';
 
 export function dataManagerFactory(provider: DataManagerService) {
   return () => provider.load();
@@ -21,6 +22,7 @@ export function dataManagerFactory(provider: DataManagerService) {
 @NgModule({
   declarations: [
     AppComponent,
+    ContentComponent,
     HomeComponent,
     AboutComponent,
     ContactComponent,
