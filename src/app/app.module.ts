@@ -13,6 +13,7 @@ import { ContactComponent } from '@app/components/contact/contact.component';
 import { ProjectComponent } from '@app/components/project/project.component';
 import { PageNotFoundComponent } from '@app/components/pagenotfound/pagenotfound.component';
 import { NavComponent } from '@app/components/nav/nav.component';
+import { HeaderComponent } from '@app/components/header/header.component';
 import { FooterComponent } from '@app/components/footer/footer.component';
 
 export function dataManagerFactory(provider: DataManagerService) {
@@ -29,7 +30,8 @@ export function dataManagerFactory(provider: DataManagerService) {
     ProjectComponent,
     PageNotFoundComponent,
     NavComponent,
-    FooterComponent
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
