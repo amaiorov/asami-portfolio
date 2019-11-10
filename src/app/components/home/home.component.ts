@@ -1,4 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, OnDestroy, Input } from '@angular/core';
+import { Subscription } from 'rxjs';
 
 import { DataManagerService } from '@app/datamanager.service';
 
@@ -7,34 +8,34 @@ import { DataManagerService } from '@app/datamanager.service';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent implements OnInit, OnDestroy {
 
   // @Input() projects;
-  projects;
-  categories;
+  projects = [];
+  categories = [];
   currentCategory;
+  categorySubscription;
+  projectsSubscription;
 
   constructor(
     private dataManager: DataManagerService
   ) {
-    this.projects = dataManager.getProjects();
-    this.categories = dataManager.getCategories();
+    // this.projects = dataManager.getProjects();
+    // this.categories = dataManager.getCategories();
   }
 
   ngOnInit() {
+    // this.currentCategory = this.dataManager.currentCategory;
+    this.categorySubscription = this.dataManager.currentCategory$.subscribe(data => {
+      this.currentCategory = data;
+    });
+    this.projectsSubscription = this.dataManager.projects$.subscribe(data => {
+      this.projects = data;
+    });
   }
 
-  setCategory(category?) {
-    this.currentCategory = category;
-    this.filterProjects(category);
+  ngOnDestroy() {
+    this.categorySubscription.unsubscribe();
+    this.projectsSubscription.unsubscribe();
   }
-
-  filterProjects(category) {
-    if (!category) {
-      this.projects = this.dataManager.getProjects();
-    } else {
-      this.projects = this.dataManager.getProjects().filter(item => item.category === category);
-    }
-  }
-
 }

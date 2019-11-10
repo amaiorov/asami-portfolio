@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable, BehaviorSubject, of } from 'rxjs';
+import { Observable, Subject, BehaviorSubject, of } from 'rxjs';
 import { catchError, tap } from 'rxjs/operators';
 
 @Injectable({
@@ -9,6 +9,12 @@ import { catchError, tap } from 'rxjs/operators';
 export class DataManagerService {
   projects;
   categories;
+
+  private currentCategorySource = new BehaviorSubject(undefined);
+  currentCategory$ = this.currentCategorySource.asObservable();
+
+  private projectsSource = new BehaviorSubject(undefined);
+  projects$ = this.projectsSource.asObservable();
 
   constructor(
     private http: HttpClient
@@ -42,11 +48,12 @@ export class DataManagerService {
     return new Promise((resolve, reject) => {
       this.http
       .get('assets/data/projects.json')
-      .subscribe(response => {
+      .subscribe((response: any)=> {
+        this.setProjects(response);
         this.projects = response;
         // this.categories = [...new Set(response.map(item => item.category))];
         // console.log([...new Set(response.map(item => item.category))]);
-        this.categories = this.projects.map(item => item.category);
+        this.categories = response.map(item => item.category);
         this.categories = this.categories.filter((item, index) => this.categories.indexOf(item) === index);
         resolve(true);
       });
@@ -55,17 +62,40 @@ export class DataManagerService {
 
   setProjects(projects) {
     console.log('set projects');
-    this.projects = projects;
+    // this.projects = projects;
+    this.projectsSource.next(projects);
   }
 
   getProjects() {
-    console.log('get projects');
-    return this.projects;
+    console.log('get projects', this.projectsSource.getValue().length);
+    return this.projectsSource.getValue();
   }
 
   getCategories() {
     console.log('get categories');
     return this.categories;
+  }
+
+  getCurrentCategory() {
+    console.log('get current category');
+    return this.currentCategorySource.getValue();
+  }
+
+  setCurrentCategory(category?) {
+    console.log('set current category to', category);
+    this.currentCategorySource.next(category);
+    this.filterProjects(category);
+    return category;
+  }
+
+  filterProjects(category) {
+    console.log('filter projects');
+    if (!category) {
+      this.setProjects(this.projects);
+    } else {
+      this.setProjects(this.projects.filter(item => item.category === category));
+    }
+
   }
 
 }
