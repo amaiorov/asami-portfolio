@@ -8,3 +8,74 @@ $off-white: #D8D8D8;
 $off-black: #222121;
 $light-brown: #FFFDF6;
 $dark-brown: #F6F3E9;
+
+@mixin mq-standard {
+  // border: 1px solid blue;
+  width: 1440px;
+  padding: 0 150px;
+  &::after {
+    content: 'desktop x-large';
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    font-size: 14px;
+    font-style: italic;
+    background: rgba(255,0,0,0.7);
+    color: #fff;
+    display: inline-block;
+    padding: 8px;
+    font-weight: 400;
+  }
+}
+
+@mixin mq-xlarge {
+  @media (max-width: $break-xlarge) {
+    // border: 1px solid blue;
+    width: 1200px;
+    padding: 0 100px;
+    &::after {
+      content: 'desktop x-large';
+    }
+  }
+}
+
+@mixin mq-large {
+  @media (max-width: $break-large) {
+    // border: 1px solid blue;
+    width: 960px;
+    padding: 0 50px;
+    &::after {
+      content: 'desktop small';
+    }
+  }
+}
+
+@mixin mq-medium {
+  @media (max-width: $break-medium) {
+    border: 1px solid yellow;
+    width: 100vw;
+    // padding: 0 50px;
+    &::after {
+      content: 'tablet';
+    }
+  }
+}
+
+@mixin mq-small {
+  @media (max-width: $break-small) {
+    border: 1px solid green;
+    width: 100vw;
+    padding: 0 36px;
+    &::after {
+      content: 'mobile';
+    }
+  }
+}
+
+@mixin mq-all {
+  @include mq-standard;
+  @include mq-xlarge;
+  @include mq-large;
+  @include mq-medium;
+  @include mq-small;
+}
