@@ -36,7 +36,7 @@
         "title": "this is a cat 4"
       }
     ],
-    "description": "<p>you can sit on it and it is made of wood</p>",
+    "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis. Nunc eget tempor nisi. Nullam tempor nulla odio, sit amet congue massa dictum quis. Aenean quis quam nec justo porttitor eleifend id eu massa. Duis lacinia, eros at auctor suscipit, arcu urna blandit justo, eu pellentesque lacus orci et eros.</p><p>Donec rhoncus ex sed vestibulum ornare. Phasellus imperdiet semper venenatis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus tincidunt dui, eleifend finibus magna dignissim et. Vestibulum rutrum purus eu erat vestibulum, eget gravida lacus lacinia. Pellentesque tortor nisl, hendrerit vel elit non, consectetur porttitor tortor. Vestibulum blandit pulvinar nisl non sodales. Nulla pellentesque ut orci non interdum.</p>",
     "related": [
       "table",
       "alexey"
@@ -55,7 +55,7 @@
     "client": "Crate and Barrel",
     "heroUrl": "http://lorempixel.com/600/300/cats/2/",
     "thumbnailUrl": "http://lorempixel.com/100/100/cats/2/",
-    "description": "<p>it is wood/glass and you can have dinner at it</p>",
+    "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis. Nunc eget tempor nisi. Nullam tempor nulla odio, sit amet congue massa dictum quis. Aenean quis quam nec justo porttitor eleifend id eu massa. Duis lacinia, eros at auctor suscipit, arcu urna blandit justo, eu pellentesque lacus orci et eros.</p><p>Donec rhoncus ex sed vestibulum ornare. Phasellus imperdiet semper venenatis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus tincidunt dui, eleifend finibus magna dignissim et. Vestibulum rutrum purus eu erat vestibulum, eget gravida lacus lacinia. Pellentesque tortor nisl, hendrerit vel elit non, consectetur porttitor tortor. Vestibulum blandit pulvinar nisl non sodales. Nulla pellentesque ut orci non interdum.</p>",
     "blocks": [
       {
         "headline": "How to start the business",
@@ -63,11 +63,11 @@
           "http://lorempixel.com/600/300/cats/5",
           "http://lorempixel.com/600/300/cats/6"
         ],
-        "description": "It's a dummy text"
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis. Nunc eget tempor nisi. Nullam tempor nulla odio, sit amet congue massa dictum quis. Aenean quis quam nec justo porttitor eleifend id eu massa. Duis lacinia, eros at auctor suscipit, arcu urna blandit justo, eu pellentesque lacus orci et eros.</p>"
       },
       {
         "headline": "How to start the business - part 2",
-        "description": "It's a dummy text again"
+        "description": "<p>Donec rhoncus ex sed vestibulum ornare. Phasellus imperdiet semper venenatis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus tincidunt dui, eleifend finibus magna dignissim et. Vestibulum rutrum purus eu erat vestibulum, eget gravida lacus lacinia. Pellentesque tortor nisl, hendrerit vel elit non, consectetur porttitor tortor. Vestibulum blandit pulvinar nisl non sodales. Nulla pellentesque ut orci non interdum.</p>"
       },
       {
         "headline": "How to start the business - part 2",
@@ -76,7 +76,7 @@
           "http://lorempixel.com/600/300/cats/8",
           "http://lorempixel.com/600/300/cats/9"
         ],
-        "description": "It's a dummy text again"
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis. Nunc eget tempor nisi. Nullam tempor nulla odio, sit amet congue massa dictum quis. Aenean quis quam nec justo porttitor eleifend id eu massa. Duis lacinia, eros at auctor suscipit, arcu urna blandit justo, eu pellentesque lacus orci et eros.</p>"
       }
     ],
     "related": [
