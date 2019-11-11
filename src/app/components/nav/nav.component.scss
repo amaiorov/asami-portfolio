@@ -1,5 +1,25 @@
 @import '~assets/scss/variables.scss';
 
-.categories {
-  
+nav {
+  .menu {
+    display: none;
+    text-indent: -9999px;
+    width: 24px;
+    height: 24px;
+    background: url('~assets/img/menu.svg') center/100% no-repeat;
+    @media (max-width: $break-medium) {
+      display: block;
+    }
+  }
+  &.open {
+    position: fixed;
+    background: $light-brown;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    .menu {
+      background-image: url('~assets/img/close.svg');
+    }
+  }
 }

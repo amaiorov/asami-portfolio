@@ -1,4 +1,4 @@
-<div class="categories">
-  <span (click)="setCategory()" [ngClass]="{selected: !currentCategory}">All</span>
-  <span *ngFor="let category of categories" (click)="setCategory(category)" [ngClass]="{selected: currentCategory === category}">{{ category | titlecase }}</span>
-</div>
+<ul class="categories">
+  <li (click)="setCategory()" [ngClass]="{selected: !currentCategory}">All</li>
+  <li *ngFor="let category of categories" (click)="setCategory(category)" [ngClass]="{selected: currentCategory === category}">{{ category | titlecase }}</li>
+</ul>

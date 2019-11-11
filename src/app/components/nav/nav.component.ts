@@ -8,10 +8,15 @@ import { Component, OnInit, Input } from '@angular/core';
 export class NavComponent implements OnInit {
 
   // @Input() currentCategory;
+  isMenuOpen = false;
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen
   }
 
 }

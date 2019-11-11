@@ -1,31 +1,45 @@
-<h1>{{ currentProject?.longTitle }}</h1>
+<app-filter></app-filter>
 
 <!-- project image -->
 <img src="{{ currentProject.heroUrl }}" />
 
-<!-- project client -->
-<section>
-  <strong>Client:</strong> {{ currentProject?.client }}
-</section>
+<!-- project title -->
+<h1>{{ currentProject?.longTitle }}</h1>
 
 <!-- project duration -->
-<section>
-  <strong>Duration:</strong> {{ currentProject.startDate }} &mdash; {{ currentProject.endDate || 'current' }}
+<section class="duration">
+  {{ currentProject.startDate }} &mdash; {{ currentProject.endDate || 'current' }}
 </section>
 
 <!-- project description -->
-<strong>Description</strong>
-<div [innerHTML]="currentProject?.description"></div>
+<section class="description">
+  <div [innerHTML]="currentProject?.description"></div>
+</section>
 
-<section class="blocks">
+<!-- project client -->
+<section class="client">
+  <h3>Client</h3>
+  <div>{{ currentProject?.client }}</div>
+</section>
+
+<!-- project role -->
+<section class="role">
+  <h3>Role</h3>
+  <div class="tags">
+    <span *ngFor="let tag of currentProject.tags">{{ tag }}</span>
+  </div>
+</section>
+
+<!-- blocks -->
+<section class="blocks" *ngIf="currentProject.blocks">
   <div *ngFor="let block of currentProject.blocks">
-    <h2 *ngIf="block.headline" class="headline">{{ block.headline }}</h2>
+    <h4 *ngIf="block.headline" class="headline">{{ block.headline }}</h4>
     <div *ngIf="block.image" class="images">
       <div *ngFor="let image of block.image">
         <img src="{{ image }}" />
       </div>
     </div>
-    <div *ngIf="block.description" class="description">{{ block.description }}</div>
+    <div *ngIf="block.description" class="description" [innerHTML]="block.description"></div>
   </div>
 </section>
 
