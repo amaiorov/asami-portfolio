@@ -1,11 +1,11 @@
-<h1>Hello, I'm Asami cat: {{ currentCategory }}</h1>
+<h1>Hello, I'm Asami</h1>
 <p>Art Director and Product Designer from Japan, currently based in New York. With over 15 years of experience, I create the best ideas and meaningfull solutions for my clients.</p>
 <a href="/about" class="button black">See more about me</a>
 <app-filter></app-filter>
 <ul class="projects">
   <li *ngFor="let project of projects" routerLink="{{ '/project/' + project.id }}">
     <!-- <div class="image" [ngStyle]="{'background-image':'url(' + project.heroUrl + ')'}"></div> -->
-    <img [src]="project.heroUrl" />
+    <img [src]="project.heroUrl" [ngClass]="{ 'no-image': !project.heroUrl }" />
     <h4>{{ project.shortTitle }}</h4>
     <div class="tags">
       <span *ngFor="let tag of project.tags">{{ tag }}</span>

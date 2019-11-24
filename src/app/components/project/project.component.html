@@ -50,8 +50,17 @@
   </li>
 </ul> -->
 
-<ul class="related">
-  <li *ngFor="let project of relatedProjects" [ngStyle]="{'background-image':'url(' + project.thumbnailUrl + ')'}" routerLink="{{ '/project/' + project.id }}">
-    <span>{{ project.shortTitle }}</span>
-  </li>
-</ul>
+<section class="related">
+  <h3>Related Work</h3>
+  <ul>
+    <ng-template ngFor let-project [ngForOf]="relatedProjects">
+      <li *ngIf="project" routerLink="{{ '/project/' + project.id }}">
+        <img src="{{ project.thumbnailUrl }}" />
+        <h4>{{ project.shortTitle }}</h4>
+        <div class="tags">
+          <span *ngFor="let tag of project.tags">{{ tag }}</span>
+        </div>
+      </li>
+    </ng-template>
+  </ul>
+</section>

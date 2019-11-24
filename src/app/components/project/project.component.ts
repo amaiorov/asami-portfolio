@@ -34,7 +34,8 @@ export class ProjectComponent implements OnInit {
 
   ngOnInit() {
     this.relatedProjects = this.currentProject.related.map(item => {
-      return this.getProjectById(item);
+      let project = this.getProjectById(item);
+      return project || false;
     });
   }
 

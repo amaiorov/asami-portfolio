@@ -41,27 +41,12 @@ section {
 }
 
 .role {
-  .tags {
-    font-weight: 300;
-    line-height: 3.4rem;
-    @media (max-width: $break-medium) {
-      line-height: 1.8rem;
-    }
-    span {
-      &:after {
-        content: ", "
-      }
-      &:last-child:after {
-        content: none;
-      }
-    }
-  }
 }
 
 .blocks {
   > div {
     position: relative;
-    margin-bottom: 64px;
+    margin-bottom: 106px;
     .images {
       img {
         margin-bottom: 24px;
@@ -90,23 +75,77 @@ section {
 }
 
 .related {
-  display: flex;
-  margin-bottom: 24px;
-  li {
-    margin: 8px;
-    height: 100px;
-    width: 100px;
-    position: relative;
-    background-size: auto 100%;
-    background-position: 50% 50%;
-    &:focus, &:active {
-      outline: none;
+  h3 {
+    font-size: 4.5rem;
+    margin-bottom: 37px;
+    @media (max-width: $break-medium) {
+      font-size: 2.9rem;
     }
-    span {
-      position: absolute;
-      width: 100%;
-      bottom: -24px;
-      text-align: center;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+    li {
+      flex-grow: 0;
+      flex-shrink: 0;
+      // height: 100px;
+      margin: 15px 0;
+      width: calc(33.333% - 20px);
+      box-sizing: border-box;
+      position: relative;
+      background-size: auto 100%;
+      background-position: 50% 50%;
+      cursor: pointer;
+      @media (max-width: $break-medium) {
+        width: 100%;
+        margin: 0 0 60px 0;
+        font-size: 1.5rem;
+      }
+      &:nth-child(2n) {
+        margin: 15px 30px;
+        @media (max-width: $break-medium) {
+          margin: 0 0 60px 0;
+        }
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+      &:focus, &:active {
+        outline: none;
+      }
+      img {
+        object-fit: cover;
+        width: 100%;
+        height: 250px;
+        background-color: $off-white;
+        margin-bottom: 20px;
+      }
+      h4 {
+        font-size: 2.7rem;
+        margin-bottom: 0;
+        @media (max-width: $break-medium) {
+          line-height: 3.6rem;
+          font-size: 1.9rem;
+        }
+      }
+      .tags {
+        font-weight: 300;
+        line-height: 2.7rem;
+        font-size: 2.2rem;
+        @media (max-width: $break-medium) {
+          line-height: 1.8rem;
+          font-size: 1.5rem;
+        }
+        span {
+          &:after {
+            content: ", "
+          }
+          &:last-child:after {
+            content: none;
+          }
+        }
+      }
     }
   }
 }
