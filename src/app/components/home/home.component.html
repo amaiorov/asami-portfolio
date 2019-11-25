@@ -4,8 +4,10 @@
 <app-filter></app-filter>
 <ul class="projects">
   <li *ngFor="let project of projects" routerLink="{{ '/project/' + project.id }}">
-    <!-- <div class="image" [ngStyle]="{'background-image':'url(' + project.heroUrl + ')'}"></div> -->
-    <img [src]="project.heroUrl" [ngClass]="{ 'no-image': !project.heroUrl }" />
+    <!-- <img [src]="project.heroUrl" [ngClass]="{ 'no-image': !project.heroUrl }" /> -->
+    <div class="hero" [ngStyle]="{ 'background-image': 'url(' + project.heroUrl + ')' }" [ngClass]="{ 'no-image': !project.heroUrl }">
+
+    </div>
     <h4>{{ project.shortTitle }}</h4>
     <div class="tags">
       <span *ngFor="let tag of project.tags">{{ tag }}</span>

@@ -12,7 +12,9 @@ $dark-brown: #F6F3E9;
 @mixin mq-standard {
   // border: 1px solid blue;
   width: 1440px;
+  width: 100vw;
   padding: 0 150px;
+  padding: 0 60px;
   &::after {
     content: 'desktop x-large';
     position: fixed;
@@ -32,7 +34,9 @@ $dark-brown: #F6F3E9;
   @media (max-width: $break-xlarge) {
     // border: 1px solid blue;
     width: 1200px;
+    width: 100vw;
     padding: 0 100px;
+    padding: 0 60px;
     &::after {
       content: 'desktop x-large';
     }
@@ -43,7 +47,9 @@ $dark-brown: #F6F3E9;
   @media (max-width: $break-large) {
     // border: 1px solid blue;
     width: 960px;
+    width: 100vw;
     padding: 0 50px;
+    padding: 0 60px;
     &::after {
       content: 'desktop small';
     }

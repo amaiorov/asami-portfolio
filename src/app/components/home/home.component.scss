@@ -57,17 +57,50 @@ p {
       background-position: 50% 0;
       background-repeat: no-repeat;
     }
-    img {
-      object-fit: cover;
+    // img {
+    //   object-fit: cover;
+    //   width: 100%;
+    //   height: 250px;
+    //   background-color: $dark-brown;
+    //   margin-bottom: 20px;
+    //   &.no-image {
+    //     position: relative;
+    //     &:before {
+    //       content: 'Image stolen by cats';
+    //       background: $dark-brown;
+    //       position: absolute;
+    //       width: 100%;
+    //       height: 100%;
+    //       display: flex;
+    //       align-items: center;
+    //       justify-content: center;
+    //       font-size: 1.8rem;
+    //       font-style: italic;
+    //     }
+    //     &:after {
+    //       content: '';
+    //       background: no-repeat center/auto 100% url('~assets/img/cat.svg');
+    //       position: absolute;
+    //       bottom: -4px;
+    //       right: -17px;
+    //       width: 50px;
+    //       height: 60px;
+    //     }
+    //   }
+    // }
+    .hero {
       width: 100%;
-      height: 250px;
-      background-color: $dark-brown;
-      margin-bottom: 20px;
+      height: 0;
+      padding-bottom: 56.25%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
       &.no-image {
         position: relative;
+        border: 1px solid red;
         &:before {
-          content: 'The cat has the image';
-          background: no-repeat 98% bottom/60px url('~assets/img/cat.svg') $dark-brown;
+          content: 'Image stolen by cats';
+          background: $dark-brown;
           position: absolute;
           width: 100%;
           height: 100%;
@@ -76,6 +109,15 @@ p {
           justify-content: center;
           font-size: 1.8rem;
           font-style: italic;
+        }
+        &:after {
+          content: '';
+          background: no-repeat center/auto 100% url('~assets/img/cat.svg');
+          position: absolute;
+          bottom: -4px;
+          right: -17px;
+          width: 50px;
+          height: 60px;
         }
       }
     }
