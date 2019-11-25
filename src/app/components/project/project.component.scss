@@ -29,6 +29,23 @@ section {
   }
 }
 
+.tags {
+  font-weight: 300;
+  line-height: 3.4rem;
+  @media (max-width: $break-medium) {
+    line-height: 1.8rem;
+  }
+  span {
+    &:after {
+      content: ", "
+    }
+    &:last-child:after {
+      content: none;
+    }
+  }
+}
+
+
 .duration {
   font-size: 2.9rem;
 }
@@ -53,23 +70,6 @@ section {
       }
     }
     &:after {
-    }
-  }
-}
-
-.gallery {
-  display: flex;
-  margin-bottom: 24px;
-  overflow-x: auto;
-  overflow-y: hidden;
-  li {
-    position: relative;
-    span {
-      // position: absolute;
-      width: 100%;
-      display: block;
-      padding: 8px 0 16px;
-      text-align: center;
     }
   }
 }
@@ -130,20 +130,10 @@ section {
         }
       }
       .tags {
-        font-weight: 300;
         line-height: 2.7rem;
         font-size: 2.2rem;
         @media (max-width: $break-medium) {
-          line-height: 1.8rem;
           font-size: 1.5rem;
-        }
-        span {
-          &:after {
-            content: ", "
-          }
-          &:last-child:after {
-            content: none;
-          }
         }
       }
     }

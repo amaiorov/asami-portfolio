@@ -16,6 +16,7 @@ import { NavComponent } from '@app/components/nav/nav.component';
 import { FilterComponent } from '@app/components/filter/filter.component';
 import { HeaderComponent } from '@app/components/header/header.component';
 import { FooterComponent } from '@app/components/footer/footer.component';
+import { SliderComponent } from '@app/components/slider/slider.component';
 
 export function dataManagerFactory(provider: DataManagerService) {
   return () => provider.load();
@@ -33,7 +34,8 @@ export function dataManagerFactory(provider: DataManagerService) {
     NavComponent,
     FilterComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,

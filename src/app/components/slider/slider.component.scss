@@ -1,0 +1,16 @@
+.gallery {
+  display: flex;
+  margin-bottom: 24px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  li {
+    position: relative;
+    span {
+      // position: absolute;
+      width: 100%;
+      display: block;
+      padding: 8px 0 16px;
+      text-align: center;
+    }
+  }
+}
