@@ -1,7 +1,7 @@
 <app-filter></app-filter>
 
 <!-- project image -->
-<img src="{{ currentProject.heroUrl }}" />
+<img src="{{ currentProject.heroUrl }}" onError="this.classList.add('no-image')" />
 
 <!-- project title -->
 <h1>{{ currentProject?.longTitle }}</h1>
@@ -32,7 +32,6 @@
 
 <!-- blocks -->
 <section class="blocks" *ngIf="currentProject.blocks">
-  {{ currentProject.blocks.length }}
   <div *ngFor="let block of currentProject.blocks">
     <h4 *ngIf="block.headline" class="headline">{{ block.headline }}</h4>
     <div *ngIf="block.image" class="images">
@@ -41,6 +40,7 @@
       </div>
     </div>
     <div *ngIf="block.description" class="description" [innerHTML]="block.description"></div>
+
     <app-slider [slides]="block.gallery"></app-slider>
 
   </div>

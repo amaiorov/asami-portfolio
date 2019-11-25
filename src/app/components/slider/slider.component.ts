@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-slider',
@@ -12,5 +12,16 @@ export class SliderComponent implements OnInit {
 
   ngOnInit() {
   }
+
+  @HostListener('swipeleft', ['$event']) onSwipeLeft($event) {
+    alert('swipe left')
+    // console.log($event)
+  }
+
+  @HostListener('swiperight', ['$event']) onSwipeRight($event) {
+    alert('swipe right')
+    // console.log($event)
+  }
+
 
 }

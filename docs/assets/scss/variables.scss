@@ -11,8 +11,10 @@ $dark-brown: #F6F3E9;
 
 @mixin mq-standard {
   // border: 1px solid blue;
-  width: 1440px;
-  padding: 0 150px;
+  // width: 1440px;
+  width: 100vw;
+  // padding: 0 150px;
+  padding: 0 60px;
   &::after {
     content: 'desktop x-large';
     position: fixed;
@@ -31,8 +33,10 @@ $dark-brown: #F6F3E9;
 @mixin mq-xlarge {
   @media (max-width: $break-xlarge) {
     // border: 1px solid blue;
-    width: 1200px;
-    padding: 0 100px;
+    // width: 1200px;
+    width: 100vw;
+    // padding: 0 100px;
+    padding: 0 60px;
     &::after {
       content: 'desktop x-large';
     }
@@ -42,8 +46,10 @@ $dark-brown: #F6F3E9;
 @mixin mq-large {
   @media (max-width: $break-large) {
     // border: 1px solid blue;
-    width: 960px;
-    padding: 0 50px;
+    // width: 960px;
+    width: 100vw;
+    // padding: 0 50px;
+    padding: 0 60px;
     &::after {
       content: 'desktop small';
     }

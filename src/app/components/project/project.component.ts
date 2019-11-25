@@ -48,4 +48,12 @@ export class ProjectComponent implements OnInit {
     });
   }
 
+  onLoad() {
+    alert('on load')
+  }
+
+  onError() {
+    alert('on error')
+  }
+
 }
