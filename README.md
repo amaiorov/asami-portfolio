@@ -2,6 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
 
+## Special scripts
+
+### Build
+Run `build:github` to generate a build package to `/docs/`.
+
+### Deploy to GitHub Pages
+Run `deploy:github COMMIT_MESSAGE` to commit code with `COMMIT_MESSAGE`, generate a build package and commit to GitHub
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
