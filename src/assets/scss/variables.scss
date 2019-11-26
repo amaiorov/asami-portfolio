@@ -11,10 +11,10 @@ $dark-brown: #F6F3E9;
 
 @mixin mq-standard {
   // border: 1px solid blue;
-  // width: 1440px;
-  width: 100vw;
-  // padding: 0 150px;
-  padding: 0 60px;
+  width: 1440px;
+  // width: 100vw;
+  padding: 0 150px;
+  // padding: 0 60px;
   &::after {
     content: 'desktop x-large';
     position: fixed;

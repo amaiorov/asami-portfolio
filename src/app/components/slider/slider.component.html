@@ -1,6 +1,13 @@
 <ul class="gallery" (swipeleft)="onSwipeLeft($event)" (swiperight)="onSwipeRight($event)">
-  <li *ngFor="let slide of slides">
-    <img src="{{ slide.imageUrl }}" />
+  <li *ngFor="let slide of slides" [style.left]="'-' + (100 * activeSlide) + '%'">
+    <!-- <img src="{{ slide.imageUrl }}" /> -->
+    <div class="image" [ngStyle]="{'background-image': 'url(' + slide.imageUrl + ')'}" [ngClass]="{'no-image': !slide.imageUrl}"></div>
     <span>{{ slide.title }}</span>
   </li>
+</ul>
+
+<ul class="pagination" (swipeleft)="onSwipeLeft($event)" (swiperight)="onSwipeRight($event)">
+  <li class="prev" (click)="goto(activeSlide - 1)" [ngClass]="{disabled:  activeSlide <= 0}">prev</li>
+  <li *ngFor="let slide of slides; let i = index" (click)="goto(i)" [ngClass]="{active: i === activeSlide}">Slide {{ i }}</li>
+  <li class="next" (click)="goto(activeSlide + 1)" [ngClass]="{disabled: activeSlide + 1 >= totalSlides}">next</li>
 </ul>
