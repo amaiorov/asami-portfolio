@@ -19,11 +19,12 @@ export class SliderComponent implements OnInit {
   }
 
   goto(slide) {
+    console.log('goto', slide);
     this.activeSlide = slide;
   }
 
   @HostListener('swipeleft', ['$event']) onSwipeLeft($event) {
-    // alert('swipe left')
+    console.log('swipe left')
     if (this.activeSlide > 0) {
       this.goto(this.activeSlide - 1);
     }
@@ -31,7 +32,7 @@ export class SliderComponent implements OnInit {
   }
 
   @HostListener('swiperight', ['$event']) onSwipeRight($event) {
-    // alert('swipe right')
+    console.log('swipe right')
     if (this.activeSlide < this.totalSlides - 1) {
       this.goto(this.activeSlide + 1);
     }

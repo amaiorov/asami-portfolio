@@ -95,6 +95,7 @@ p {
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
+      background-color: $dark-brown;
       &.no-image {
         position: relative;
         &:before {
