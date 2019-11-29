@@ -4,8 +4,26 @@
   display: block;
   margin: 0 auto;
   box-sizing: border-box;
+  height: 180px;
+  // background: $dark-brown;
   @include mq-all;
 }
 footer {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 2.3rem;
+  font-weight: 300;
+  h5 {
+    font-size: 4.5rem;
+    letter-spacing: -0.133rem;
+    font-weight: 800;
+    line-height: 3.9rem;
+  }
+  h6 {
+    font-size: 2.4rem;
+    font-weight: 800;
+    line-height: 3.2rem;
+  }
 }

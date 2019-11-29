@@ -1,5 +1,5 @@
 <ul class="categories">
-  <li [ngClass]="{selected: !currentCategory}"><a href="#"(click)="setCategory()">All</a></li>
+  <li [ngClass]="{selected: !currentCategory}"><a href="#"(click)="setCategory()">Home</a></li>
   <li *ngFor="let category of categories" [ngClass]="{selected: currentCategory === category}">
     <a href="#" (click)="setCategory(category)">{{ category | titlecase }}</a>
   </li>

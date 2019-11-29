@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute, NavigationEnd, ActiavtionEnd } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +8,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  currentPage;
+
+  constructor(
+    private router: Router,
+    private route: ActivatedRoute
+
+  ) { }
 
   ngOnInit() {
+    this.router.events.subscribe(evt => {
+      if (evt instanceof NavigationEnd) {
+        console.log(this.route.snapshot.paramMap.get('id'));
+        this.currentPage = this.route.snapshot.params;
+      }
+    })
+
   }
 
 }
