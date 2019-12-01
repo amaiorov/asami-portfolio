@@ -28,6 +28,11 @@
 }
 
 ::ng-deep {
+  :not(.home) .categories {
+    margin: 0;
+    padding: 15px 0;
+    background: $light-brown;
+  }
   @media (max-width: $break-medium) {
     app-content .categories {
       display: none !important;

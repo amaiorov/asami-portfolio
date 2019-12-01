@@ -4,5 +4,8 @@
   display: block;
   margin: 0 auto;
   box-sizing: border-box;
+  &:not(.home) {
+    padding-top: 245px !important
+  }
   @include mq-all;
 }
