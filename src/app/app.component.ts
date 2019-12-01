@@ -10,7 +10,7 @@ import { DataManagerService } from '@app/datamanager.service';
 })
 export class AppComponent implements OnInit {
   // title = 'asami-portfolio';
-  currentPage = 'asd';
+  currentPage;
 
   constructor(
     private dataManager: DataManagerService,
@@ -20,10 +20,10 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.router.events.subscribe(event => {
-      if (event instanceof NavigationEnd) {
-        window.scrollTo(0, 0);
-      }
       if (event instanceof ActivationEnd) {
+        if (this.currentPage !== event.snapshot.data.page) {
+          window.scrollTo(0, 0);
+        }
         this.currentPage = event.snapshot.data.page;
       }
     });

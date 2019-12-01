@@ -15,13 +15,6 @@ const routes: Routes = [
     }
   },
   {
-    path: ':category',
-    component: HomeComponent,
-    data: {
-      page: 'home'
-    }
-  },
-  {
     path: 'about',
     component: AboutComponent,
     data: {
@@ -33,6 +26,13 @@ const routes: Routes = [
     component: ContactComponent,
     data: {
       page: 'contact'
+    }
+  },
+  {
+    path: ':category',
+    component: HomeComponent,
+    data: {
+      page: 'home'
     }
   },
   {

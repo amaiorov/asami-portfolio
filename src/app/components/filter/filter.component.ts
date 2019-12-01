@@ -1,5 +1,5 @@
 import { Component, OnInit, OnDestroy, Input } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, ActivationEnd } from '@angular/router';
 import { Subscription } from 'rxjs';
 
 import { DataManagerService } from '@app/datamanager.service';
@@ -30,6 +30,12 @@ export class FilterComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     // this.currentCategory = this.dataManager.currentCategory;
+    this.router.events.subscribe(event => {
+      if (event instanceof ActivationEnd) {
+        this.currentCategory = this.dataManager.setCurrentCategory(event.snapshot.paramMap.get('category'));
+      }
+    });
+
   }
 
   ngOnDestroy() {
@@ -37,8 +43,7 @@ export class FilterComponent implements OnInit, OnDestroy {
   }
 
   setCategory(category?) {
-    // this.currentCategory = this.dataManager.setCurrentCategory(category);
+    this.currentCategory = this.dataManager.setCurrentCategory(category);
     this.router.navigate(['', category])
-
   }
 }
