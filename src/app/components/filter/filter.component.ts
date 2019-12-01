@@ -1,4 +1,5 @@
 import { Component, OnInit, OnDestroy, Input } from '@angular/core';
+import { Router } from '@angular/router';
 import { Subscription } from 'rxjs';
 
 import { DataManagerService } from '@app/datamanager.service';
@@ -17,7 +18,8 @@ export class FilterComponent implements OnInit, OnDestroy {
   subscription;
 
   constructor(
-    private dataManager: DataManagerService
+    private dataManager: DataManagerService,
+    private router: Router
   ) {
     this.projects = dataManager.getProjects();
     this.categories = dataManager.getCategories();
@@ -35,7 +37,8 @@ export class FilterComponent implements OnInit, OnDestroy {
   }
 
   setCategory(category?) {
-    this.currentCategory = this.dataManager.setCurrentCategory(category);
+    // this.currentCategory = this.dataManager.setCurrentCategory(category);
+    this.router.navigate(['', category])
 
   }
 }

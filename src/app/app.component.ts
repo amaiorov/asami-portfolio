@@ -1,5 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
-import { Router, NavigationEnd } from '@angular/router';
+import { Router, ActivatedRoute, NavigationEnd, ActivationEnd } from '@angular/router';
 
 import { DataManagerService } from '@app/datamanager.service';
 
@@ -10,16 +10,21 @@ import { DataManagerService } from '@app/datamanager.service';
 })
 export class AppComponent implements OnInit {
   // title = 'asami-portfolio';
+  currentPage = 'asd';
 
   constructor(
     private dataManager: DataManagerService,
-    private router: Router
+    private router: Router,
+    private route: ActivatedRoute
   ) { }
 
   ngOnInit() {
-    this.router.events.subscribe(evt => {
-      if (evt instanceof NavigationEnd) {
+    this.router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) {
         window.scrollTo(0, 0);
+      }
+      if (event instanceof ActivationEnd) {
+        this.currentPage = event.snapshot.data.page;
       }
     });
   }

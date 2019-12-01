@@ -18,7 +18,6 @@ export class DataManagerService {
 
   constructor(
     private http: HttpClient
-
   ) { }
 
   private log(message, fail?) {

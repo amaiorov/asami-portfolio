@@ -1,5 +1,10 @@
 @import '~assets/scss/variables.scss';
 
+:host {
+  display: block;
+  padding-top: 144px;
+}
+
 h1 {
   padding-bottom: 34px;
   @media (max-width: $break-medium) {

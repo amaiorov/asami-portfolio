@@ -7,7 +7,11 @@
   height: 90px;
   background: $dark-brown;
   @include mq-all;
+  &.home {
+    display: none;
+  }
 }
+
 header {
   display: flex;
   justify-content: center;
@@ -31,5 +35,12 @@ header {
     font-size: 3.6rem;
     letter-spacing: -0.16rem;
     font-weight: 800;
+  }
+}
+
+app-nav {
+  display: none;
+  @media (max-width: $break-medium) {
+    display: block;
   }
 }

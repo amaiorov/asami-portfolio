@@ -9,23 +9,45 @@ import { PageNotFoundComponent } from '@app/components/pagenotfound/pagenotfound
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent
+    component: HomeComponent,
+    data: {
+      page: 'home'
+    }
+  },
+  {
+    path: ':category',
+    component: HomeComponent,
+    data: {
+      page: 'home'
+    }
   },
   {
     path: 'about',
-    component: AboutComponent
+    component: AboutComponent,
+    data: {
+      page: 'about'
+    }
   },
   {
     path: 'contact',
-    component: ContactComponent
+    component: ContactComponent,
+    data: {
+      page: 'contact'
+    }
   },
   {
     path: 'project/:id',
-    component: ProjectComponent
+    component: ProjectComponent,
+    data: {
+      page: 'project'
+    }
   },
   {
     path: '**',
-    component: PageNotFoundComponent
+    component: PageNotFoundComponent,
+    data: {
+      page: '404'
+    }
   }
 ];
 

@@ -1,7 +1,11 @@
 <ul class="categories">
-  <li [ngClass]="{selected: !currentCategory}"><a href="#"(click)="setCategory()">Home</a></li>
+  <li [ngClass]="{selected: !currentCategory}">
+    <!-- <a href="#" (click)="setCategory()">Home</a> -->
+    <a routerLink="/">Home</a>
+  </li>
   <li *ngFor="let category of categories" [ngClass]="{selected: currentCategory === category}">
-    <a href="#" (click)="setCategory(category)">{{ category | titlecase }}</a>
+    <!-- <a href="#" (click)="setCategory(category)">{{ category | titlecase }}</a> -->
+    <a [routerLink]="'/' + category">{{ category | titlecase }}</a>
   </li>
   <li><a routerLink="/about">About</a></li>
   <li><a routerLink="/contact">Contact</a></li>
