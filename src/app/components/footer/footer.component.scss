@@ -11,15 +11,20 @@
 footer {
   display: flex;
   justify-content: space-between;
-  // align-items: center;
   height: 100%;
   padding: 50px 0;
   font-size: 2.3rem;
   font-weight: 300;
+  @media (max-width: $break-small) {
+    padding: 10px 0 40px;
+    font-size: 1.5rem;
+    align-items: center;
+    flex-direction: column;
+  }
   > * {
       // border: 1px solid red;
       margin: 0 40px;
-      align-self: flex-end;
+      // align-self: flex-end;
       &:first-child {
         margin-left: 0;
         white-space: nowrap;
@@ -28,16 +33,34 @@ footer {
         margin-right: 0;
         white-space: nowrap;
       }
+      @media (max-width: $break-small) {
+        margin: 15px 0 0 0;
+        text-align: center;
+        img {
+          width: 80px;
+        }
+      }
   }
   h5 {
     font-size: 4.5rem;
-    letter-spacing: -0.133rem;
+    letter-spacing: -0.084rem;
     font-weight: 800;
     line-height: 3.9rem;
+    @media (max-width: $break-small) {
+      font-size: 1.9rem;
+      line-height: normal;
+      br {
+        display: none;
+      }
+    }
   }
   h6 {
     font-size: 2.4rem;
     font-weight: 800;
     line-height: 3.2rem;
+    @media (max-width: $break-small) {
+      font-size: 1.4rem;
+      line-height: 1.9rem;
+    }
   }
 }
