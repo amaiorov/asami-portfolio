@@ -13,7 +13,7 @@ $dark-brown: #F6F3E9;
   // border: 1px solid blue;
   width: 1440px;
   // width: 100vw;
-  padding: 215px 150px 0;
+  padding: 0 150px;
   // padding: 0 60px;
   &::after {
     content: 'desktop x-large';
@@ -36,7 +36,7 @@ $dark-brown: #F6F3E9;
     // width: 1200px;
     width: 100vw;
     // padding: 0 100px;
-    padding: 215px 60px 0;
+    padding: 0 60px;
     &::after {
       content: 'desktop x-large';
     }
@@ -49,7 +49,7 @@ $dark-brown: #F6F3E9;
     // width: 960px;
     width: 100vw;
     // padding: 0 50px;
-    padding: 215px 60px 0;
+    padding: 0 60px;
     &::after {
       content: 'desktop small';
     }
