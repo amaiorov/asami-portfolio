@@ -21,7 +21,7 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this.router.events.subscribe(event => {
       if (event instanceof ActivationEnd) {
-        if (this.currentPage !== event.snapshot.data.page) {
+        if (this.currentPage === 'project' || this.currentPage !== event.snapshot.data.page) {
           window.scrollTo(0, 0);
         }
         this.currentPage = event.snapshot.data.page;

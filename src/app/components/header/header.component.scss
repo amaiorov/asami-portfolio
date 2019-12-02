@@ -10,6 +10,10 @@
   height: 90px;
   background: $dark-brown;
   @include mq-all;
+  @media (max-width: $break-medium) {
+    display: block;
+    height: 60px;
+  }
   &.home {
     display: none;
     @media (max-width: $break-medium) {
@@ -42,6 +46,10 @@ header {
     font-size: 3.6rem;
     letter-spacing: -0.16rem;
     font-weight: 800;
+    @media (max-width: $break-medium) {
+      font-size: 1.9rem;
+      letter-spacing: -0.084rem;
+    }
   }
 }
 

@@ -1,5 +1,11 @@
 @import '~assets/scss/variables.scss';
-
+:host {
+  @media (max-width: $break-medium) {
+    // display: block;
+    position: static !important;
+    width: auto !important;
+  }
+}
 nav {
   .menu {
     display: none;
@@ -9,6 +15,14 @@ nav {
     background: url('~assets/img/menu.svg') center/100% no-repeat;
     @media (max-width: $break-medium) {
       display: block;
+      position: absolute;
+      left: 0;
+      top: 20px;
+    }
+  }
+  @media (max-width: $break-medium) {
+    app-filter {
+      display: none;
     }
   }
   &.open {
@@ -20,6 +34,10 @@ nav {
     top: 0;
     .menu {
       background-image: url('~assets/img/close.svg');
+    }
+    app-filter {
+      display: block;
+      border: 1px solid yellow;
     }
   }
 }

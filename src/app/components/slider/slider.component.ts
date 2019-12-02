@@ -25,16 +25,16 @@ export class SliderComponent implements OnInit {
 
   @HostListener('swipeleft', ['$event']) onSwipeLeft($event) {
     console.log('swipe left')
-    if (this.activeSlide > 0) {
-      this.goto(this.activeSlide - 1);
+    if (this.activeSlide < this.totalSlides - 1) {
+      this.goto(this.activeSlide + 1);
     }
     // console.log($event)
   }
 
   @HostListener('swiperight', ['$event']) onSwipeRight($event) {
     console.log('swipe right')
-    if (this.activeSlide < this.totalSlides - 1) {
-      this.goto(this.activeSlide + 1);
+    if (this.activeSlide > 0) {
+      this.goto(this.activeSlide - 1);
     }
     // console.log($event)
   }
