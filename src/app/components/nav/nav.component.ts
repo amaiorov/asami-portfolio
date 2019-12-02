@@ -16,7 +16,8 @@ export class NavComponent implements OnInit {
   }
 
   toggleMenu() {
-    this.isMenuOpen = !this.isMenuOpen
+    this.isMenuOpen = !this.isMenuOpen;
+    document.body.classList.toggle('no-scroll');
   }
 
 }

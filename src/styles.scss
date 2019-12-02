@@ -13,6 +13,9 @@ body {
   font-family: 'ff-dagny-web-pro', sans-serif;
   color: $text;
   background: $light-brown;
+  &.no-scroll {
+    overflow-y: hidden;
+  }
 }
 
 ul, li {
