@@ -32,12 +32,15 @@ nav {
     height: 100vh;
     left: 0;
     top: 0;
+    padding: 0 36px 0;
     .menu {
       background-image: url('~assets/img/close.svg');
     }
     app-filter {
-      display: block;
-      border: 1px solid yellow;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      border: 1px solid purple;
     }
   }
 }

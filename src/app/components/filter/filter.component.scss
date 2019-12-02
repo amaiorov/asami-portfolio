@@ -24,7 +24,23 @@
       // color: #fff;
       font-weight: 500;
     }
+    @media (max-width: $break-medium) {
+      padding: 0;
+      margin: 0;
+    }
   }
+  @media (max-width: $break-medium) {
+    display: block;
+    border: 1px solid purple;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+  }
+}
+
+a.li {
+  display: none;
   @media (max-width: $break-medium) {
     display: block;
   }
@@ -38,6 +54,9 @@
   // }
   @media (max-width: $break-medium) {
     app-content .categories {
+      display: none !important;
+    }
+    app-content a.li {
       display: none !important;
     }
   }
