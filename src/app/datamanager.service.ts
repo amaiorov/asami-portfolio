@@ -9,6 +9,8 @@ import { catchError, tap } from 'rxjs/operators';
 export class DataManagerService {
   projects;
   categories;
+  mainTitle = 'Portfolio of Asami Tsuchiya Maiorov';
+
 
   private currentCategorySource = new BehaviorSubject(undefined);
   currentCategory$ = this.currentCategorySource.asObservable();

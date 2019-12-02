@@ -1,5 +1,6 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { Router, ActivatedRoute, NavigationEnd, ActivationEnd } from '@angular/router';
+import { Title } from '@angular/platform-browser';
 
 import { DataManagerService } from '@app/datamanager.service';
 
@@ -9,13 +10,13 @@ import { DataManagerService } from '@app/datamanager.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  // title = 'asami-portfolio';
   currentPage;
 
   constructor(
     private dataManager: DataManagerService,
     private router: Router,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private title: Title
   ) { }
 
   ngOnInit() {
@@ -25,8 +26,31 @@ export class AppComponent implements OnInit {
           window.scrollTo(0, 0);
         }
         this.currentPage = event.snapshot.data.page;
+        // this.title.setTitle(this.generateTitle(this.currentPage));
+        this.generateTitle(this.currentPage);
       }
     });
+  }
+
+  public getTitle() {
+    return this.title.getTitle();
+  }
+
+  public generateTitle(page) {
+    let newTitle;
+    switch(page) {
+      case 'project':
+        // this.title.setTitle(`Project - ${this.dataManager.mainTitle}`);
+        break;
+      case '404':
+        this.title.setTitle(`Not found - ${this.dataManager.mainTitle}`);
+        break;
+      default:
+        const newTitle = page.replace(/^\w/, (chr) => chr.toUpperCase());
+        this.title.setTitle(`${newTitle} - ${this.dataManager.mainTitle}`);
+    }
+    // newTitle = newTitle + ' - ' + this.mainTitle;
+    // return newTitle;
   }
 
   @HostListener('document:keyup', ['$event'])

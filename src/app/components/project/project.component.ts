@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
+import { Title } from '@angular/platform-browser';
 
 import { DataManagerService } from '@app/datamanager.service';
 
@@ -15,9 +16,10 @@ export class ProjectComponent implements OnInit {
   relatedProjects;
 
   constructor(
+    private dataManager: DataManagerService,
     private router: Router,
     private route: ActivatedRoute,
-    private dataManager: DataManagerService
+    private title: Title
   ) {
     this.router.routeReuseStrategy.shouldReuseRoute = () => {
       return false;
@@ -27,6 +29,7 @@ export class ProjectComponent implements OnInit {
   ngOnInit() {
     this.projects = this.dataManager.getProjects();
     this.currentProject = this.getProjectById(this.route.snapshot.params['id']);
+    this.title.setTitle(`${this.currentProject.shortTitle} - Projects - ${this.dataManager.mainTitle}`);
     if (!this.currentProject) {
       this.router.navigate(['not-found'], {replaceUrl: true});
       return;
