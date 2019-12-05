@@ -1,4 +1,5 @@
 import { Component, OnInit, Input, ViewChild, ElementRef } from '@angular/core';
+import { Router, NavigationEnd, ActivationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-nav',
@@ -12,9 +13,16 @@ export class NavComponent implements OnInit {
 
   isMenuOpen = false;
 
-  constructor() { }
+  constructor(
+    private router: Router
+  ) { }
 
   ngOnInit() {
+    this.router.events.subscribe(event => {
+      if (event instanceof ActivationEnd) {
+        this.isMenuOpen = false;
+      }
+    });
   }
 
   toggleMenu() {
