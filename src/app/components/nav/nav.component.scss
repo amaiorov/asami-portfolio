@@ -29,7 +29,7 @@ nav {
     app-filter {
       // display: none;
       transition: all 500ms ease;
-      display: flex;
+      // display: flex;
       background: $light-brown;
       width: 100vw;
       height: 100vh;
@@ -39,6 +39,9 @@ nav {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+
+      display: block;
+      overflow: auto;
     }
   }
   &.open {
