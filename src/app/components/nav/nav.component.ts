@@ -21,6 +21,7 @@ export class NavComponent implements OnInit {
     this.router.events.subscribe(event => {
       if (event instanceof ActivationEnd) {
         this.isMenuOpen = false;
+        document.body.classList.remove('no-scroll');
       }
     });
   }
