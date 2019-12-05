@@ -5,7 +5,10 @@
   margin: 0 auto;
   box-sizing: border-box;
   &:not(.home) {
-    padding-top: 245px !important
+    padding-top: 245px !important;
+    @media (max-width: $break-medium) {
+      padding-top: 120px !important;
+    }
   }
   @include mq-all;
 }

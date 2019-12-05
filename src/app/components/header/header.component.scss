@@ -18,7 +18,7 @@
     display: none;
     @media (max-width: $break-medium) {
       display: block;
-      background: transparent;
+      background: $light-brown;
       h5 {
         display: none;
       }
