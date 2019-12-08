@@ -8,7 +8,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run `build:github` to generate a build package to `/docs/`.
 
 ### Deploy to GitHub Pages
-Run `deploy:github "COMMIT_MESSAGE"` to generate a build package,to commit with `COMMIT_MESSAGE` and push to GitHub. This deploys to GitHub Pages.
+Run `deploy:github "COMMIT_MESSAGE"` to generate a build package, commit with `COMMIT_MESSAGE` and push to GitHub. This deploys to GitHub Pages.
 
 ## Development server
 
