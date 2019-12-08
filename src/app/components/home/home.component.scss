@@ -49,13 +49,15 @@ p {
       font-size: 1.5rem;
     }
     &:nth-child(2n) {
-      margin: 0 0 15px 15px;
+      margin: 0 0 145px 15px;
       @media (max-width: $break-medium) {
         margin: 0 0 60px 0;
       }
     }
-    &:last-child {
-      margin-bottom: 0;
+    @media (max-width: $break-medium) {
+      &:last-child {
+        margin-bottom: 30px;
+      }
     }
     &:focus, &:active {
       outline: none;
