@@ -5,33 +5,7 @@ img {
   width: 100%;
   height: auto;
   margin-bottom: 57px;
-  &.no-image {
-    position: relative;
-    height: 0;
-    padding-bottom: 56.25%;
-    &:before {
-      content: 'Image stolen by cats';
-      background: $dark-brown;
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.8rem;
-      font-style: italic;
-    }
-    &:after {
-      content: '';
-      background: no-repeat center/auto 100% url('~assets/img/cat.svg');
-      position: absolute;
-      bottom: -4px;
-      right: -17px;
-      width: 50px;
-      height: 60px;
-    }
-  }
-
+  @include no-image;
 }
 
 h1 {
@@ -141,6 +115,9 @@ section {
       &:focus, &:active {
         outline: none;
       }
+      img {
+        display: none;
+      }
       .thumb {
         width: 100%;
         height: 0;
@@ -148,6 +125,7 @@ section {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
+        @include no-image;
       }
       h4 {
         font-size: 2.7rem;

@@ -58,7 +58,7 @@
   <ul>
     <ng-template ngFor let-project [ngForOf]="relatedProjects">
       <li *ngIf="project" routerLink="{{ '/project/' + project.id }}">
-        <!-- <img src="{{ project.thumbnailUrl }}" /> -->
+        <img src="{{ project.thumbnailUrl }}" onError="this.nextSibling.classList.add('no-image')" />
         <div class="thumb" [ngStyle]="{'background-image': 'url(' + project.thumbnailUrl + ')'}" [ngClass]="{'no-image': !project.thumbnailUrl}"></div>
         <h4>{{ project.shortTitle }}</h4>
         <div class="tags">

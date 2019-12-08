@@ -6,7 +6,7 @@
 </div>
 <ul class="projects">
   <li *ngFor="let project of projects" routerLink="{{ '/project/' + project.id }}">
-    <!-- <img [src]="project.heroUrl" [ngClass]="{'no-image': !project.heroUrl}" /> -->
+    <img [src]="project.heroUrl" onError="this.nextSibling.classList.add('no-image')" />
     <div class="hero" [ngStyle]="{'background-image': 'url(' + project.heroUrl + ')'}" [ngClass]="{'no-image': !project.heroUrl}"></div>
     <h4>{{ project.shortTitle }}</h4>
     <div class="tags">
