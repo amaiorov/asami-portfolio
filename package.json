@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "build:github": "ng build --prod --output-path docs --base-href /$npm_package_name/ && cp docs/index.html docs/404.html",
-    "deploy:github": "func() { if [[ -z $1 ]]; then echo \"ERROR: empty message; please provide a commit message\"; exit 1; else npm run build:github && git add . && git commit -m \"DEPLOY - $1\" && git push; fi }; func",
+    "deploy:github": "func() { if [[ -z $1 ]]; then echo \"ERROR: empty message; please provide a commit message\"; exit 1; else git pull && npm run build:github && git add . && git commit -m \"DEPLOY - $1\" && git push; fi }; func",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
