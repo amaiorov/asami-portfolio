@@ -36,7 +36,7 @@
     <h4 *ngIf="block.headline" class="headline">{{ block.headline }}</h4>
     <div *ngIf="block.image" class="images">
       <div *ngFor="let image of block.image">
-        <img src="{{ image }}" />
+        <img src="{{ image }}" onError="this.classList.add('no-image')" />
       </div>
     </div>
     <div *ngIf="block.description" class="description" [innerHTML]="block.description"></div>
@@ -58,8 +58,8 @@
   <ul>
     <ng-template ngFor let-project [ngForOf]="relatedProjects">
       <li *ngIf="project" routerLink="{{ '/project/' + project.id }}">
-        <img src="{{ project.thumbnailUrl }}" onError="this.nextSibling.classList.add('no-image')" />
-        <div class="thumb" [ngStyle]="{'background-image': 'url(' + project.thumbnailUrl + ')'}" [ngClass]="{'no-image': !project.thumbnailUrl}"></div>
+        <img src="{{ project.heroUrl }}" onError="this.nextSibling.classList.add('no-image')" />
+        <div class="thumb" [ngStyle]="{'background-image': 'url(' + project.heroUrl + ')'}"></div>
         <h4>{{ project.shortTitle }}</h4>
         <div class="tags">
           <span *ngFor="let tag of project.tags">{{ tag }}</span>

@@ -1,8 +1,9 @@
 <ul class="gallery" (swipeleft)="onSwipeLeft($event)" (swiperight)="onSwipeRight($event)">
   <li *ngFor="let slide of slides" [style.left]="'-' + (100 * activeSlide) + '%'">
     <!-- <img src="{{ slide.imageUrl }}" /> -->
+    <img [src]="slide.imageUrl" onError="this.nextSibling.classList.add('no-image')" />
     <div class="image" [ngStyle]="{'background-image': 'url(' + slide.imageUrl + ')'}" [ngClass]="{'no-image': !slide.imageUrl}"></div>
-    <span>{{ slide.title }}</span>
+    <span>{{ slide.title }} asd</span>
   </li>
 </ul>
 

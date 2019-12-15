@@ -1,3 +1,5 @@
+@import '~assets/scss/variables.scss';
+
 .gallery {
   display: flex;
   flex-wrap: nowrap;
@@ -15,6 +17,9 @@
     box-sizing: border-box;
     justify-content: center;
     transition: all 300ms ease;
+    img {
+      display: none;
+    }
     .image {
       width: 100%;
       height: 0;
@@ -22,6 +27,7 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
+      @include no-image;
     }
     span {
       // position: absolute;

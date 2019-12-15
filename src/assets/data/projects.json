@@ -12,8 +12,7 @@
     "startDate": "2015",
     "endDate": "2019",
     "client": "West Elm",
-    "heroUrl": "http://lorempixel.com/600/300/cats/1/",
-    "thumbnailUrl": "http://lorempixel.com/100/100/cats/1/",
+    "heroUrl": "assets/img/projects/chair/hero.jpg",
     "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis. Nunc eget tempor nisi. Nullam tempor nulla odio, sit amet congue massa dictum quis. Aenean quis quam nec justo porttitor eleifend id eu massa. Duis lacinia, eros at auctor suscipit, arcu urna blandit justo, eu pellentesque lacus orci et eros.</p><p>Donec rhoncus ex sed vestibulum ornare. Phasellus imperdiet semper venenatis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus tincidunt dui, eleifend finibus magna dignissim et. Vestibulum rutrum purus eu erat vestibulum, eget gravida lacus lacinia. Pellentesque tortor nisl, hendrerit vel elit non, consectetur porttitor tortor. Vestibulum blandit pulvinar nisl non sodales. Nulla pellentesque ut orci non interdum.</p>",
     "related": [
       "table",
@@ -33,37 +32,36 @@
     "endDate": "2013",
     "client": "Crate and Barrel",
     "heroUrl": "badlink",
-    "thumbnailUrl": "badlink",
     "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis. Nunc eget tempor nisi. Nullam tempor nulla odio, sit amet congue massa dictum quis. Aenean quis quam nec justo porttitor eleifend id eu massa. Duis lacinia, eros at auctor suscipit, arcu urna blandit justo, eu pellentesque lacus orci et eros.</p>",
     "blocks": [
       {
         "headline": "How to start the business",
         "image": [
-          "http://lorempixel.com/600/300/cats/5",
-          "http://lorempixel.com/600/300/cats/6"
+          "assets/img/projects/table/5.jpg",
+          "assets/img/projects/table/6.jpg"
         ],
         "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis. Nunc eget tempor nisi. Nullam tempor nulla odio, sit amet congue massa dictum quis. Aenean quis quam nec justo porttitor eleifend id eu massa. Duis lacinia, eros at auctor suscipit, arcu urna blandit justo, eu pellentesque lacus orci et eros.</p>"
       },
       {
         "gallery": [
           {
-            "imageUrl": "http://lorempixel.com/320/180/cats/1/",
+            "imageUrl": "assets/img/projects/table/gallery-1.jpg",
             "title": "this is a cat 1"
           },
           {
-            "imageUrl": "http://lorempixel.com/320/180/cats/2/",
+            "imageUrl": "assets/img/projects/table/gallery-2.jpg",
             "title": "this is a cat 2"
           },
           {
-            "imageUrl": "http://lorempixel.com/320/180/cats/3/",
+            "imageUrl": "assets/img/projects/table/gallery-3.jpg",
             "title": "this is a cat 3"
           },
           {
-            "imageUrl": "http://lorempixel.com/320/180/cats/4/",
+            "imageUrl": "assets/img/projects/table/gallery-4.jpg",
             "title": "this is a cat 4"
           },
           {
-            "imageUrl": "http://lorempixel.com/320/180/cats/5/",
+            "imageUrl": "assets/img/projects/table/gallery-5.jpg",
             "title": "this is a cat 5"
           }
         ]
@@ -75,9 +73,9 @@
       {
         "headline": "How to start the business - part 2",
         "image": [
-          "http://lorempixel.com/600/300/cats/7",
-          "http://lorempixel.com/600/300/cats/8",
-          "http://lorempixel.com/600/300/cats/9"
+          "assets/img/projects/table/7.jpg",
+          "assets/img/projects/table/8.jpg",
+          "assets/img/projects/table/9.jpg"
         ],
         "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis. Nunc eget tempor nisi. Nullam tempor nulla odio, sit amet congue massa dictum quis. Aenean quis quam nec justo porttitor eleifend id eu massa. Duis lacinia, eros at auctor suscipit, arcu urna blandit justo, eu pellentesque lacus orci et eros.</p>"
       }
@@ -100,8 +98,7 @@
     "longTitle": "This is the danna project",
     "startDate": "2015",
     "client": "danna",
-    "heroUrl": "http://lorempixel.com/600/300/cats/3/",
-    "thumbnailUrl": "http://lorempixel.com/100/100/cats/3/",
+    "heroUrl": "assets/img/projects/alexey/hero.jpg",
     "description": "<p>danna-san, suteki! ♥♥♥</p>",
     "related": [
       "chair",
@@ -121,8 +118,7 @@
     "startDate": "2015",
     "endDate": "2019",
     "client": "Nya Inc.",
-    "heroUrl": "https://shop.r10s.jp/felicefm/cabinet/compass1535031681.jpg",
-    "thumbnailUrl": "https://shop.r10s.jp/felicefm/cabinet/compass1535031681.jpg",
+    "heroUrl": "assets/img/projects/nyanko/hero.jpg",
     "description": "<p>Nya nya nya~~</p>",
     "related": [
       "alexey",
@@ -142,16 +138,15 @@
     "startDate": "2015",
     "endDate": "2019",
     "client": "Nya Inc.",
-    "heroUrl": "https://static-eu.insales.ru/images/products/1/3671/184340055/MT-MRT101703-20.jpg",
-    "thumbnailUrl": "https://static-eu.insales.ru/images/products/1/3671/184340055/MT-MRT101703-20.jpg",
+    "heroUrl": "assets/img/projects/kot/hero.jpg",
     "description": "<p>Nya nya nya~~</p>",
     "blocks": [
       {
         "headline": "This is my family",
         "image": [
-          "https://cs2.livemaster.ru/storage/c0/d6/a95b347778db5e722ad354316emo--kukly-i-igrushki-kot-kolbaskin.jpg",
-          "https://images.ru.prom.st/573072798_myagkaya-igrushka-kolbaskin.jpg",
-          "https://static-eu.insales.ru/images/products/1/1783/184329975/eb6e7811afa473e3cca62f74fa8360f6.jpg"
+          "assets/img/projects/kot/1.jpg",
+          "assets/img/projects/kot/2.jpg",
+          "assets/img/projects/kot/3.jpg"
         ],
         "description": "It's a dummy text again"
       }
@@ -175,7 +170,6 @@
     "endDate": "2020",
     "client": "empty",
     "heroUrl": "",
-    "thumbnailUrl": "",
     "description": "none",
     "blocks": [
       {
