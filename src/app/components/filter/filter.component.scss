@@ -16,8 +16,14 @@
     &:first-child {
       padding-left: 0;
     }
-    &:last-child {
+    &:nth-last-child(2) {
       padding-right: 0;
+    }
+    &:last-child {
+      display: none;
+      @media (max-width: $break-medium) {
+        display: block;
+      }
     }
     &.selected {
       // background: #999;
@@ -42,15 +48,12 @@
   }
 }
 
-a.li {
-  display: none;
-  @media (max-width: $break-medium) {
-    display: block;
-    margin: 60px auto;
-    width: 80px;
-    img {
-      width: 100%;
-    }
+a.linkedin {
+  display: block;
+  margin: 60px auto;
+  width: 80px;
+  img {
+    width: 100%;
   }
 }
 
