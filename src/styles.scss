@@ -15,6 +15,7 @@ body {
   background: $light-brown;
   &.no-scroll {
     overflow-y: hidden;
+    border: 1px solid red;
   }
 }
 

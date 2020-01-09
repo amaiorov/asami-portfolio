@@ -24,11 +24,22 @@ export class NavComponent implements OnInit {
         document.body.classList.remove('no-scroll');
       }
     });
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
   }
 
   toggleMenu() {
-    this.isMenuOpen = !this.isMenuOpen;
-    document.body.classList.toggle('no-scroll');
+    if (!this.isMenuOpen) {
+      // open menu
+      let vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty('--vh', `${vh}px`);
+      this.isMenuOpen = true;
+      document.body.classList.add('no-scroll');
+    } else {
+      // close menu
+      this.isMenuOpen = false;
+      document.body.classList.remove('no-scroll');
+    }
     // this.menu.nativeElement.classList.toggle('animate').toggle('animate');
   }
 
