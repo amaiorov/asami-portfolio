@@ -41,6 +41,7 @@ $dark-brown: #F6F3E9;
   @media (max-width: $break-medium) {
     // border: 1px solid yellow;
     width: 100vw;
+    padding: 0 36px;
     // padding: 0 50px;
   }
 }
@@ -49,7 +50,6 @@ $dark-brown: #F6F3E9;
   @media (max-width: $break-small) {
     // border: 1px solid green;
     width: 100vw;
-    padding: 0 36px;
   }
 }
 
@@ -82,8 +82,8 @@ $dark-brown: #F6F3E9;
       content: '';
       background: no-repeat center/auto 100% url('~assets/img/cat.svg');
       position: absolute;
-      bottom: -4px;
-      right: -7px;
+      bottom: -5px;
+      right: 0;
       width: 50px;
       height: 60px;
     }
