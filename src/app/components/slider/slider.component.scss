@@ -5,10 +5,10 @@
   width: 100vw;
   position: relative;
   left: -60px;
+  overflow: hidden;
   // border: 1px solid red;
-  @media (max-width: $break-small) {
+  @media (max-width: $break-medium) {
     left: -36px;
-    overflow: hidden;
   }
 }
 
@@ -89,7 +89,7 @@
     cursor: pointer;
     text-indent: -9999px;
     overflow: hidden;
-    z-index: 1001;
+    z-index: 101;
     &:last-child,
     &:nth-last-child(2) {
       margin: 0;

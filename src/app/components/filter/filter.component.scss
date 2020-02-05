@@ -1,5 +1,11 @@
 @import '~assets/scss/variables.scss';
 
+:host {
+  padding: 0 60px;
+  @media (max-width: $break-medium) {
+    padding: 0;
+  }
+}
 .categories {
   display: flex;
   justify-content: space-between;
