@@ -1,12 +1,34 @@
 @import '~assets/scss/variables.scss';
 
+:host {
+  display: block;
+  width: 100vw;
+  position: relative;
+  left: -60px;
+  // border: 1px solid red;
+  @media (max-width: $break-small) {
+    left: -36px;
+  }
+}
+
 .gallery {
   display: flex;
   flex-wrap: nowrap;
   margin-bottom: 24px;
-  overflow-x: auto;
-  overflow-y: hidden;
+  // overflow-x: auto;
+  // overflow-y: hidden;
+  overflow: visible;
   // border: 1px solid red;
+  position: relative;
+  transition: all 1000ms ease;
+  // &:after {
+  //   content: attr(style);
+  //   position: absolute;
+  //   background: #fff;
+  //   padding: 5px;
+  //   top: 40px;
+  //   left: 0;
+  // }
   li {
     position: relative;
     // border: 1px solid red;
@@ -16,7 +38,15 @@
     flex-wrap: wrap;
     box-sizing: border-box;
     justify-content: center;
-    transition: all 300ms ease;
+    // transition: all 1000ms ease;
+    // &:after {
+    //   content: attr(style);
+    //   position: absolute;
+    //   background: #fff;
+    //   padding: 5px;
+    //   top: 20px;
+    //   left: 0;
+    // }
     img {
       display: none;
     }
@@ -75,7 +105,7 @@
       opacity: 0;
       margin: 0;
       border-radius: 0;
-      z-index: 1000;
+      z-index: 100;
       transition: all 300ms ease;
       &:hover,
       &:active {

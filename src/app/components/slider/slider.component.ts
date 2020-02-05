@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, HostListener } from '@angular/core';
+import { Component, OnInit, Input, HostListener, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-slider',
@@ -8,8 +8,11 @@ import { Component, OnInit, Input, HostListener } from '@angular/core';
 export class SliderComponent implements OnInit {
   @Input() slides: any[] = [];
 
+  @ViewChild('gallery') gallery: ElementRef;
+
   activeSlide: number;
   totalSlides: number;
+  isAnimating = false;
 
   constructor() { }
 
@@ -18,8 +21,21 @@ export class SliderComponent implements OnInit {
     this.totalSlides = this.slides.length;
   }
 
+  // transitionEnded($event) {
+  //   console.log('transition ended');
+  //   this.isAnimating = false;
+  //   // this.gallery.nativeElement.removeEventListener('transitionend', this.transitionEnded);
+  //   $event.currentTarget.removeEventListener('transitionend', this.transitionEnded);
+  // }
+
   goto(slide) {
+    if (this.isAnimating) {
+      console.log('ALREADY ANIMATION')
+      return false;
+    }
     console.log('goto', slide);
+    this.isAnimating = true;
+    // this.gallery.nativeElement.addEventListener('transitionend', this.transitionEnded);
     this.activeSlide = slide;
   }
 
@@ -37,6 +53,15 @@ export class SliderComponent implements OnInit {
       this.goto(this.activeSlide - 1);
     }
     // console.log($event)
+  }
+
+  @HostListener('transitionend', ['$event']) onTransitionEnd($event) {
+    if ($event.target !== this.gallery.nativeElement) {
+      return false;
+    } else {
+      console.log('transition ended');
+      this.isAnimating = false;
+    }
   }
 
 

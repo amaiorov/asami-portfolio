@@ -5,6 +5,13 @@ img {
   width: 100%;
   height: auto;
   margin-bottom: 57px;
+  // border: 1px solid red;
+  width: 100vw;
+  position: relative;
+  left: -60px;
+  @media (max-width: $break-small) {
+    left: -36px;
+  }
   @include no-image;
 }
 
