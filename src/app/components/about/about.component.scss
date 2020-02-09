@@ -21,11 +21,19 @@
   }
   h1 {
     font-size: 3.4rem;
+    @media (max-width: $break-medium) {
+      font-size: 2.6rem;
+    }
   }
   p {
     font-size: 2.7rem;
     font-weight: 300;
     margin: 8px 0 60px;
+    @media (max-width: $break-medium) {
+      width: 80%;
+      margin: 10px auto;
+      line-height: 2.7rem;
+    }
   }
 }
 
@@ -38,6 +46,9 @@ section {
   ul {
     font-size: 2.7rem;
     font-weight: 300;
+    @media (max-width: $break-medium) {
+      font-size: 2.2rem;
+    }
   }
   &.skills {
 
@@ -47,10 +58,15 @@ section {
       font-size: 2.4rem;
       li {
         margin-bottom: 60px;
+        position: relative;
         h4 {
           font-weight: 600;
+          font-size: 2.7rem;
           margin-bottom: 10px;
           position: relative;
+          @media (max-width: $break-medium) {
+            font-size: 2.4rem;
+          }
           &:after {
             background: $gray-97;
             content: '';
@@ -59,15 +75,30 @@ section {
             position: absolute;
             left: calc(100% - 350px);
             top: 50%;
+            @media (max-width: $break-medium) {
+              content: none;
+            }
           }
         }
         .description {
           font-weight: 300;
+          @media (max-width: $break-medium) {
+            span {
+              display: block;
+              height: 0;
+              overflow: hidden;
+            }
+          }
         }
         .time {
-          float: right;
-          position: relative;
+          position: absolute;
+          top: 0;
+          right: 0;
           font-weight: 300;
+          @media (max-width: $break-medium) {
+            position: static;
+            display: block;
+          }
         }
       }
     }
