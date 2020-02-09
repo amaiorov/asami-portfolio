@@ -1,8 +1,75 @@
+@import '~assets/scss/variables.scss';
+
 :host {
   display: block;
-  margin-bottom: 40px;
+  margin: 40px 0 40px;
+}
+.avatar {
+  text-align: center;
+  .me {
+    display: inline-block;
+    width: 290px;
+    height: 290px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-bottom: 46px;
+    img {
+      filter: brightness(0.5);
+      height: 100%;
+      width: auto;
+    }
+  }
+  h1 {
+    font-size: 3.4rem;
+  }
+  p {
+    font-size: 2.7rem;
+    font-weight: 300;
+    margin: 8px 0 60px;
+  }
 }
 
-h1 {
-  margin-bottom: 50px;
+section {
+  margin-bottom: 116px;
+  h3 {
+    font-size: 3.3rem;
+    margin-bottom: 64px;
+  }
+  ul {
+    font-size: 2.7rem;
+    font-weight: 300;
+  }
+  &.skills {
+
+  }
+  &.history {
+    ul {
+      font-size: 2.4rem;
+      li {
+        margin-bottom: 60px;
+        h4 {
+          font-weight: 600;
+          margin-bottom: 10px;
+          position: relative;
+          &:after {
+            background: $gray-97;
+            content: '';
+            width: 150px;
+            height: 1px;
+            position: absolute;
+            left: calc(100% - 350px);
+            top: 50%;
+          }
+        }
+        .description {
+          font-weight: 300;
+        }
+        .time {
+          float: right;
+          position: relative;
+          font-weight: 300;
+        }
+      }
+    }
+  }
 }
