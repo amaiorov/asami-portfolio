@@ -6,10 +6,6 @@
     <a (click)="setCategory(category)">{{ category | titlecase }}</a>
   </li>
   <li><a routerLink="/about">About</a></li>
-  <li [ngClass]="{selected: currentCategory === 'about'}">
-    <a (click)="setCategory('about')">aAbout</a>
-  </li>
   <li><a routerLink="/contact">Contact</a></li>
   <li><a href="https://www.linkedin.com/in/asami-tsuchiya-maiorov-2534aa11a/" class="linkedin" target="_blank"><img src="assets/img/linked-in.svg" /></a></li>
 </ul>
-{{currentCategory}}
