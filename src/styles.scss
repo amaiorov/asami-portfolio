@@ -71,7 +71,7 @@ a {
     padding: 12px 28px;
     font-size: 22px;
     font-weight: 300;
-    text-decoration: none;
+    text-decoration: none !important;
     display: inline-block;
     &.black {
       background: $off-black;
