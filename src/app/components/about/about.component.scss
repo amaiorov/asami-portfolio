@@ -13,6 +13,10 @@
     border-radius: 100%;
     overflow: hidden;
     margin-bottom: 46px;
+    @media (max-width: $break-medium) {
+      width: 200px;
+      height: 200px;
+    }
     img {
       filter: brightness(0.5);
       height: 100%;
@@ -30,6 +34,7 @@
     font-weight: 300;
     margin: 8px 0 60px;
     @media (max-width: $break-medium) {
+      font-size: 1.7rem;
       width: 80%;
       margin: 10px auto;
       line-height: 2.7rem;
@@ -38,10 +43,17 @@
 }
 
 section {
-  margin-bottom: 116px;
+  margin-bottom: 80px;
+  @media (max-width: $break-medium) {
+    margin-bottom: 60px;
+  }
   h3 {
     font-size: 3.3rem;
-    margin-bottom: 64px;
+    margin-bottom: 45px;
+    @media (max-width: $break-medium) {
+      font-size: 2.6rem;
+      margin-bottom: 30px;
+    }
   }
   ul {
     font-size: 2.7rem;
@@ -56,6 +68,9 @@ section {
   &.history {
     ul {
       font-size: 2.4rem;
+      @media (max-width: $break-medium) {
+        font-size: 2.2rem;
+      }
       li {
         margin-bottom: 60px;
         position: relative;

@@ -39,8 +39,23 @@ export class SliderComponent implements OnInit {
     this.activeSlide = slide;
   }
 
+  @HostListener('click', ['$event']) onClick($event) {
+    console.log('click');
+    if ($event.clientX <= this.gallery.nativeElement.offsetWidth / 2) {
+      console.log('LEFT');
+      if (this.activeSlide > 0) {
+        this.goto(this.activeSlide - 1);
+      }
+    } else {
+      console.log('RIGHT');
+      if (this.activeSlide < this.totalSlides - 1) {
+        this.goto(this.activeSlide + 1);
+      }
+    }
+  }
+
   @HostListener('swipeleft', ['$event']) onSwipeLeft($event) {
-    console.log('swipe left')
+    console.log('swipe left');
     if (this.activeSlide < this.totalSlides - 1) {
       this.goto(this.activeSlide + 1);
     }
@@ -48,7 +63,7 @@ export class SliderComponent implements OnInit {
   }
 
   @HostListener('swiperight', ['$event']) onSwipeRight($event) {
-    console.log('swipe right')
+    console.log('swipe right');
     if (this.activeSlide > 0) {
       this.goto(this.activeSlide - 1);
     }

@@ -67,6 +67,7 @@ $gray-97: #979797;
     position: relative;
     height: 0;
     padding-bottom: 56.25%;
+    border: 1px solid red;
     &:before {
       content: 'Image stolen by cats';
       background: $dark-brown;

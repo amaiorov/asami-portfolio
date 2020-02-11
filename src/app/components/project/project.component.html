@@ -1,7 +1,10 @@
 <!-- <app-filter></app-filter> -->
 
 <!-- project image -->
-<img src="{{ currentProject.heroUrl }}" onError="this.classList.add('no-image')" />
+<div class="hero">
+  <img src="{{ currentProject.heroUrl }}" onError="this.nextSibling.classList.add('no-image')" />
+  <div class="wrapper" [ngStyle]="{'background-image': 'url(' + currentProject.heroUrl + ')'}" [ngClass]="{'no-image': !currentProject.heroUrl}"></div>
+</div>
 
 <!-- project title -->
 <h1>{{ currentProject?.longTitle }}</h1>

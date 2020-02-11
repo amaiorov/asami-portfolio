@@ -1,5 +1,27 @@
 @import '~assets/scss/variables.scss';
 
+.hero {
+  img {
+    display: none;
+  }
+  .wrapper {
+    width: 100vw;
+    height: 0;
+    padding-bottom: 56.25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: $dark-brown;
+    margin-bottom: 57px;
+    position: relative;
+    left: -60px;
+    @media (max-width: $break-medium) {
+      left: -36px;
+    }
+    @include no-image;
+  }
+}
+
 img {
   // height: 200px;
   width: 100%;
@@ -14,6 +36,7 @@ img {
   }
   @include no-image;
 }
+
 
 h1 {
   font-size: 4.5rem;

@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { APP_INITIALIZER, NgModule } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { HttpClientModule } from '@angular/common/http';
+import { HAMMER_GESTURE_CONFIG, HammerGestureConfig } from '@angular/platform-browser';
 
 import { AppRoutingModule } from '@app/app-routing.module';
 import { DataManagerService } from '@app/datamanager.service';
@@ -20,6 +21,13 @@ import { SliderComponent } from '@app/components/slider/slider.component';
 
 export function dataManagerFactory(provider: DataManagerService) {
   return () => provider.load();
+}
+
+export class MyHammerConfig extends HammerGestureConfig {
+  overrides = <any> {
+    'pinch': { enable: false },
+    'rotate': { enable: false }
+  }
 }
 
 @NgModule({
@@ -45,7 +53,15 @@ export function dataManagerFactory(provider: DataManagerService) {
   providers: [
     HttpClient,
     DataManagerService,
-    { provide: APP_INITIALIZER, useFactory: dataManagerFactory, deps: [DataManagerService], multi: true }
+    {
+      provide: APP_INITIALIZER,
+      useFactory: dataManagerFactory,
+      deps: [DataManagerService], multi: true
+    },
+    {
+      provide: HAMMER_GESTURE_CONFIG,
+      useClass: MyHammerConfig
+    }
   ],
   bootstrap: [AppComponent]
 })
