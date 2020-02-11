@@ -3,6 +3,9 @@
 :host {
   display: block;
   margin: 40px 0 40px;
+  @media (max-width: $break-medium) {
+    margin-top: 0;
+  }
 }
 .avatar {
   text-align: center;
@@ -69,7 +72,7 @@ section {
     ul {
       font-size: 2.4rem;
       @media (max-width: $break-medium) {
-        font-size: 2.2rem;
+        font-size: 2rem;
       }
       li {
         margin-bottom: 60px;
@@ -80,7 +83,7 @@ section {
           margin-bottom: 10px;
           position: relative;
           @media (max-width: $break-medium) {
-            font-size: 2.4rem;
+            font-size: 2.2rem;
           }
           &:after {
             background: $gray-97;
@@ -117,5 +120,8 @@ section {
         }
       }
     }
+  }
+  &.download {
+    text-align: center;
   }
 }

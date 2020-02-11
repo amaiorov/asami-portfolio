@@ -70,11 +70,12 @@ a {
   &.button {
     padding: 12px 28px;
     font-size: 22px;
+    font-weight: 300;
     text-decoration: none;
     display: inline-block;
     &.black {
       background: $off-black;
-      color: $off-white;
+      color: #fff;
     }
   }
 }
