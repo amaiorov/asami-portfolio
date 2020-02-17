@@ -64,6 +64,9 @@ section {
     @media (max-width: $break-medium) {
       font-size: 2.2rem;
     }
+    li {
+      line-height: 3.4rem;
+    }
   }
   a {
     text-decoration: underline;
