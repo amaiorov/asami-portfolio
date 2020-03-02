@@ -7,13 +7,27 @@
       "Art Direction",
       "Interior Design"
     ],
-    "shortTitle": "Chair",
-    "longTitle": "A Wooden chair",
+    "shortTitle": "Sound Absorbing Panels",
+    "longTitle": "Sound Absorbing Panels",
     "startDate": "2015",
     "endDate": "2019",
     "client": "West Elm",
     "heroUrl": "assets/img/projects/chair/hero.jpg",
-    "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis. Nunc eget tempor nisi. Nullam tempor nulla odio, sit amet congue massa dictum quis. Aenean quis quam nec justo porttitor eleifend id eu massa. Duis lacinia, eros at auctor suscipit, arcu urna blandit justo, eu pellentesque lacus orci et eros.</p><p>Donec rhoncus ex sed vestibulum ornare. Phasellus imperdiet semper venenatis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus tincidunt dui, eleifend finibus magna dignissim et. Vestibulum rutrum purus eu erat vestibulum, eget gravida lacus lacinia. Pellentesque tortor nisl, hendrerit vel elit non, consectetur porttitor tortor. Vestibulum blandit pulvinar nisl non sodales. Nulla pellentesque ut orci non interdum.</p>",
+    "description": "<p>Sound Absorber Wall Panels have two primary functions: to absorb unpleasant echo which reflects from walls and to be a beautiful design as a piece of interior.</p><p>They are easily installed by even not professional users and customers can choose a design based on the level of sound absorption. As an art director, I did research, product design, print design, and e-commerce design.</p>",
+    "blocks": [
+      {
+        "headline": "Problems of sound absorbers and product design goals",
+        "description": "<p>The opportunity to easily create and distribute one's own music on Youtube, SoundCloud, etc. has increased, and at the same time, devices and applications for recording and editing at home are also easy to buy. However, the majority of sound-absorbing panels that are sold for professional uses look like a big kitchen sponge and are difficult to install for ordinary people; there are no beautiful designs and the ones that exist don't match the home interior.</p><p>I decided that creating sound-absorbing panels that are for ordinary people who record at home and at the same time can be considered as part of the interior was a solution for both absorbing sound and interior decorating, in addition to easy self-installation.</p>"
+      },
+      {
+        "headline": "Research and synthesis",
+        "description": "<p>I tested the sound absorption effect with lots of materials:</p> <ul><li>fabric with polyurethane foam</li><li>wood with polyurethane foam</li><li>recycled board from plastic water bottles</li></ul> <p>I discovered differences in the effects when these were located on the walls or ceiling and in the corners of the room.</p> <p>In these materials, the recycled board from plastic water bottles was easy to manufacture at a factory and most lightweight, as well as easy to install for ordinary users, so we adopted this material for our products.</p> <p>I showed our prototype to the person in charge of the soundproofing section in numerous musical instrumental stores. They were impressed by the designs and materials; additionally, this type of sound-absorbing panel design was new for them, so I was sure that we were headed in the right direction with our product.</p> <p>During the research process, we found that not only music-related people need the sound absorption panel, but we also found that there was demand for this kind of product in spaces where people gather and speak, i.e. conference rooms and restaurants. </p>"
+      },
+      {
+        "headline": "Product design",
+        "description": "<h3>Challenging points</h3><p>For the user, the sound-absorbing panel had to:</p><ul><li>be a beautiful art piece as an interior</li><li>possess a high sound-absorption effect</li><li>be easy to mount on the wall</li></ul><p>From a manufacturing and cost perspective, it was crucial for the panel:</p><ul><li>to be efficiently sized to manufacture from the panel</li><li>to be efficiently sized to reduce shipping costs</li><li>to be at an appropriate price point</li></ul><p>Lastly, by expanding the target segment, we discovered that there was a need for the product to be modular because it could be used anywhere from a small living room to a large venue such as a restaurant.</p>"
+      }
+    ],
     "related": [
       "table",
       "alexey"

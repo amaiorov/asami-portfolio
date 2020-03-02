@@ -102,6 +102,12 @@ section {
     }
     &:after {
     }
+    /deep/ ul {
+      li {
+        margin-left: 64px;
+        list-style-type: disc;
+      }
+    }
   }
 }
 
