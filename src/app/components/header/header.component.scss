@@ -1,5 +1,7 @@
 @import '~assets/scss/variables.scss';
 
+$transition-300: all 300ms ease;
+
 :host {
   display: block;
   position: fixed;
@@ -7,7 +9,7 @@
   top: 0;
   margin: 0 auto;
   box-sizing: border-box;
-  height: 90px;
+  // height: 90px;
   background: $dark-brown;
   @include mq-all;
   @media (max-width: $break-medium) {
@@ -30,8 +32,13 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  // height: 100%;
+  height: 90px;
   position: relative;
+  transition: $transition-300;
+  @media (max-width: $break-medium) {
+    height: 100%;
+  }
   // ::ng-deep {
   //   .categories {
   //     font-size: 0.5rem;
@@ -46,10 +53,28 @@ header {
   //     }
   //   }
   // }
+  @media (min-width: $break-medium) {
+    &.short {
+      // border: 1px solid red;
+      height: 45px;
+      height: 0px;
+      h5 {
+        font-size: 2rem;
+        left: -50%;
+        top: 20px;
+        transform: translateX(50%);
+        z-index: 10;
+      }
+    }
+  }
   h5 {
     font-size: 3.6rem;
     letter-spacing: -0.16rem;
     font-weight: 800;
+    transition: $transition-300;
+    position: relative;
+    left: 0;
+    top: 0;
     @media (max-width: $break-medium) {
       font-size: 1.9rem;
       letter-spacing: -0.084rem;
@@ -63,9 +88,32 @@ app-nav {
   top: 90px;
   // width: 100%;
   width: 100vw;
+  padding: 15px 0 0;
+  z-index: 10;
   box-sizing: border-box;
-  background: $light-brown;
+  background: $light-brown-alpha;
+  transition: $transition-300;
   @media (max-width: $break-medium) {
     display: block;
+  }
+  /deep/ ul {
+    transition: $transition-300;
+    li {
+      transition: $transition-300;
+    }
+  }
+  @media (min-width: $break-medium) {
+    .short & {
+      top: 45px;
+      top: 0;
+      padding: 0;
+      background: rgba(246, 243, 233, 0.7);
+      /deep/ ul {
+        padding-left: 300px;
+        li {
+          font-size: 2rem;
+        }
+      }
+    }
   }
 }
