@@ -4,6 +4,7 @@
   display: block;
   margin: 0 auto;
   box-sizing: border-box;
+  min-height: 100vh;
   &:not(.home) {
     padding-top: 245px !important;
     @media (max-width: $break-medium) {
@@ -11,4 +12,11 @@
     }
   }
   @include mq-all;
+  > div {
+    // border: 1px solid green;
+    // transform-origin: top center;
+    > div {
+      // border: 1px solid blue;
+    }
+  }
 }

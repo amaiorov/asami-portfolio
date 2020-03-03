@@ -1,4 +1,6 @@
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from '@app/components/home/home.component';
 import { AboutComponent } from '@app/components/about/about.component';
@@ -11,42 +13,48 @@ const routes: Routes = [
     path: '',
     component: HomeComponent,
     data: {
-      page: 'home'
+      page: 'home',
+      animation: 'Home'
     }
   },
   {
     path: 'about',
     component: AboutComponent,
     data: {
-      page: 'about'
+      page: 'about',
+      animation: 'About'
     }
   },
   {
     path: 'contact',
     component: ContactComponent,
     data: {
-      page: 'contact'
+      page: 'contact',
+      animation: 'Contact'
     }
   },
   {
     path: ':category',
     component: HomeComponent,
     data: {
-      page: 'home'
+      page: 'home',
+      animation: 'default'
     }
   },
   {
     path: 'project/:id',
     component: ProjectComponent,
     data: {
-      page: 'project'
+      page: 'project',
+      animation: 'default'
     }
   },
   {
     path: '**',
     component: PageNotFoundComponent,
     data: {
-      page: '404'
+      page: '404',
+      animation: 'default'
     }
   }
 ];

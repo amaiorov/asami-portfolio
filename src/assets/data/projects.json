@@ -7,7 +7,7 @@
       "Product Design",
       "Print Design",
       "Web design for e-commerce"
-      
+
     ],
     "shortTitle": "Sound Absorbing Panels",
     "longTitle": "Sound Absorbing Panels",
@@ -37,7 +37,8 @@
         "image": [
           "assets/img/projects/tone/tone_six.jpg",
           "assets/img/projects/tone/tone_sq.jpg"
-        ]
+        ],
+        "small-margin": true
       },
       {
         "description": "<p>To develop a size that can be used on a surface of any size, I created distinct designs for the panels utilizing a geometric pattern. These designs can adapt to any size of a wall by increasing or decreasing the number of elements in the pattern; they can also be used to express a unique design. Also, a new design was created by adding a variable depth to the panel, which allowed for a difference in the sound absorption effect and made the design more flexible.</p> <p>Moreover, since the sound absorption effect is enhanced by an air layer, I designed not only flat products but also three-dimensional products with an air pocket so that users can choose depending on the level of sound absorption that they need.</p>"

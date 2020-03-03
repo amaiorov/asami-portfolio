@@ -7,7 +7,10 @@
   .wrapper {
     width: 100vw;
     height: 0;
-    padding-bottom: 56.25%;
+    // padding-bottom: 56.25%;
+    // for some reason have to add 78px
+    // 60px makes sense because of offset...
+    padding-bottom: calc(64.81% + 78px);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -17,6 +20,7 @@
     left: -60px;
     @media (max-width: $break-medium) {
       left: -36px;
+      padding-bottom: calc(64.81% + 47px);
     }
     @include no-image;
   }
@@ -103,25 +107,27 @@ section {
     &:after {
     }
     &.small-margin {
-      margin-bottom: 30px;
+      margin-bottom: 40px;
     }
-    /deep/ h5 {
-      font-family: 'ff-dagny-web-pro', sans-serif;
-      font-size: 2.7rem;
-      font-weight: 400;
-      font-style: italic;
-      @media (max-width: $break-medium) {
-        font-size: 2.1rem;
-      }
-    }
-    /deep/ ul {
-      li {
-        margin-left: 64px;
-        list-style-type: disc;
+    .description {
+      /deep/ h5 {
+        font-family: 'ff-dagny-web-pro', sans-serif;
+        font-size: 2.7rem;
+        font-weight: 400;
+        font-style: italic;
         @media (max-width: $break-medium) {
-          margin-left: 32px;
           font-size: 2.1rem;
-          line-height: 3rem;
+        }
+      }
+      /deep/ ul {
+        li {
+          margin-left: 64px;
+          list-style-type: disc;
+          @media (max-width: $break-medium) {
+            margin-left: 32px;
+            font-size: 2.1rem;
+            line-height: 3rem;
+          }
         }
       }
     }
@@ -174,7 +180,8 @@ section {
       .thumb {
         width: 100%;
         height: 0;
-        padding-bottom: 56.25%;
+        // padding-bottom: 56.25%;
+        padding-bottom: 64.81%;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
