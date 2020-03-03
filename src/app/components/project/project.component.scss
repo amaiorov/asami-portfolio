@@ -102,10 +102,25 @@ section {
     }
     &:after {
     }
+    &.no-margin {
+      margin-bottom: 30px;
+    }
+    /deep/ h5 {
+      font-family: 'ff-dagny-web-pro', sans-serif;
+      font-size: 2.7rem;
+      @media (max-width: $break-medium) {
+        font-size: 2.1rem;
+      }
+    }
     /deep/ ul {
       li {
         margin-left: 64px;
         list-style-type: disc;
+        @media (max-width: $break-medium) {
+          margin-left: 32px;
+          font-size: 2.1rem;
+          line-height: 3rem;
+        }
       }
     }
   }

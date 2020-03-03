@@ -3,16 +3,18 @@
     "id": "chair",
     "category": "product",
     "tags": [
-      "Brand Direction",
-      "Art Direction",
-      "Interior Design"
+      "Research",
+      "Product Design",
+      "Print Design",
+      "Web design for e-commerce"
+      
     ],
     "shortTitle": "Sound Absorbing Panels",
     "longTitle": "Sound Absorbing Panels",
     "startDate": "2015",
     "endDate": "2019",
-    "client": "West Elm",
-    "heroUrl": "assets/img/projects/chair/hero.jpg",
+    "client": "infist Design co., Ltd",
+    "heroUrl": "assets/img/projects/tone/tone_hero.jpg",
     "description": "<p>Sound Absorber Wall Panels have two primary functions: to absorb unpleasant echo which reflects from walls and to be a beautiful design as a piece of interior.</p><p>They are easily installed by even not professional users and customers can choose a design based on the level of sound absorption. As an art director, I did research, product design, print design, and e-commerce design.</p>",
     "blocks": [
       {
@@ -25,7 +27,30 @@
       },
       {
         "headline": "Product design",
-        "description": "<h3>Challenging points</h3><p>For the user, the sound-absorbing panel had to:</p><ul><li>be a beautiful art piece as an interior</li><li>possess a high sound-absorption effect</li><li>be easy to mount on the wall</li></ul><p>From a manufacturing and cost perspective, it was crucial for the panel:</p><ul><li>to be efficiently sized to manufacture from the panel</li><li>to be efficiently sized to reduce shipping costs</li><li>to be at an appropriate price point</li></ul><p>Lastly, by expanding the target segment, we discovered that there was a need for the product to be modular because it could be used anywhere from a small living room to a large venue such as a restaurant.</p>"
+        "description": "<h5>Challenging points</h5><p>For the user, the sound-absorbing panel had to:</p><ul><li>be a beautiful art piece as an interior</li><li>possess a high sound-absorption effect</li><li>be easy to mount on the wall</li></ul><p>From a manufacturing and cost perspective, it was crucial for the panel:</p><ul><li>to be efficiently sized to manufacture from the panel</li><li>to be efficiently sized to reduce shipping costs</li><li>to be at an appropriate price point</li></ul><p>Lastly, by expanding the target segment, we discovered that there was a need for the product to be modular because it could be used anywhere from a small living room to a large venue such as a restaurant.</p>"
+      },
+       {
+        "description": "<h5>Solutions for design, effective absorption, size</h5>",
+        "no-margin": true
+      },
+      {
+        "image": [
+          "assets/img/projects/tone/tone_six.jpg",
+          "assets/img/projects/tone/tone_sq.jpg"
+        ]
+      },
+      {
+        "description": "<p>To develop a size that can be used on a surface of any size, I created distinct designs for the panels utilizing a geometric pattern. These designs can adapt to any size of a wall by increasing or decreasing the number of elements in the pattern; they can also be used to express a unique design. Also, a new design was created by adding a variable depth to the panel, which allowed for a difference in the sound absorption effect and made the design more flexible.</p> <p>Moreover, since the sound absorption effect is enhanced by an air layer, I designed not only flat products but also three-dimensional products with an air pocket so that users can choose depending on the level of sound absorption that they need.</p>"
+        },
+        {
+        "description": "<p>In Japan, plasterboards are mainly used as the interior wall material and are easily pierced by pushpins. When renting, the tenant would be required to pay extra when they leave the apartment if they made holes in the walls. Because of this, I decided to use \"insect-pins\" for mounting the product to the wall. These make only minimum holes and the user can tap with a hammer to mount instead of drilling the wall.</p> <p>Additionally, the three-dimension version was designed to have the top panel easily removable in order to mount to the wall with pins.</p> <p>The material price was rather high, and thus efficiency of material usage was important. By having close communication with the manufacturing factory, we were able to calculate the most efficient size and arrangement when cutting from the source recycled board.</p> "
+      },
+      {
+        "description": "<h5>Solutions for cost</h5><p>I was able to avoid wasting material by designing within the optimal size. The products were able to be delivered to users with minimal shipping fees because they were lightweight and stackable.</p> <p>Another goal was also to reduce costs related to storing already made products. This was accomplished by cooperating with the manufacturing factory and creating a production line that helped minimize stock and only manufacture after receiving orders from customers.</p>"
+      },
+      {
+        "headline": "Verification of the products",
+        "description": "<p>I introduced prototypes to editors of various music periodicals, through which we got an opportunity to feature our project in magazines and showcase the testing of absorption effect with sound artists and acoustic professionals. They showed great satisfaction in the result of the absorption effect and described the product as being \"perfect for recording at home\".</p> <p>After the product went on sale at musical instrumental stores and via e-commerce, sales were increasing rapidly. After only a few months on the market, we received numerous requests to install in restaurants and universities. Everything was going great... but unfortunately, due to unforeseen circumstances related to importing materials from Malaysia in 2019, the product was discontinued as soon as the materials stock was exhausted in Japan.</p>"
       }
     ],
     "related": [
