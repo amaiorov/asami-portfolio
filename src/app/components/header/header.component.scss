@@ -91,7 +91,7 @@ app-nav {
   padding: 15px 0 0;
   z-index: 10;
   box-sizing: border-box;
-  background: $light-brown-alpha;
+  // background: $light-brown-alpha;
   transition: $transition-300;
   @media (max-width: $break-medium) {
     display: block;
@@ -107,7 +107,8 @@ app-nav {
       top: 45px;
       top: 0;
       padding: 0;
-      background: rgba(246, 243, 233, 0.7);
+      // background: rgba(246, 243, 233, 0.7);
+      background: $light-brown-alpha;
       /deep/ ul {
         padding-left: 300px;
         li {
