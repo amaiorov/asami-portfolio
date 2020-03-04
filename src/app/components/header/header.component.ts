@@ -14,7 +14,7 @@ export class HeaderComponent implements OnInit {
 
   @HostListener('window:scroll', ['$event']) // for window scroll events
   onScroll(event) {
-    if (window.pageYOffset > 74) {
+    if (window.pageYOffset > 33) {
       this.shrinkNav = true;
     } else {
       this.shrinkNav = false;

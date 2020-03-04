@@ -6,9 +6,10 @@
   box-sizing: border-box;
   min-height: 100vh;
   &:not(.home) {
-    padding-top: 245px !important;
+    // padding-top: 245px !important;
+    padding-top: 168px !important;
     @media (max-width: $break-medium) {
-      padding-top: 120px !important;
+      padding-top: 60px !important;
     }
   }
   @include mq-all;
