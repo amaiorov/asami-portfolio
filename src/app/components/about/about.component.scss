@@ -51,7 +51,7 @@ section {
     margin-bottom: 60px;
   }
   h3 {
-    font-size: 3.3rem;
+    font-size: 2.4rem;
     margin-bottom: 45px;
     @media (max-width: $break-medium) {
       font-size: 2.6rem;
@@ -59,7 +59,7 @@ section {
     }
   }
   ul {
-    font-size: 2.7rem;
+    font-size: 2.2rem;
     font-weight: 300;
     @media (max-width: $break-medium) {
       font-size: 2.2rem;
@@ -84,20 +84,22 @@ section {
         margin-bottom: 60px;
         position: relative;
         h4 {
-          font-weight: 600;
-          font-size: 2.7rem;
-          margin-bottom: 10px;
+          font-family: 'ff-dagny-web-pro', sans-serif;
+          font-size: 2.5rem;
+          font-weight: 400;
+          // margin-bottom: 10px;
           position: relative;
           @media (max-width: $break-medium) {
-            font-size: 2.2rem;
+            font-size: 2.1rem;
           }
           &:after {
             background: $gray-97;
             content: '';
-            width: 150px;
+            width: 12%;
             height: 1px;
             position: absolute;
-            left: calc(100% - 350px);
+            // left: calc(100% - 350px);
+            right: 24%;
             top: 50%;
             @media (max-width: $break-medium) {
               content: none;
@@ -105,6 +107,7 @@ section {
           }
         }
         .description {
+          font-size: 2.1rem;
           font-weight: 300;
           @media (max-width: $break-medium) {
             span {
