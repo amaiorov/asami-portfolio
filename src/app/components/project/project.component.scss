@@ -39,7 +39,7 @@ img {
   position: relative;
   left: -25%;
   @media (max-width: $break-medium) {
-    left: -36px;
+    left: -10vw;
   }
   @include no-image;
 }
