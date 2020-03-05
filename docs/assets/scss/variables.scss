@@ -7,6 +7,8 @@ $text: #282727;
 $off-white: #D8D8D8;
 $off-black: #222121;
 $light-brown: #FFFDF6;
+// $light-brown-alpha: rgba(255, 253, 246, 0.7);
+$light-brown-alpha: rgba(240, 238, 228, 0.7);
 $dark-brown: #F6F3E9;
 $gray-97: #979797;
 
@@ -16,7 +18,7 @@ $gray-97: #979797;
   width: 100vw;
   // padding: 0 150px;
   // padding: 0 60px;
-  padding: 0 16.667%;
+  padding: 0 16.6667%;
 }
 
 @mixin mq-xlarge {
@@ -26,7 +28,7 @@ $gray-97: #979797;
     width: 100vw;
     // padding: 0 100px;
     // padding: 0 60px;
-    padding: 0 16.667%;
+    padding: 0 16.6667%;
   }
 }
 
@@ -37,7 +39,7 @@ $gray-97: #979797;
     width: 100vw;
     // padding: 0 50px;
     // padding: 0 60px;
-    padding: 0 16.667%;
+    padding: 0 16.6667%;
   }
 }
 
@@ -47,7 +49,7 @@ $gray-97: #979797;
     width: 100vw;
     // padding: 0 50px;
     // padding: 0 36px;
-    padding: 0 16.667%;
+    padding: 0 16.6667%;
   }
 }
 
@@ -55,6 +57,7 @@ $gray-97: #979797;
   @media (max-width: $break-small) {
     // border: 1px solid green;
     width: 100vw;
+    padding: 0 10%;
   }
 }
 
@@ -70,8 +73,8 @@ $gray-97: #979797;
   &.no-image {
     position: relative;
     height: 0;
-    padding-bottom: 56.25%;
-    border: 1px solid red;
+    // padding-bottom: 56.25%;
+    padding-bottom: 64.81%;
     &:before {
       content: 'Image stolen by cats';
       background: $dark-brown;

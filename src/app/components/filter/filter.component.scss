@@ -37,6 +37,9 @@
       // background: #999;
       // color: #fff;
       font-weight: 500;
+      a:after {
+        width: 100%;
+      }
     }
     @media (max-width: $break-medium) {
       padding: 0;
@@ -45,6 +48,23 @@
       &.category {
         font-size: 2rem;
         margin: 10px 0;
+      }
+    }
+    a {
+      cursor: pointer;
+      position: relative;
+      &:after {
+        content: '';
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: $text;
+        transition: 200ms all ease;
+      }
+      &:hover:after {
+        width: 100%;
       }
     }
   }

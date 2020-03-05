@@ -80,64 +80,37 @@
     ]
   },
   {
-    "id": "table",
+    "id": "Audi Shinjuku Leaflet",
     "category": "graphic",
     "tags": [
-      "Logo and Print Design",
-      "Table Design"
+      "Art Direction",
+      "Shooting Direction",
+      "Graphic Design"
     ],
-    "shortTitle": "Table",
-    "longTitle": "This is the table project",
-    "startDate": "2012",
-    "endDate": "2013",
-    "client": "Crate and Barrel",
-    "heroUrl": "badlink",
-    "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis. Nunc eget tempor nisi. Nullam tempor nulla odio, sit amet congue massa dictum quis. Aenean quis quam nec justo porttitor eleifend id eu massa. Duis lacinia, eros at auctor suscipit, arcu urna blandit justo, eu pellentesque lacus orci et eros.</p>",
+    "shortTitle": "Audi Shinjuku Leaflet",
+    "longTitle": "Audi Shinjuku Leaflett",
+    "startDate": "2015",
+    "endDate": "2015",
+    "client": "Audi Shinjuku, infist Design co., Ltd",
+    "heroUrl": "assets/img/projects/audi/audi_hero3.jpg",
+    "description": "<p>The leaflet created in collaboration with Garage House when the new Audi TT was launched in Japan in 2015. Pictures in the leaflet bring to mind the garage of the Audi TT owner. This leaflet was used as a sales tool for Audi Shinjuku and Garage house.</p> <p>As an art director, I conducted photo shooting and graphic design.</p>",
     "blocks": [
       {
-        "headline": "How to start the business",
         "image": [
-          "assets/img/projects/table/5.jpg",
-          "assets/img/projects/table/6.jpg"
-        ],
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis. Nunc eget tempor nisi. Nullam tempor nulla odio, sit amet congue massa dictum quis. Aenean quis quam nec justo porttitor eleifend id eu massa. Duis lacinia, eros at auctor suscipit, arcu urna blandit justo, eu pellentesque lacus orci et eros.</p>"
-      },
-      {
-        "gallery": [
-          {
-            "imageUrl": "assets/img/projects/table/gallery-1.jpg",
-            "title": "this is a cat 1"
-          },
-          {
-            "imageUrl": "assets/img/projects/table/gallery-2.jpg",
-            "title": "this is a cat 2"
-          },
-          {
-            "imageUrl": "assets/img/projects/table/gallery-3.jpg",
-            "title": "this is a cat 3"
-          },
-          {
-            "imageUrl": "assets/img/projects/table/gallery-4.jpg",
-            "title": "this is a cat 4"
-          },
-          {
-            "imageUrl": "assets/img/projects/table/gallery-5.jpg",
-            "title": "this is a cat 5"
-          }
+          "assets/img/projects/audi/audi_hero.jpg"
         ]
       },
       {
-        "headline": "How to start the business - part 2",
-        "description": "<p>Donec rhoncus ex sed vestibulum ornare. Phasellus imperdiet semper venenatis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus tincidunt dui, eleifend finibus magna dignissim et. Vestibulum rutrum purus eu erat vestibulum, eget gravida lacus lacinia. Pellentesque tortor nisl, hendrerit vel elit non, consectetur porttitor tortor. Vestibulum blandit pulvinar nisl non sodales. Nulla pellentesque ut orci non interdum.</p>"
+        "headline": "Product design",
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>"
       },
+      
       {
-        "headline": "How to start the business - part 2",
         "image": [
-          "assets/img/projects/table/7.jpg",
-          "assets/img/projects/table/8.jpg",
-          "assets/img/projects/table/9.jpg"
+          "assets/img/projects/audi/audi_0.jpg",
+          "assets/img/projects/audi/audi_1_5.jpg"
         ],
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis. Nunc eget tempor nisi. Nullam tempor nulla odio, sit amet congue massa dictum quis. Aenean quis quam nec justo porttitor eleifend id eu massa. Duis lacinia, eros at auctor suscipit, arcu urna blandit justo, eu pellentesque lacus orci et eros.</p>"
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>"
       }
     ],
     "related": [

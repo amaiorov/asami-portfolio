@@ -11,7 +11,12 @@
 
 <!-- project duration -->
 <section class="duration">
-  {{ currentProject.startDate }} &mdash; {{ currentProject.endDate || 'current' }}
+  <span *ngIf="currentProject.startDate === currentProject.endDate">
+    {{ currentProject.startDate }}
+  </span>
+  <span *ngIf="currentProject.startDate !== currentProject.endDate">
+    {{ currentProject.startDate }} &mdash; {{ currentProject.endDate || 'current' }}
+  </span>
 </section>
 
 <!-- project description -->
