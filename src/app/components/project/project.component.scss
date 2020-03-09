@@ -119,6 +119,24 @@ section {
       img {
         margin-bottom: 24px;
       }
+      &.inline-img {
+        display: flex;
+        justify-content: space-between;
+        > div {
+          flex: 1;
+          margin: 0 12px;
+          &:first-child {
+            margin-left: 0;
+          }
+          &:last-child {
+            margin-right: 0;
+          }
+          img {
+            position: static;
+            width: 100%;
+          }
+        }
+      }
     }
     &:after {
     }
