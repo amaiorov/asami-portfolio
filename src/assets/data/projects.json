@@ -5,8 +5,7 @@
     "tags": [
       "Research",
       "Product Design",
-      "Print Design",
-      "Web design for e-commerce"
+      "Print Design"
 
     ],
     "shortTitle": "Sound Absorbing Panels",
@@ -15,7 +14,7 @@
     "endDate": "2019",
     "client": "infist Design co., Ltd",
     "heroUrl": "assets/img/projects/tone/tone_hero.jpg",
-    "description": "<p>Sound Absorber Wall Panels have two primary functions: to absorb unpleasant echo which reflects from walls and to be a beautiful design as a piece of interior.</p><p>They are easily installed by even not professional users and customers can choose a design based on the level of sound absorption. As an art director, I did research, product design, print design, and e-commerce design.</p>",
+    "description": "<p>Sound Absorber Wall Panels have two primary functions: to absorb unpleasant echo which reflects from walls and to be a beautiful design as a piece of interior.</p><p>They are easily installed by even not professional users and customers can choose a design based on the level of sound absorption. As an art director, I did research, product design, print design.</p>",
     "blocks": [
       {
         "headline": "Problems of sound absorbers and product design goals",
@@ -36,18 +35,32 @@
       {
         "image": [
           "assets/img/projects/tone/tone_six.jpg",
-          "assets/img/projects/tone/tone_sq.jpg"
+          "assets/img/projects/tone/tone_sq.jpg",
+          "assets/img/projects/tone/tone_t.jpg"
         ],
         "small-margin": true
       },
+      
       {
-        "description": "<p>To develop a size that can be used on a surface of any size, I created distinct designs for the panels utilizing a geometric pattern. These designs can adapt to any size of a wall by increasing or decreasing the number of elements in the pattern; they can also be used to express a unique design. Also, a new design was created by adding a variable depth to the panel, which allowed for a difference in the sound absorption effect and made the design more flexible.</p> <p>Moreover, since the sound absorption effect is enhanced by an air layer, I designed not only flat products but also three-dimensional products with an air pocket so that users can choose depending on the level of sound absorption that they need.</p>"
+        "description": "<p>To develop a size that can be used on a surface of any size, I created distinct designs for the panels utilizing a geometric pattern. These designs can adapt to any size of a wall by increasing or decreasing the number of elements in the pattern; they can also be used to express a unique design. Also, a new design was created by adding a variable depth to the panel, which allowed for a difference in the sound absorption effect and made the design more flexible.</p> "
         },
         {
-        "description": "<p>In Japan, plasterboards are mainly used as the interior wall material and are easily pierced by pushpins. When renting, the tenant would be required to pay extra when they leave the apartment if they made holes in the walls. Because of this, I decided to use \"insect-pins\" for mounting the product to the wall. These make only minimum holes and the user can tap with a hammer to mount instead of drilling the wall.</p> <p>Additionally, the three-dimension version was designed to have the top panel easily removable in order to mount to the wall with pins.</p> <p>The material price was rather high, and thus efficiency of material usage was important. By having close communication with the manufacturing factory, we were able to calculate the most efficient size and arrangement when cutting from the source recycled board.</p> "
+        "image": [
+          "assets/img/projects/tone/tone_5.jpg"
+        ],
+        "small-margin": true
+      },
+        {
+        "description": "<p>Moreover, since the sound absorption effect is enhanced by an air layer, I designed not only flat products but also three-dimensional products with an air pocket so that users can choose depending on the level of sound absorption that they need.</p> <p>In Japan, plasterboards are mainly used as the interior wall material and are easily pierced by pushpins. When renting, the tenant would be required to pay extra when they leave the apartment if they made holes in the walls. Because of this, I decided to use \"insect-pins\" for mounting the product to the wall. These make only minimum holes and the user can tap with a hammer to mount instead of drilling the wall.</p> <p>Additionally, the three-dimension version was designed to have the top panel easily removable in order to mount to the wall with pins.</p> <p>The material price was rather high, and thus efficiency of material usage was important. By having close communication with the manufacturing factory, we were able to calculate the most efficient size and arrangement when cutting from the source recycled board.</p> "
       },
       {
         "description": "<h5>Solutions for cost</h5><p>I was able to avoid wasting material by designing within the optimal size. The products were able to be delivered to users with minimal shipping fees because they were lightweight and stackable.</p> <p>Another goal was also to reduce costs related to storing already made products. This was accomplished by cooperating with the manufacturing factory and creating a production line that helped minimize stock and only manufacture after receiving orders from customers.</p>"
+      },
+      {
+        "image": [
+          "assets/img/projects/tone/sounddesign.jpg"
+        ],
+        "small-margin": true
       },
       {
         "headline": "Verification of the products",
@@ -80,7 +93,7 @@
     ]
   },
   {
-    "id": "Audi Shinjuku Leaflet",
+    "id": "Audi",
     "category": "graphic",
     "tags": [
       "Art Direction",
@@ -93,11 +106,11 @@
     "endDate": "2015",
     "client": "Audi Shinjuku, infist Design co., Ltd",
     "heroUrl": "assets/img/projects/audi/audi_hero3.jpg",
-    "description": "<p>The leaflet created in collaboration with Garage House when the new Audi TT was launched in Japan in 2015. Pictures in the leaflet bring to mind the garage of the Audi TT owner. This leaflet was used as a sales tool for Audi Shinjuku and Garage house.</p> <p>As an art director, I conducted photo shooting and graphic design.</p>",
+    "description": "<p>The leaflet created in collaboration with The incell Garage House when the new Audi TT was launched in Japan in 2015. Pictures in the leaflet bring to mind the garage of the Audi TT owner. This leaflet was used as a sales tool for Audi Shinjuku and The incell Garage house.</p> <p>As an art director, I conducted photo shooting and graphic design.</p>",
     "blocks": [
       {
         "image": [
-          "assets/img/projects/audi/audi_hero.jpg"
+          "assets/img/projects/audi/audi1.jpg"
         ]
       },
       {
@@ -107,8 +120,8 @@
       
       {
         "image": [
-          "assets/img/projects/audi/audi_0.jpg",
-          "assets/img/projects/audi/audi_1_5.jpg"
+          "assets/img/projects/audi/audi0.jpg",
+          "assets/img/projects/audi/audi2.jpg"
         ],
         "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>"
       }
@@ -190,33 +203,50 @@
     ]
   },
   {
-    "id": "empty",
-    "category": "photography",
+    "id": "reminicse",
+    "category": "graphic",
     "tags": [
-      "Brand Direction",
-      "Art Direction",
-      "Interior Design"
+      "Logo design",
+      "Graphic design"
     ],
-    "shortTitle": "empty",
-    "longTitle": "empty",
-    "startDate": "2020",
-    "endDate": "2020",
-    "client": "empty",
-    "heroUrl": "",
-    "description": "none",
+    "shortTitle": "Reminisce",
+    "longTitle": "Reminisce",
+    "startDate": "2014",
+    "endDate": "2018",
+    "client": "Hair Design Reminisce",
+    "heroUrl": "assets/img/projects/reminisce/name_hero2.jpg",
+    "description": "<p>Reminisce is a hair salon in Saitama, Japan. The owner started and built his own hair salon in his hometown. I created their logo, business card, and tapestry. I used the salon's unique architectural elements as inspiration for my design. I also collaborated with my design team on the hair salon's architecture and construction.</p>",
     "blocks": [
       {
-        "headline": "This is my family",
+        "headline": "Logo",
         "image": [
-          "",
-          "",
-          ""
+          "assets/img/projects/reminise/logo_hero.jpg",
+          "assets/img/projects/reminisce/logo_img.jpg"
         ],
-        "description": "It's a dummy text again"
+        "description": "<p>The word \"reminisce\" is represented by the tea tree in the language of flowers. The owner's parents run a green tea farm and factory, and the hair salon serves a cup of that green tea for each customer.</p> <p>The concept behind the logo expresses the owner's well-honed creativity and the design of a modern store that stands out in a quiet area surrounded by green tea fields.</p>"
+      },
+      {
+        "headline": "Business card",
+        "image": [
+          "assets/img/projects/reminisce/name_hero2.jpg"
+        ],
+        "description": "<p>Business cards play a vital role in a brand's identity in Japan. The card is cut to resemble the architecture of the salon and provides a strong first impression on the person who receives it.</p>"
+      },
+      {
+        "headline": "Tapestry",
+        "image": [
+          "assets/img/projects/reminisce/tape_hero2.jpg",
+          "assets/img/projects/reminisce/tape_hero.jpg"
+        ],
+        "description": "<p>Most people get around by car in this area, so the structure has to be recognized as a hair salon from the passing car. I designed the large tapestry that is placed on the outer wall of the salon.</p> <p>The salon targets primarily female customers and the design focuses on a woman model. The concept is that a person who appears inside a frame is perceived as a painting - a work of art - and hints to potential clients that they will be transformed when visiting the salon.</p>"
+      },
+      {
+        "headline": "Result",
+        "description": "<p>Most people get around by car in this area, so the structure has to be recognized as a hair salon from the passing car. I designed the large tapestry that is placed on the outer wall of the salon.</p> <p>The salon targets primarily female customers and the design focuses on a woman model. The concept is that a person who appears inside a frame is perceived as a painting - a work of art - and hints to potential clients that they will be transformed when visiting the salon.</p>"
       }
     ],
     "related": [
-      "alexey",
+      "Audi",
       "does-not-exist"
     ]
   }
