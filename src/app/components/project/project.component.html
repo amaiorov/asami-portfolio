@@ -42,7 +42,7 @@
 <section class="blocks" *ngIf="currentProject.blocks">
   <div *ngFor="let block of currentProject.blocks" [ngClass]="{'small-margin': block['small-margin']}">
     <h4 *ngIf="block.headline" class="headline">{{ block.headline }}</h4>
-    <div *ngIf="block.image" class="images">
+    <div *ngIf="block.image" class="images" [ngClass]="{'inline-img': block['inline-img']}">
       <div *ngFor="let image of block.image">
         <img src="{{ image }}" onError="this.classList.add('no-image')" />
       </div>

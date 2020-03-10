@@ -117,7 +117,7 @@
         "headline": "Product design",
         "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>"
       },
-      
+
       {
         "image": [
           "assets/img/projects/audi/audi0.jpg",
@@ -146,6 +146,46 @@
     "client": "danna",
     "heroUrl": "assets/img/projects/alexey/hero.jpg",
     "description": "<p>danna-san, suteki! ♥♥♥</p>",
+    "blocks": [
+      {
+        "headline": "4 images inline",
+        "image": [
+          "assets/img/projects/tone/tone_six.jpg",
+          "assets/img/projects/tone/tone_sq.jpg",
+          "assets/img/projects/tone/tone_six.jpg",
+          "assets/img/projects/tone/tone_sq.jpg"
+        ],
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+        "inline-img": true
+      },
+      {
+        "headline": "3 images inline",
+        "image": [
+          "assets/img/projects/tone/tone_six.jpg",
+          "assets/img/projects/tone/tone_sq.jpg",
+          "assets/img/projects/tone/tone_hero.jpg"
+        ],
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+        "inline-img": true
+      },
+      {
+        "headline": "2 images inline",
+        "image": [
+          "assets/img/projects/tone/tone_six.jpg",
+          "assets/img/projects/tone/tone_sq.jpg"
+        ],
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+        "inline-img": true
+      },
+      {
+        "headline": "1 image inline",
+        "image": [
+          "assets/img/projects/tone/tone_six.jpg"
+        ],
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+        "inline-img": true
+      }
+    ],
     "related": [
       "chair",
       "table"

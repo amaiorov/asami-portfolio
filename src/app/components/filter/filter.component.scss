@@ -56,12 +56,15 @@
       &:after {
         content: '';
         position: absolute;
-        bottom: -10px;
+        bottom: -11px;
         left: 0;
         width: 0;
         height: 2px;
         background: $text;
         transition: 200ms all ease;
+        /deep/ .short & {
+          bottom: 34px !important;
+        }
       }
       &:hover:after {
         width: 100%;
