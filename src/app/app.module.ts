@@ -20,6 +20,8 @@ import { HeaderComponent } from '@app/components/header/header.component';
 import { FooterComponent } from '@app/components/footer/footer.component';
 import { SliderComponent } from '@app/components/slider/slider.component';
 
+import { ConcatPipe } from '@app/concat.pipe';
+
 export function dataManagerFactory(provider: DataManagerService) {
   return () => provider.load();
 }
@@ -44,7 +46,8 @@ export class MyHammerConfig extends HammerGestureConfig {
     FilterComponent,
     FooterComponent,
     HeaderComponent,
-    SliderComponent
+    SliderComponent,
+    ConcatPipe
   ],
   imports: [
     BrowserAnimationsModule,

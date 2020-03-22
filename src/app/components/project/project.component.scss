@@ -163,6 +163,25 @@ section {
           }
         }
       }
+      /deep/ q {
+        width: 100vw;
+        display: block;
+        margin: 0 auto;
+        font-size: 10rem;
+        line-height: 10rem;
+        font-weight: 400;
+        background: $dark-brown;
+        color: $gray-quote;
+        position: relative;
+        left: -25%;
+        padding: 40px 25%;
+        &:before {
+          font-size: 12rem;
+        }
+        &:after {
+          content: none;
+        }
+      }
     }
   }
 }

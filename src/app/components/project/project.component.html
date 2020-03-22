@@ -47,8 +47,10 @@
         <img src="{{ image }}" onError="this.classList.add('no-image')" />
       </div>
     </div>
-    <div *ngIf="block.description" class="description" [innerHTML]="block.description"></div>
-
+    <div *ngIf="block.description" class="description" [innerHTML]="block.description | concat"></div>
+    <!-- <div class="description"> -->
+      <!-- <ng-container *ngFor="let item of block.description" [outerHTML]="item"></ng-container> -->
+    <!-- </div> -->
     <app-slider *ngIf="block.gallery" [slides]="block.gallery"></app-slider>
 
   </div>
