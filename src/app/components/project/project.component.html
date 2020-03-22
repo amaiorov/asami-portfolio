@@ -21,7 +21,7 @@
 
 <!-- project description -->
 <section class="description">
-  <div [innerHTML]="currentProject?.description"></div>
+  <div [innerHTML]="currentProject?.description | concat"></div>
 </section>
 
 <!-- project client -->
