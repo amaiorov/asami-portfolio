@@ -20,17 +20,25 @@
     ],
     "blocks": [
       {
-        "image": [
-          "assets/img/projects/tone/tone_im3.jpg",
-          "assets/img/projects/tone/tone_t.jpg"
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_im3.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_t.jpg"
+          }
         ],
         "inline-img": true,
         "small-margin": true
       },
       {
-        "image": [
-          "assets/img/projects/tone/tone_six.jpg",
-          "assets/img/projects/tone/tone_sq.jpg"
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_six.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_sq.jpg"
+          }
         ],
         "inline-img": true
       },
@@ -68,9 +76,13 @@
         "small-margin": true
       },
       {
-        "image": [
-          "assets/img/projects/tone/tone_sq.jpg",
-          "assets/img/projects/tone/tone_t.jpg"
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_sq.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_t.jpg"
+          }
         ],
         "small-margin": true
       },
@@ -78,8 +90,10 @@
         "description": "<p>To develop a size that can be used on a surface of any size, I created distinct designs for the panels utilizing a geometric pattern. These designs can adapt to any size of a wall by increasing or decreasing the number of elements in the pattern; they can also be used to express a unique design. Also, a new design was created by adding a variable depth to the panel, which allowed for a difference in the sound absorption effect and made the design more flexible.</p>"
       },
       {
-        "image": [
-          "assets/img/projects/tone/tone_5.jpg"
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_5.jpg"
+          }
         ],
         "small-margin": true
       },
@@ -88,9 +102,13 @@
         "small-margin": true
       },
       {
-        "image": [
-          "assets/img/projects/tone/tone_im2.jpg",
-          "assets/img/projects/tone/tone_im4.jpg"
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_im2.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_im4.jpg"
+          }
         ],
         "inline-img": true
       },
@@ -106,8 +124,10 @@
         "small-margin": true
       },
       {
-        "image": [
-          "assets/img/projects/tone/sounddesign.jpg"
+        "images": [
+          {
+            "url": "assets/img/projects/tone/sounddesign.jpg"
+          }
         ],
         "inline-img": true
       },
@@ -118,16 +138,16 @@
       {
         "gallery": [
           {
-            "imageUrl": "assets/img/projects/tone/tone_3.jpg",
-            "title": "installed in a meeting room of the music event production "
+            "url": "assets/img/projects/tone/tone_3.jpg",
+            "caption": "installed in a meeting room of the music event production"
           },
           {
-            "imageUrl": "assets/img/projects/tone/tone_1.jpg",
-            "title": "installed in a class room of the university"
+            "url": "assets/img/projects/tone/tone_1.jpg",
+            "caption": "installed in a class room of the university"
           },
           {
-            "imageUrl": "assets/img/projects/tone/tone_2.jpg",
-            "title": "installed flat panels in a garage"
+            "url": "assets/img/projects/tone/tone_2.jpg",
+            "caption": "installed flat panels in a garage"
           }
         ]
       }
@@ -154,8 +174,10 @@
     "description": "<p>The leaflet created in collaboration with The incell Garage House when the new Audi TT was launched in Japan in 2015. Pictures in the leaflet bring to mind the garage of the Audi TT owner. This leaflet was used as a sales tool for Audi Shinjuku and The incell Garage house.</p> <p>As an art director, I conducted photo shooting and graphic design.</p>",
     "blocks": [
       {
-        "image": [
-          "assets/img/projects/audi/audi1.jpg"
+        "images": [
+          {
+            "url": "assets/img/projects/audi/audi1.jpg"
+          }
         ]
       },
       {
@@ -163,17 +185,23 @@
         "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>"
       },
       {
-        "image": [
-          "assets/img/projects/audi/audi4.jpg"
+        "images": [
+          {
+            "url": "assets/img/projects/audi/audi4.jpg"
+          }
         ],
         "small-margin": true,
         "inline-img": true
       },
 
       {
-        "image": [
-          "assets/img/projects/audi/audi0.jpg",
-          "assets/img/projects/audi/audi2.jpg"
+        "images": [
+          {
+            "url": "assets/img/projects/audi/audi0.jpg"
+          },
+          {
+            "url": "assets/img/projects/audi/audi2.jpg"
+          }
         ],
         "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>"
       }
@@ -206,42 +234,176 @@
         ]
       },
       {
-        "headline": "4 images inline",
-        "image": [
-          "assets/img/projects/tone/tone_six.jpg",
-          "assets/img/projects/tone/tone_sq.jpg",
-          "assets/img/projects/tone/tone_six.jpg",
-          "assets/img/projects/tone/tone_sq.jpg"
-        ],
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
-        "inline-img": true
-      },
-      {
-        "headline": "3 images inline",
-        "image": [
-          "assets/img/projects/tone/tone_six.jpg",
-          "assets/img/projects/tone/tone_sq.jpg",
-          "assets/img/projects/tone/tone_hero.jpg"
-        ],
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
-        "inline-img": true
-      },
-      {
-        "headline": "2 images inline",
-        "image": [
-          "assets/img/projects/tone/tone_six.jpg",
-          "assets/img/projects/tone/tone_sq.jpg"
-        ],
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
-        "inline-img": true
-      },
-      {
         "headline": "1 image inline",
-        "image": [
-          "assets/img/projects/tone/tone_six.jpg"
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_six.jpg"
+          }
         ],
         "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
         "inline-img": true
+      },
+      {
+        "headline": "1 image inline w/ caption",
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_six.jpg",
+            "caption": "this is a caption"
+          }
+        ],
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+        "inline-img": true
+      },
+      {
+        "headline": "2 images inline horizontal",
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_six.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_sq.jpg"
+          }
+        ],
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+        "inline-img": true,
+        "layout": "h"
+      },
+      {
+        "headline": "2 images inline horizontal w/ caption",
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_six.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_sq.jpg"
+          }
+        ],
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+        "inline-img": true,
+        "group-caption": "this is a group caption",
+        "layout": "h"
+      },
+      {
+        "headline": "2 images inline vertical",
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_six.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_sq.jpg"
+          }
+        ],
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+        "inline-img": true,
+        "layout": "v"
+      },
+      {
+        "headline": "2 images inline vertical w/ caption",
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_six.jpg",
+            "caption": "installed in a meeting room of the music event production "
+          },
+          {
+            "url": "assets/img/projects/tone/tone_sq.jpg",
+            "caption": "installed in a meeting room of the music event production "
+          }
+        ],
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+        "inline-img": true,
+        "layout": "v"
+      },
+      {
+        "headline": "3 images inline horizontal",
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_six.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_sq.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_hero.jpg"
+          }
+        ],
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+        "inline-img": true,
+        "layout": "h"
+      },
+      {
+        "headline": "3 images inline horizontal w/ caption",
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_six.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_sq.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_hero.jpg"
+          }
+        ],
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+        "inline-img": true,
+        "group-caption": "this is a group caption",
+        "layout": "h"
+      },
+      {
+        "headline": "3 images inline vertical",
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_six.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_sq.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_hero.jpg"
+          }
+        ],
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+        "inline-img": true,
+        "layout": "v"
+      },
+      {
+        "headline": "3 images inline vertical w/ caption",
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_six.jpg",
+            "caption": "image caption"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_sq.jpg",
+            "caption": "image caption"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_hero.jpg",
+            "caption": "image caption"
+          }
+        ],
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+        "inline-img": true,
+        "layout": "v"
+      },
+      {
+        "headline": "4 images inline w/ caption",
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_six.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_sq.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_hero.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_im3.jpg"
+          }
+        ],
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+        "inline-img": true,
+        "group-caption": "this is a group caption"
       }
     ],
     "related": [
@@ -287,7 +449,7 @@
     "blocks": [
       {
         "headline": "This is my family",
-        "image": [
+        "images": [
           "assets/img/projects/kot/1.jpg",
           "assets/img/projects/kot/2.jpg",
           "assets/img/projects/kot/3.jpg"
@@ -317,7 +479,7 @@
     "blocks": [
       {
         "headline": "Logo",
-        "image": [
+        "images": [
           "assets/img/projects/reminise/logo_hero.jpg",
           "assets/img/projects/reminisce/logo_img.jpg"
         ],
@@ -325,14 +487,14 @@
       },
       {
         "headline": "Business card",
-        "image": [
+        "images": [
           "assets/img/projects/reminisce/name_hero2.jpg"
         ],
         "description": "<p>Business cards play a vital role in a brand's identity in Japan. The card is cut to resemble the architecture of the salon and provides a strong first impression on the person who receives it.</p>"
       },
       {
         "headline": "Tapestry",
-        "image": [
+        "images": [
           "assets/img/projects/reminisce/tape_hero2.jpg",
           "assets/img/projects/reminisce/tape_hero.jpg"
         ],

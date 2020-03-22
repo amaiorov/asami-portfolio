@@ -56,15 +56,15 @@
       {
         "gallery": [
           {
-            "imageUrl": "assets/img/projects/tone/tone_3.jpg",
+            "url": "assets/img/projects/tone/tone_3.jpg",
             "title": "installed in a meeting room of the music event production "
           },
           {
-            "imageUrl": "assets/img/projects/tone/tone_1.jpg",
+            "url": "assets/img/projects/tone/tone_1.jpg",
             "title": "installed in a class room of the university"
           },
           {
-            "imageUrl": "assets/img/projects/tone/tone_2.jpg",
+            "url": "assets/img/projects/tone/tone_2.jpg",
             "title": "installed flat panels in a garage"
           }
         ]
@@ -104,7 +104,7 @@
         "headline": "Product design",
         "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>"
       },
-      
+
       {
         "image": [
           "assets/img/projects/audi/audi_0.jpg",
