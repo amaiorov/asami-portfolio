@@ -202,21 +202,35 @@ section {
         }
       }
       /deep/ q {
-        width: 100vw;
+        // width: 100vw;
         display: block;
-        margin: 0 auto;
+        // margin: 0 auto;
         font-size: 10rem;
         line-height: 10rem;
         font-weight: 400;
         color: $gray-quote;
-        position: relative;
-        left: -25%;
-        padding: 40px 25%;
-        &:before {
+        // position: relative;
+        // left: -25%;
+        padding: 40px 30px;
+        @media (max-width: $break-medium) {
+          font-size: 5.4rem;
+          line-height: 6rem;
+        }
+        &:before,
+        &:after {
+          position: absolute;
           font-size: 12rem;
+          @media (max-width: $break-medium) {
+            font-size: 8rem;
+            line-height: 6rem;
+          }
+        }
+        &:before {
+          left: 0;
         }
         &:after {
-          content: none;
+          transform: translateY(100%);
+          right: 0;
         }
       }
     }
