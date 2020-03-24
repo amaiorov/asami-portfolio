@@ -1,4 +1,4 @@
 <!-- <router-outlet></router-outlet> -->
-<div [@routeAnimations]="o && o.activatedRouteData && o.activatedRouteData['animation']">
+<div [@routeAnimations]="o && o.activatedRouteData && o.activatedRouteData['animation']" (@routeAnimations.done)="animationEnd($event)">
   <router-outlet #o="outlet"></router-outlet>
 </div>

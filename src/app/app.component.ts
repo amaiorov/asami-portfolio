@@ -22,12 +22,18 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this.router.events.subscribe(event => {
       if (event instanceof ActivationEnd) {
+        // console.log('~~~ActivationEnd');
         if (this.currentPage === 'project' || this.currentPage !== event.snapshot.data.page) {
-          window.scrollTo(0, 0);
+          // console.log(event.snapshot.data.page);
+          // console.log(event.snapshot.params.category);
+          // console.log(this.currentPage)
+          // window.scrollTo(0, 0);
         }
         this.currentPage = event.snapshot.data.page;
         // this.title.setTitle(this.generateTitle(this.currentPage));
         this.generateTitle(this.currentPage);
+      } else if (event instanceof NavigationEnd) {
+        // debugger;
       }
     });
   }

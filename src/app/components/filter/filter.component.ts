@@ -16,6 +16,7 @@ export class FilterComponent implements OnInit, OnDestroy {
   categories;
   currentCategory;
   subscription;
+  routerSubscription;
 
   constructor(
     private dataManager: DataManagerService,
@@ -30,9 +31,25 @@ export class FilterComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     // this.currentCategory = this.dataManager.currentCategory;
-    this.router.events.subscribe(event => {
+    this.routerSubscription = this.router.events.subscribe(event => {
       if (event instanceof ActivationEnd) {
-        this.currentCategory = this.dataManager.setCurrentCategory(event.snapshot.paramMap.get('category'));
+        // this.currentCategory = this.dataManager.setCurrentCategory(event.snapshot.paramMap.get('category'));
+        // console.log('PAGE', event.snapshot.data.page);
+        // console.log('CATEGORY', event.snapshot.paramMap.get('category'));
+        let page = event.snapshot.data.page;
+        let category = event.snapshot.paramMap.get('category');
+        if (!category) {
+          this.currentCategory = this.dataManager.setCurrentCategory(page);
+          // // window.setTimeout(() => {
+          //   window.scrollTo({top: 0, behavior: 'smooth'});
+          // // }, 500);
+        } else {
+          this.currentCategory = this.dataManager.setCurrentCategory(category);
+          // window.setTimeout(() => {
+          //   // document.querySelector('.filter-wrapper').scrollIntoView();
+          //   window.scrollTo({top: 801, behavior: 'smooth'});
+          // }, 501);
+        }
       }
     });
 
@@ -40,6 +57,7 @@ export class FilterComponent implements OnInit, OnDestroy {
 
   ngOnDestroy() {
     this.subscription.unsubscribe();
+    this.routerSubscription.unsubscribe();
   }
 
   setCategory(category?) {
