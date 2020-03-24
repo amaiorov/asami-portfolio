@@ -39,7 +39,7 @@ export class FilterComponent implements OnInit, OnDestroy {
         let page = event.snapshot.data.page;
         let category = event.snapshot.paramMap.get('category');
         if (!category) {
-          this.currentCategory = this.dataManager.setCurrentCategory(page);
+          this.currentCategory = page;
           // // window.setTimeout(() => {
             window.scrollTo({top: 0});
           // // }, 500);
