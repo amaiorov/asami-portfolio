@@ -14,6 +14,7 @@
   }
   @include mq-all;
   > div {
+    position: relative;
     // border: 1px solid green;
     // transform-origin: top center;
     > div {
