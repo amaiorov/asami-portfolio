@@ -24,9 +24,9 @@ export class ContentComponent implements OnInit {
     // console.log(event);
     console.log(this.dataManager.getCurrentCategory());
     if (this.shortScroll.includes(this.dataManager.getCurrentCategory())) {
-      window.scrollTo({top: 0, behavior: 'smooth'});
+      // window.scrollTo({top: 0, behavior: 'smooth'});
     } else {
-      window.scrollTo({top: 801, behavior: 'smooth'});
+      // window.scrollTo({top: 801, behavior: 'smooth'});
     }
   }
 

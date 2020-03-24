@@ -41,13 +41,13 @@ export class FilterComponent implements OnInit, OnDestroy {
         if (!category) {
           this.currentCategory = this.dataManager.setCurrentCategory(page);
           // // window.setTimeout(() => {
-          //   window.scrollTo({top: 0, behavior: 'smooth'});
+            window.scrollTo({top: 0});
           // // }, 500);
         } else {
           this.currentCategory = this.dataManager.setCurrentCategory(category);
           // window.setTimeout(() => {
           //   // document.querySelector('.filter-wrapper').scrollIntoView();
-          //   window.scrollTo({top: 801, behavior: 'smooth'});
+            window.scrollTo({top: 801});
           // }, 501);
         }
       }
