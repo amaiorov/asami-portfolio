@@ -20,7 +20,7 @@
     margin-bottom: 57px;
     position: relative;
     left: -25%;
-    @media (max-width: $break-medium) {
+    @media (max-width: $break-small) {
       left: -10vw;
       // padding-bottom: calc(64.81% + 47px);
       padding-bottom: 64.81vw;
