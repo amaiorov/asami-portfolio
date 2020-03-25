@@ -139,8 +139,8 @@
         ]
       },
       {
-        "headline": "Product design",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>"
+        "headline": "Photo shooting direction",
+        "description": "<p>I made sheets that show the process of the photoshoot and share them with team members a few days before the shooting. Audi Shinjuku provided three cars to this shooting for different kinds of style of life with the garage. The first sheet shows the concepts of the photoshoot for each car and what kind of equipment we need, the second one is the time table in which team members can check what suppose to do in a certain time in the photoshoot, and the third one shows from which direction we would shoot. Also, I drew the storyboard for every shot.</p>"
       },
       {
         "image": [
@@ -149,13 +149,19 @@
           "small-margin": true,
           "inline-img": true
       },
-
       {
         "image": [
-          "assets/img/projects/audi/audi0.jpg",
+          "assets/img/projects/audi/audi0.jpg"
+        ]
+      },
+      {
+        "headline": "Graphic design",
+        "description": "<p>The layout was designed to be a sales tool for both, The garage house and Audi Shinjuku.</p> <p>As a result, preview audiences to the garage house were increased by Audi's referral and the new garage house reached full occupancy.</p>"
+      },
+      {
+        "image": [
           "assets/img/projects/audi/audi2.jpg"
-        ],
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>"
+        ]
       }
     ],
     "related": [
