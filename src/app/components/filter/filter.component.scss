@@ -65,6 +65,9 @@
         /deep/ .short & {
           bottom: 34px !important;
         }
+        @media (max-width: $break-medium) {
+          content: none;
+        }
       }
       &:hover:after {
         width: 100%;

@@ -25,6 +25,10 @@ p {
 
 .filter-wrapper {
   margin: 133px 0 111px;
+  @media (max-width: $break-medium) {
+    position: relative;
+    // top: 100px;
+  }
 }
 
 .projects {
@@ -33,7 +37,8 @@ p {
   margin-bottom: 24px;
   min-height: 60vh;
   @media (max-width: $break-medium) {
-    margin-top: 60px;
+    // margin-top: 60px;
+    margin-top: 244px;
   }
   // border: 1px solid red;
   li {
