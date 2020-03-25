@@ -47,7 +47,8 @@ export class FilterComponent implements OnInit, OnDestroy {
           this.currentCategory = this.dataManager.setCurrentCategory(category);
           // window.setTimeout(() => {
           //   // document.querySelector('.filter-wrapper').scrollIntoView();
-            window.scrollTo({top: document.querySelector('.filter-wrapper').offsetTop});
+            let el = <HTMLElement> document.querySelector('.filter-wrapper')
+            window.scrollTo({top: el.offsetTop});
           // }, 501);
         }
       }

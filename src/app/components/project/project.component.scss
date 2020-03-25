@@ -123,9 +123,19 @@ section {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        @media (max-width: $break-medium) {
+          display: block !important;
+          > div {
+            margin: 0 0 12px !important;
+            &:last-child {
+              margin-bottom: 0 !important;
+            }
+          }
+        }
         > div {
           flex: 1;
           margin: 0 6px;
+
           &:first-child {
             margin-left: 0;
           }
@@ -152,10 +162,8 @@ section {
         }
       }
       &.h {
-        // border: 1px solid blue;
       }
       &.v {
-        // border: 1px solid red;
         display: block;
         > div {
           margin: 0 0 12px;
