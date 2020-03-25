@@ -14,80 +14,120 @@
     "endDate": "2019",
     "client": "infist Design co., Ltd",
     "heroUrl": "assets/img/projects/tone/tone_hero.jpg",
-    "description": "<p>Sound Absorber Wall Panels have two primary functions: to absorb unpleasant echo which reflects from walls and to be a beautiful design as a piece of interior.</p><p>They are easily installed by even not professional users and customers can choose a design based on the level of sound absorption. As an art director, I did research, product design, print design.</p>",
+    "description": [
+      "<p>Sound Absorber Wall Panels have two primary functions: to absorb unpleasant echo which reflects from walls and to be a beautiful design as a piece of interior.</p>",
+      "<p>They are easily installed by even not professional users and customers can choose a design based on the level of sound absorption. As an art director, I did research, product design, print design.</p>"
+    ],
     "blocks": [
       {
-        "image": [
-          "assets/img/projects/tone/tone_im3.jpg",
-          "assets/img/projects/tone/tone_t.jpg"
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_im3.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_t.jpg"
+          }
         ],
         "inline-img": true,
         "small-margin": true
       },
       {
-        "image": [
-          "assets/img/projects/tone/tone_six.jpg",
-          "assets/img/projects/tone/tone_sq.jpg"
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_six.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_sq.jpg"
+          }
         ],
         "inline-img": true
       },
       {
         "headline": "Problems of sound absorbers and product design goals",
-        "description": "<p>The opportunity to easily create and distribute one's own music on Youtube, SoundCloud, etc. has increased, and at the same time, devices and applications for recording and editing at home are also easy to buy. However, the majority of sound-absorbing panels that are sold for professional uses look like a big kitchen sponge and are difficult to install for ordinary people; there are no beautiful designs and the ones that exist don't match the home interior.</p><p>I decided that creating sound-absorbing panels that are for ordinary people who record at home and at the same time can be considered as part of the interior was a solution for both absorbing sound and interior decorating, in addition to easy self-installation.</p>"
+        "description": [
+          "<p>The opportunity to easily create and distribute one's own music on Youtube, SoundCloud, etc. has increased, and at the same time, devices and applications for recording and editing at home are also easy to buy. However, the majority of sound-absorbing panels that are sold for professional uses look like a big kitchen sponge and are difficult to install for ordinary people; there are no beautiful designs and the ones that exist don't match the home interior.</p>",
+          "<p>I decided that creating sound-absorbing panels that are for ordinary people who record at home and at the same time can be considered as part of the interior was a solution for both absorbing sound and interior decorating, in addition to easy self-installation.</p>"
+        ]
       },
-      
       {
         "headline": "Research and synthesis",
-        "description": "<p>I tested the sound absorption effect with lots of materials:</p> <ul><li>fabric with polyurethane foam</li><li>wood with polyurethane foam</li><li>recycled board from plastic water bottles</li></ul> <p>I discovered differences in the effects when these were located on the walls or ceiling and in the corners of the room.</p> <p>In these materials, the recycled board from plastic water bottles was easy to manufacture at a factory and most lightweight, as well as easy to install for ordinary users, so we adopted this material for our products.</p> <p>I showed our prototype to the person in charge of the soundproofing section in numerous musical instrumental stores. They were impressed by the designs and materials; additionally, this type of sound-absorbing panel design was new for them, so I was sure that we were headed in the right direction with our product.</p> <p>During the research process, we found that not only music-related people need the sound absorption panel, but we also found that there was demand for this kind of product in spaces where people gather and speak, i.e. conference rooms and restaurants. </p>"
+        "description": [
+          "<p>I tested the sound absorption effect with lots of materials:</p>",
+          "<u<li>fabric with polyurethane foam</li><li>wood with polyurethane foam</li><li>recycled board from plastic water bottles</li></ul> ",
+          "<p>I discovered differences in the effects when these were located on the walls or ceiling and in the corners of the room.</p> ",
+          "<p>In these materials, the recycled board from plastic water bottles was easy to manufacture at a factory and most lightweight, as well as easy to install for ordinary users, so we adopted this material for our products.</p> ",
+          "<p>I showed our prototype to the person in charge of the soundproofing section in numerous musical instrumental stores. They were impressed by the designs and materials; additionally, this type of sound-absorbing panel design was new for them, so I was sure that we were headed in the right direction with our product.</p> ",
+          "<p>During the research process, we found that not only music-related people need the sound absorption panel, but we also found that there was demand for this kind of product in spaces where people gather and speak, i.e. conference rooms and restaurants. </p>"
+        ]
       },
       {
         "headline": "Product design",
-        "description": "<h5>Challenging points</h5><p>For the user, the sound-absorbing panel had to:</p><ul><li>be a beautiful art piece as an interior</li><li>possess a high sound-absorption effect</li><li>be easy to mount on the wall</li></ul><p>From a manufacturing and cost perspective, it was crucial for the panel:</p><ul><li>to be efficiently sized to manufacture from the panel</li><li>to be efficiently sized to reduce shipping costs</li><li>to be at an appropriate price point</li></ul><p>Lastly, by expanding the target segment, we discovered that there was a need for the product to be modular because it could be used anywhere from a small living room to a large venue such as a restaurant.</p>"
+        "description": [
+          "<h5>Challenging points</h5>",
+          "<p>For the user, the sound-absorbing panel had to:</p>",
+          "<ul><li>be a beautiful art piece as an interior</li><li>possess a high sound-absorption effect</li><li>be easy to mount on the wall</li></ul>",
+          "<p>From a manufacturing and cost perspective, it was crucial for the panel:</p>",
+          "<ul><li>to be efficiently sized to manufacture from the panel</li><li>to be efficiently sized to reduce shipping costs</li><li>to be at an appropriate price point</li></ul>",
+          "<p>Lastly, by expanding the target segment, we discovered that there was a need for the product to be modular because it could be used anywhere from a small living room to a large venue such as a restaurant.</p>"
+        ]
       },
-       {
+      {
         "description": "<h5>Solutions for design, effective absorption, size</h5>",
         "small-margin": true
       },
       {
-        "image": [
-          "assets/img/projects/tone/tone_sq.jpg",
-          "assets/img/projects/tone/tone_t.jpg"
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_sq.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_t.jpg"
+          }
         ],
         "small-margin": true
       },
-      
       {
-        "description": "<p>To develop a size that can be used on a surface of any size, I created distinct designs for the panels utilizing a geometric pattern. These designs can adapt to any size of a wall by increasing or decreasing the number of elements in the pattern; they can also be used to express a unique design. Also, a new design was created by adding a variable depth to the panel, which allowed for a difference in the sound absorption effect and made the design more flexible.</p> "
-        },
-        {
-        "image": [
-          "assets/img/projects/tone/tone_5.jpg"
+        "description": "<p>To develop a size that can be used on a surface of any size, I created distinct designs for the panels utilizing a geometric pattern. These designs can adapt to any size of a wall by increasing or decreasing the number of elements in the pattern; they can also be used to express a unique design. Also, a new design was created by adding a variable depth to the panel, which allowed for a difference in the sound absorption effect and made the design more flexible.</p>"
+      },
+      {
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_5.jpg"
+          }
         ],
         "small-margin": true
       },
-        {
+      {
         "description": "<p>Moreover, since the sound absorption effect is enhanced by an air layer, I designed not only flat products but also three-dimensional products with an air pocket so that users can choose depending on the level of sound absorption that they need.</p> <p>In Japan, plasterboards are mainly used as the interior wall material and are easily pierced by pushpins. When renting, the tenant would be required to pay extra when they leave the apartment if they made holes in the walls. Because of this, I decided to use \"insect-pins\" for mounting the product to the wall. These make only minimum holes and the user can tap with a hammer to mount instead of drilling the wall.</p> <p>Additionally, the three-dimension version was designed to have the top panel easily removable in order to mount to the wall with pins.</p> <p>The material price was rather high, and thus efficiency of material usage was important. By having close communication with the manufacturing factory, we were able to calculate the most efficient size and arrangement when cutting from the source recycled board.</p> ",
         "small-margin": true
       },
       {
-        "image": [
-          "assets/img/projects/tone/tone_im2.jpg",
-          "assets/img/projects/tone/tone_im4.jpg"
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_im2.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_im4.jpg"
+          }
         ],
         "inline-img": true
       },
       {
-        "description": "<h5>Solutions for cost</h5><p>I was able to avoid wasting material by designing within the optimal size. The products were able to be delivered to users with minimal shipping fees because they were lightweight and stackable.</p> <p>Another goal was also to reduce costs related to storing already made products. This was accomplished by cooperating with the manufacturing factory and creating a production line that helped minimize stock and only manufacture after receiving orders from customers.</p>"
+        "description": [
+          "<h5>Solutions for cost</h5>",
+          "<p>I was able to avoid wasting material by designing within the optimal size. The products were able to be delivered to users with minimal shipping fees because they were lightweight and stackable.</p> <p>Another goal was also to reduce costs related to storing already made products. This was accomplished by cooperating with the manufacturing factory and creating a production line that helped minimize stock and only manufacture after receiving orders from customers.</p>"
+        ]
       },
-    
       {
         "headline": "Verification of the products",
         "description": "<p>I introduced prototypes to editors of various music periodicals, through which we got an opportunity to feature our project in magazines and showcase the testing of absorption effect with sound artists and acoustic professionals. They showed great satisfaction in the result of the absorption effect and described the product as being \"perfect for recording at home\".</p>",
         "small-margin": true
       },
       {
-        "image": [
-          "assets/img/projects/tone/sounddesign.jpg"
+        "images": [
+          {
+            "url": "assets/img/projects/tone/sounddesign.jpg"
+          }
         ],
         "inline-img": true
       },
@@ -98,16 +138,16 @@
       {
         "gallery": [
           {
-            "imageUrl": "assets/img/projects/tone/tone_3.jpg",
-            "title": "installed in a meeting room of the music event production "
+            "url": "assets/img/projects/tone/tone_3.jpg",
+            "caption": "installed in a meeting room of the music event production"
           },
           {
-            "imageUrl": "assets/img/projects/tone/tone_1.jpg",
-            "title": "installed in a class room of the university"
+            "url": "assets/img/projects/tone/tone_1.jpg",
+            "caption": "installed in a class room of the university"
           },
           {
-            "imageUrl": "assets/img/projects/tone/tone_2.jpg",
-            "title": "installed flat panels in a garage"
+            "url": "assets/img/projects/tone/tone_2.jpg",
+            "caption": "installed flat panels in a garage"
           }
         ]
       }
@@ -134,8 +174,10 @@
     "description": "<p>The leaflet created in collaboration with The incell Garage House when the new Audi TT was launched in Japan in 2015. Pictures in the leaflet bring to mind the garage of the Audi TT owner. This leaflet was used as a sales tool for Audi Shinjuku and The incell Garage house.</p> <p>As an art director, I conducted photo shooting and graphic design.</p>",
     "blocks": [
       {
-        "image": [
-          "assets/img/projects/audi/audi1.jpg"
+        "images": [
+          {
+            "url": "assets/img/projects/audi/audi1.jpg"
+          }
         ]
       },
       {
@@ -143,15 +185,19 @@
         "description": "<p>I made sheets that show the process of the photoshoot and share them with team members a few days before the shooting. Audi Shinjuku provided three cars to this shooting for different kinds of style of life with the garage. The first sheet shows the concepts of the photoshoot for each car and what kind of equipment we need, the second one is the time table in which team members can check what suppose to do in a certain time in the photoshoot, and the third one shows from which direction we would shoot. Also, I drew the storyboard for every shot.</p>"
       },
       {
-        "image": [
-          "assets/img/projects/audi/audi4.jpg"
-          ],
-          "small-margin": true,
-          "inline-img": true
+        "images": [
+          {
+            "url": "assets/img/projects/audi/audi4.jpg"
+          }
+        ],
+        "small-margin": true,
+        "inline-img": true
       },
       {
-        "image": [
-          "assets/img/projects/audi/audi0.jpg"
+        "images": [
+          {
+            "url": "assets/img/projects/audi/audi0.jpg"
+          }
         ]
       },
       {
@@ -159,8 +205,10 @@
         "description": "<p>The layout was designed to be a sales tool for both, The garage house and Audi Shinjuku.</p> <p>As a result, preview audiences to the garage house were increased by Audi's referral and the new garage house reached full occupancy.</p>"
       },
       {
-        "image": [
-          "assets/img/projects/audi/audi2.jpg"
+        "images": [
+          {
+            "url": "assets/img/projects/audi/audi2.jpg"
+          }
         ]
       }
     ],
@@ -184,42 +232,184 @@
     "description": "<p>danna-san, suteki! ♥♥♥</p>",
     "blocks": [
       {
-        "headline": "4 images inline",
-        "image": [
-          "assets/img/projects/tone/tone_six.jpg",
-          "assets/img/projects/tone/tone_sq.jpg",
-          "assets/img/projects/tone/tone_six.jpg",
-          "assets/img/projects/tone/tone_sq.jpg"
-        ],
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
-        "inline-img": true
-      },
-      {
-        "headline": "3 images inline",
-        "image": [
-          "assets/img/projects/tone/tone_six.jpg",
-          "assets/img/projects/tone/tone_sq.jpg",
-          "assets/img/projects/tone/tone_hero.jpg"
-        ],
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
-        "inline-img": true
-      },
-      {
-        "headline": "2 images inline",
-        "image": [
-          "assets/img/projects/tone/tone_six.jpg",
-          "assets/img/projects/tone/tone_sq.jpg"
-        ],
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
-        "inline-img": true
+        "description": [
+          "<p>test</p>",
+          "<q>cat quote</q>",
+          "<p>test</p>",
+          "<p>test</p>"
+        ]
       },
       {
         "headline": "1 image inline",
-        "image": [
-          "assets/img/projects/tone/tone_six.jpg"
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_six.jpg"
+          }
         ],
         "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
         "inline-img": true
+      },
+      {
+        "headline": "1 image inline w/ caption",
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_six.jpg",
+            "caption": "this is a caption"
+          }
+        ],
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+        "inline-img": true
+      },
+      {
+        "headline": "2 images inline horizontal",
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_six.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_sq.jpg"
+          }
+        ],
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+        "inline-img": true,
+        "layout": "h"
+      },
+      {
+        "headline": "2 images inline horizontal w/ caption",
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_six.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_sq.jpg"
+          }
+        ],
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+        "inline-img": true,
+        "group-caption": "this is a group caption",
+        "layout": "h"
+      },
+      {
+        "headline": "2 images inline vertical",
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_six.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_sq.jpg"
+          }
+        ],
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+        "inline-img": true,
+        "layout": "v"
+      },
+      {
+        "headline": "2 images inline vertical w/ caption",
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_six.jpg",
+            "caption": "installed in a meeting room of the music event production "
+          },
+          {
+            "url": "assets/img/projects/tone/tone_sq.jpg",
+            "caption": "installed in a meeting room of the music event production "
+          }
+        ],
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+        "inline-img": true,
+        "layout": "v"
+      },
+      {
+        "headline": "3 images inline horizontal",
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_six.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_sq.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_hero.jpg"
+          }
+        ],
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+        "inline-img": true,
+        "layout": "h"
+      },
+      {
+        "headline": "3 images inline horizontal w/ caption",
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_six.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_sq.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_hero.jpg"
+          }
+        ],
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+        "inline-img": true,
+        "group-caption": "this is a group caption",
+        "layout": "h"
+      },
+      {
+        "headline": "3 images inline vertical",
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_six.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_sq.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_hero.jpg"
+          }
+        ],
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+        "inline-img": true,
+        "layout": "v"
+      },
+      {
+        "headline": "3 images inline vertical w/ caption",
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_six.jpg",
+            "caption": "image caption"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_sq.jpg",
+            "caption": "image caption"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_hero.jpg",
+            "caption": "image caption"
+          }
+        ],
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+        "inline-img": true,
+        "layout": "v"
+      },
+      {
+        "headline": "4 images inline w/ caption",
+        "images": [
+          {
+            "url": "assets/img/projects/tone/tone_six.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_sq.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_hero.jpg"
+          },
+          {
+            "url": "assets/img/projects/tone/tone_im3.jpg"
+          }
+        ],
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+        "inline-img": true,
+        "group-caption": "this is a group caption"
       }
     ],
     "related": [
@@ -265,7 +455,7 @@
     "blocks": [
       {
         "headline": "This is my family",
-        "image": [
+        "images": [
           "assets/img/projects/kot/1.jpg",
           "assets/img/projects/kot/2.jpg",
           "assets/img/projects/kot/3.jpg"
@@ -295,7 +485,7 @@
     "blocks": [
       {
         "headline": "Logo",
-        "image": [
+        "images": [
           "assets/img/projects/reminise/logo_hero.jpg",
           "assets/img/projects/reminisce/logo_img.jpg"
         ],
@@ -303,14 +493,14 @@
       },
       {
         "headline": "Business card",
-        "image": [
+        "images": [
           "assets/img/projects/reminisce/name_hero2.jpg"
         ],
         "description": "<p>Business cards play a vital role in a brand's identity in Japan. The card is cut to resemble the architecture of the salon and provides a strong first impression on the person who receives it.</p>"
       },
       {
         "headline": "Tapestry",
-        "image": [
+        "images": [
           "assets/img/projects/reminisce/tape_hero2.jpg",
           "assets/img/projects/reminisce/tape_hero.jpg"
         ],

@@ -14,4 +14,14 @@ export class ContentComponent implements OnInit {
   ngOnInit() {
   }
 
+  animationStart(event) {
+    console.log('animaiton start');
+    document.querySelector('app-footer').classList.add('hidden');
+  }
+
+  animationDone(event) {
+    console.log('animaiton done');
+    document.querySelector('app-footer').classList.remove('hidden');
+  }
+
 }

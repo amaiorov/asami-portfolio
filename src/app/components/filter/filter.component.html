@@ -1,11 +1,16 @@
 <ul class="categories">
-  <li [ngClass]="{selected: !currentCategory}">
+  <li [ngClass]="{selected: !currentCategory || currentCategory === 'home'}">
     <a (click)="setCategory('')">Home</a>
   </li>
   <li *ngFor="let category of categories" [ngClass]="{selected: currentCategory === category}" class="category">
     <a (click)="setCategory(category)">{{ category | titlecase }}</a>
   </li>
-  <li><a routerLink="/about">About</a></li>
+  <li [ngClass]="{selected: currentCategory === 'about'}">
+    <a routerLink="/about">About</a>
+  </li>
+  <li [ngClass]="{selected: currentCategory === 'contact'}">
+    <a routerLink="/contact">Contact</a>
+  </li>
   <!-- <li><a routerLink="/contact">Contact</a></li> -->
   <li><a href="https://www.linkedin.com/in/asami-tsuchiya-maiorov-2534aa11a/" class="linkedin" target="_blank"><img src="assets/img/linked-in.svg" /></a></li>
 </ul>

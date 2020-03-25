@@ -21,7 +21,7 @@
 
 <!-- project description -->
 <section class="description">
-  <div [innerHTML]="currentProject?.description"></div>
+  <div [innerHTML]="currentProject?.description | concat"></div>
 </section>
 
 <!-- project client -->
@@ -42,13 +42,24 @@
 <section class="blocks" *ngIf="currentProject.blocks">
   <div *ngFor="let block of currentProject.blocks" [ngClass]="{'small-margin': block['small-margin']}">
     <h4 *ngIf="block.headline" class="headline">{{ block.headline }}</h4>
-    <div *ngIf="block.image" class="images" [ngClass]="{'inline-img': block['inline-img']}">
-      <div *ngFor="let image of block.image">
-        <img src="{{ image }}" onError="this.classList.add('no-image')" />
+    <div
+      *ngIf="block.images"
+      class="images"
+      [class.h]="block['layout'] === 'h'"
+      [class.v]="block['layout'] === 'v'"
+      [class.sq]="block.images.length === 4"
+      [ngClass]="{'inline-img': block['inline-img']}">
+    <!-- <div *ngIf="block.image" class="images" [ngClass]="{'inline-img': block['inline-img'], 'layout': block['layout']}"> -->
+      <div *ngFor="let image of block.images">
+        <img src="{{ image.url }}" onError="this.classList.add('no-image')" />
+        <span *ngIf="image.caption">{{ image.caption }}</span>
       </div>
+      <span *ngIf="block['group-caption']" class="group-caption">{{ block['group-caption'] }}</span>
     </div>
-    <div *ngIf="block.description" class="description" [innerHTML]="block.description"></div>
-
+    <div *ngIf="block.description" class="description" [innerHTML]="block.description | concat"></div>
+    <!-- <div class="description"> -->
+      <!-- <ng-container *ngFor="let item of block.description" [outerHTML]="item"></ng-container> -->
+    <!-- </div> -->
     <app-slider *ngIf="block.gallery" [slides]="block.gallery"></app-slider>
 
   </div>
@@ -56,7 +67,7 @@
 
 <!-- <ul class="gallery">
   <li *ngFor="let slide of currentProject.gallery">
-    <img src="{{ slide.imageUrl }}" />
+    <img src="{{ slide.url }}" />
     <span>{{ slide.title }}</span>
   </li>
 </ul> -->

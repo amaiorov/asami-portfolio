@@ -12,15 +12,20 @@ import {
 export const slideInAnimation =
 trigger('routeAnimations', [
   transition('* <=> *', [
-    query(':enter, :leave', style({ position: 'fixed', width: 'calc(100vw - 120px)', left: '60px', transformOrigin: 'top center' }), { optional: true }),
+    // query(':enter', style({ position: 'fixed', width: 'calc(100vw - 120px)', left: '60px', transformOrigin: 'top center', border: '5px solid red' }), { optional: true }),
+    // query(':leave', style({ position: 'fixed', width: 'calc(100vw - 120px)', left: '60px', transformOrigin: 'top center', border: '5px solid green' }), { optional: true }),
+    query(':enter', style({ position: 'absolute', left: 0, width: '100%', outline: '0px solid red' }), { optional: true }),
+    query(':leave', style({ position: 'absolute', left: 0, width: '100%', outline: '0px solid green' }), { optional: true }),
     group([
       query(':enter', [
-        style({ transform: 'scale(1.2)', opacity: '0' }),
-        animate('300ms ease-in-out', style({ transform: 'scale(1)', opacity: '1' }))
+        // style({ transform: 'scale(1.2)', opacity: '0' }),
+        style({ opacity: '0' }),
+        animate('500ms ease-in-out', style({ opacity: '1' }))
       ], { optional: true }),
       query(':leave', [
-        style({ transform: 'scale(1)', opacity: '1' }),
-        animate('300ms ease-in-out', style({ transform: 'scale(0.8)', opacity: '0' }))
+        // style({ transform: 'scale(1)', opacity: '1' }),
+        style({ opacity: '1' }),
+        animate('0ms ease-in-out', style({ opacity: '0' }))
       ], { optional: true }),
     ])
   ]),
