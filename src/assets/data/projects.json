@@ -166,7 +166,7 @@
       "Graphic Design"
     ],
     "shortTitle": "Audi Shinjuku Leaflet",
-    "longTitle": "Audi Shinjuku Leaflett",
+    "longTitle": "Audi Shinjuku Leaflet",
     "startDate": "2015",
     "endDate": "2015",
     "client": "Audi Shinjuku, infist Design co., Ltd",
@@ -213,6 +213,64 @@
       }
     ],
     "related": [
+      "garagebook",
+      "reminisce"
+    ]
+  },
+  {
+    "id": "garagebook",
+    "category": "graphic",
+    "tags": [
+      "Art Direction",
+      "Shooting Direction",
+      "Graphic Design"
+    ],
+    "shortTitle": "The Garagehouse Leaflet",
+    "longTitle": "The Garagehouse Leaflet",
+    "startDate": "2018",
+    "endDate": "2018",
+    "client": "infist Design co., Ltd",
+    "heroUrl": "assets/img/projects/garage/book/garage01.jpg",
+    "description": "<p>The leaflet created in collaboration with The incell Garage House when the new Audi TT was launched in Japan in 2015. Pictures in the leaflet bring to mind the garage of the Audi TT owner. This leaflet was used as a sales tool for Audi Shinjuku and The incell Garage house.</p> <p>As an art director, I conducted photo shooting and graphic design.</p>",
+    "blocks": [
+      {
+        "images": [
+          {
+            "url": "assets/img/projects/garage/book/garage04.jpg"
+          }
+        ]
+      },
+      {
+        "headline": "Photo shooting direction",
+        "description": "<p>I made sheets that show the process of the photoshoot and share them with team members a few days before the shooting. Audi Shinjuku provided three cars to this shooting for different kinds of style of life with the garage. The first sheet shows the concepts of the photoshoot for each car and what kind of equipment we need, the second one is the time table in which team members can check what suppose to do in a certain time in the photoshoot, and the third one shows from which direction we would shoot. Also, I drew the storyboard for every shot.</p>"
+      },
+      {
+        "images": [
+          {
+            "url": "assets/img/projects/garage/book/garage02.jpg"
+          },
+          {
+            "url": "assets/img/projects/garage/book/garage03.jpg"
+          },
+          {
+            "url": "assets/img/projects/garage/book/garage05.jpg"
+          }
+        ]
+      },
+      {
+        "headline": "Graphic design",
+        "description": "<p>The layout was designed to be a sales tool for both, The garage house and Audi Shinjuku.</p> <p>As a result, preview audiences to the garage house were increased by Audi's referral and the new garage house reached full occupancy.</p>"
+      },
+      {
+        "images": [
+          {
+            "url": "assets/img/projects/garage/book/garage06.jpg"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "audi",
       "reminisce"
     ]
   },
@@ -486,23 +544,33 @@
       {
         "headline": "Logo",
         "images": [
-          "assets/img/projects/reminise/logo_hero.jpg",
-          "assets/img/projects/reminisce/logo_img.jpg"
+          {
+            "url": "assets/img/projects/reminisce/logo_hero.jpg"
+          },
+          {
+            "url": "assets/img/projects/reminisce/logo_img.jpg"
+          }
         ],
         "description": "<p>The word \"reminisce\" is represented by the tea tree in the language of flowers. The owner's parents run a green tea farm and factory, and the hair salon serves a cup of that green tea for each customer.</p> <p>The concept behind the logo expresses the owner's well-honed creativity and the design of a modern store that stands out in a quiet area surrounded by green tea fields.</p>"
       },
       {
         "headline": "Business card",
         "images": [
-          "assets/img/projects/reminisce/name_hero2.jpg"
+          {
+            "url": "assets/img/projects/reminisce/name_hero2.jpg"
+          }
         ],
         "description": "<p>Business cards play a vital role in a brand's identity in Japan. The card is cut to resemble the architecture of the salon and provides a strong first impression on the person who receives it.</p>"
       },
       {
         "headline": "Tapestry",
         "images": [
-          "assets/img/projects/reminisce/tape_hero2.jpg",
-          "assets/img/projects/reminisce/tape_hero.jpg"
+          {
+            "url": "assets/img/projects/reminisce/tape_hero2.jpg"
+          },
+          {
+            "url": "assets/img/projects/reminisce/tape_hero.jpg"
+          }
         ],
         "description": "<p>Most people get around by car in this area, so the structure has to be recognized as a hair salon from the passing car. I designed the large tapestry that is placed on the outer wall of the salon.</p> <p>The salon targets primarily female customers and the design focuses on a woman model. The concept is that a person who appears inside a frame is perceived as a painting - a work of art - and hints to potential clients that they will be transformed when visiting the salon.</p>"
       },
@@ -513,7 +581,7 @@
     ],
     "related": [
       "audi",
-      "does-not-exist"
+      "garagebook"
     ]
   }
 ]
