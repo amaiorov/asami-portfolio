@@ -491,15 +491,16 @@
     ],
     "related": [
       "audi",
-      "reminisce"
+      "reminisce",
+      "mari"
     ]
   },
   {
     "id": "reminisce",
     "category": "graphic",
     "tags": [
-      "Logo design",
-      "Graphic design"
+      "Logo Design",
+      "Graphic Design"
     ],
     "shortTitle": "Reminisce",
     "longTitle": "Reminisce",
@@ -549,7 +550,8 @@
     ],
     "related": [
       "audi",
-      "garagebook"
+      "garagebook",
+      "mari"
     ]
   },
   {
@@ -754,23 +756,39 @@
     ]
   },
   {
-    "id": "nyanko",
-    "category": "photography",
+    "id": "mari",
+    "category": "graphic",
     "tags": [
-      "Art Direction",
-      "Print Design",
-      "Industrial Design"
+      "Graphic Design",
+      "Print Design"
     ],
-    "shortTitle": "Nyanko Sensei",
-    "longTitle": "Cats from Shizuoka are great",
-    "startDate": "2015",
-    "endDate": "2019",
-    "client": "Nya Inc.",
-    "heroUrl": "assets/img/projects/nyanko/hero.jpg",
-    "description": "<p>Nya nya nya~~</p>",
+    "shortTitle": "Business Card",
+    "longTitle": "Business Card",
+    "startDate": "2021",
+    "endDate": "2021",
+    "client": "Mari Shirai (Film Location Coordinator)",
+    "heroUrl": "assets/img/projects/mari/card_hero.jpg",
+    "description": "<p>I designed this business card for my friend, Mari Shirai, who works as a location coordinator in the filming industry. She goes to work with her dogs in her yellow Volkswagen van. She is kind of famous because of this to her coworkers and makes a strong impression on new clients. The business card reflects these elements of her style. </p>",
+    "blocks": [
+      {
+        "headline": "Mark and card",
+        "images": [
+          {
+            "url": "assets/img/projects/mari/card_3.jpg"
+          },
+          {
+            "url": "assets/img/projects/mari/card_hero2.jpg"
+          }
+        ],
+        "description": "<p>I sketched the Volkswagen van and her dogs as a hand-drawn illustration with her name in a playful font. This shows her character as friendly and outgoing.</p>",
+        "inline-img": true,
+        "layout": "v"
+      }
+    ],
     "related": [
-      "alexey",
-      "kot"
+      "audi",
+      "garagebook",
+      "reminisce"
     ]
   },
   {
