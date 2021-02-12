@@ -116,7 +116,7 @@ body.debug {
   }
   *[class] {
     position: relative;
-    border: 2px dashed rgba(255,0,0,0.5);
+    outline: 2px dashed rgba(255,0,0,0.5);
     &:before {
       font-size: 14px;
       font-style: italic;
@@ -126,6 +126,10 @@ body.debug {
       content: attr(class);
       padding: 8px;
       font-weight: 400;
+      position: absolute;
+      left: 0;
+      top: 100%;
+      white-space: nowrap;
     }
   }
   app-root > * {
