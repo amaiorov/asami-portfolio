@@ -434,7 +434,8 @@
     ],
     "related": [
       "garagebook",
-      "reminisce"
+      "reminisce",
+      "mari"
     ]
   },
   {
@@ -780,10 +781,168 @@
             "url": "assets/img/projects/mari/card_hero2.jpg"
           }
         ],
-        "description": "<p>I sketched the Volkswagen van and her dogs as a hand-drawn illustration with her name in a playful font. This shows her character as friendly and outgoing.</p>",
+        "description": "<p>I sketched the Volkswagen van and her dogs as a hand-drawn illustration with her name in a playful font. This shows her character as friendly and outgoing.</p> <p> In addition to her name, I added her dog's names in the mark to give a topic for the conversation with the people who exchange the business cards.</p>",
         "inline-img": true,
         "layout": "v"
       }
+    ],
+    "related": [
+      "audi",
+      "garagebook",
+      "reminisce"
+    ]
+  },
+  {
+    "id": "astute",
+    "category": "graphic",
+    "tags": [
+      "Art direction",
+      "Logo design",
+      "Web design"
+    ],
+    "shortTitle": "Astute",
+    "longTitle": "Astute",
+    "startDate": "2020",
+    "endDate": "2020",
+    "client": "Astute Subprime Consulting",
+    "heroUrl": "assets/img/projects/astute/hero.jpg",
+    "description": "<p>Astute is a consulting firm that helps car dealerships to reach out to low-credit customers that they have not been able to acquire. Using their unique knowledge and network, they help car dealers reduce opportunity losses and increase sales. </p><p>I redesigned the logo and created a new website for them.</p>",
+    "blocks": [
+      {
+        "images":[
+          {
+            "url":"assets/img/projects/astute/phone.jpg"
+          }
+        ],
+        "inline-img": true
+      },
+         {
+        "headline": "Logo Renewal",
+        "description": [ "<p>The motif of a puzzle piece and green shoots were used in the previous logo to represent their mission of solving problems and leading to new opportunities. I didn't change the motif used in the new logo, but designed it in a modern style.</p>"
+          ],
+        	 "small-margin": true
+         },
+         {
+        "images": [
+          {
+            "url": "assets/img/projects/astute/logo.jpg"
+          }
+          ],
+       
+        "inline-img": true,
+        "layout": "v"
+         },
+         {
+        "headline": "Business Card",
+        "images": [
+          {
+            "url": "assets/img/projects/astute/card.jpg"
+          }
+          ],
+       
+        "inline-img": true,
+        "layout": "v"
+         },
+         {
+        "headline": "Web Design",
+        "description": [
+          "<h5>Top Page</h5>",
+          "<p>I pick a large image of a car as a main visual for being recognized that a car-related business to the main target audience. The Take a Test button which determines how much sales the client is losing is placed on the top page and in the header for easy access.</p>"
+         ],
+         "small-margin": true
+         },
+         {
+        "images": [
+          {
+            "url": "assets/img/projects/astute/top.jpg"
+          }
+        ],
+       
+        "inline-img": true,
+        "layout": "v"
+         },
+         {
+        "description": [
+          "<h5>Services</h5>",
+          "<p>Expressed what kind of services they provide with illustrations to understand easily.</p>"
+         ],
+         "small-margin": true
+         },
+         {
+        "images": [
+          {
+            "url": "assets/img/projects/astute/we.jpg"
+          }
+        ],
+       
+        "inline-img": true,
+        "layout": "v"
+         },
+         {
+        "description": [
+          "<h5>Client's Problems</h5>",
+          "<p>By presenting problems that clients often face, it concretely evokes the problem and leads the way to solve them.</p>"
+         ],
+         "small-margin": true
+         },
+         {
+        "images": [
+          {
+            "url": "assets/img/projects/astute/problem1.jpg"
+          }
+        ],      
+        "inline-img": true,
+        "layout": "v"
+         },
+         {
+        "description": [
+          "<h5>Explanation of Steps </h5>",
+          "<p>I expressed the steps with playful illustrations.</p>"
+         ],
+         "small-margin": true
+         },
+         {
+        "images": [
+          {
+            "url": "assets/img/projects/astute/steps.jpg"
+          }
+        ],
+       
+        "inline-img": true,
+        "layout": "v"
+         },
+         {
+        "description": [
+          "<h5>Take a Test </h5>",
+          "<p>After the client takes a test, the system shows a figure of how much sales they could have gotten if they got low-credit customers. It makes them motivated to solve the problem by showing the exact number.</p>"
+         ],
+         "small-margin": true
+         },
+         {
+        "images": [
+          {
+            "url": "assets/img/projects/astute/problem.jpg"
+          }
+        ],
+       
+        "inline-img": true,
+        "layout": "v"
+         },
+         {
+        "description": [
+          "<h5>Whole Page</h5>"
+         ],
+         "small-margin": true
+         },
+         {
+        "images": [
+          {
+            "url": "assets/img/projects/astute/landing page Blue.svg"
+          }
+        ],      
+        "inline-img": true,
+        "layout": "v"
+         }
     ],
     "related": [
       "audi",
@@ -822,4 +981,5 @@
       "nyanko"
     ]
   }
+
 ]
