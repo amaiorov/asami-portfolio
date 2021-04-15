@@ -38,7 +38,7 @@ img {
   width: 100vw;
   position: relative;
   left: -25%;
-  @media (max-width: $break-medium) {
+  @media (max-width: $break-small) {
     left: -10vw;
   }
   @include no-image;
@@ -193,6 +193,13 @@ section {
     }
     &.small-margin {
       margin-bottom: 40px;
+    }
+    .caption {
+      display: block;
+      text-align: center;
+      // padding: 8px 0 16px;
+      font-size: 1.6rem;
+      line-height: 2rem;
     }
     .description {
       /deep/ h5 {

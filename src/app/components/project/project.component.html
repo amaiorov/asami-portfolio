@@ -53,7 +53,7 @@
       <div *ngFor="let image of block.images">
         <img *ngIf="!image.video" src="{{ image.url }}" onError="this.classList.add('no-image')" />
         <video *ngIf="image.video" src="{{ image.url }}" onError="this.classList.add('no-image')" playsinline autoplay muted loop></video>
-        <span *ngIf="image.caption">{{ image.caption }}</span>
+        <span *ngIf="image.caption" class="caption">{{ image.caption }}</span>
       </div>
       <span *ngIf="block['group-caption']" class="group-caption">{{ block['group-caption'] }}</span>
     </div>
