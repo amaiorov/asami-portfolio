@@ -102,7 +102,7 @@ app-nav {
       transition: $transition-300;
     }
   }
-  @media (min-width: $break-medium) {
+  @media (min-width: ($break-medium + 1)) {
     .short & {
       top: 45px;
       top: 0;
