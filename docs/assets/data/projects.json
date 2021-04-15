@@ -51,7 +51,7 @@
           ]
       },
       {
-        "description": [ 
+        "description": [
           "<h5>Market Research</h5>",
           "<p>In Japan, European cars are much more expensive than Japanese cars. For example, even the Audi Q5 is in the category of ultra-luxury cars. I researched the number of popular European cars owned by car enthusiasts in metropolitan Tokyo. As a result, I discovered that</p>",
           "<ul><li>the number of European cars sold in metropolitan Tokyo was four times more than suburban areas</li><li>the number of indoor rental garages in metropolitan Tokyo was eight times  less than suburban areas</li></ul>",
@@ -77,7 +77,7 @@
         "images":[
           {
             "url":"assets/img/projects/garage/interior/persona.jpg"
-          }         
+          }
         ],
         "inline-img": true,
         "small-margin": true
@@ -219,7 +219,7 @@
           "<p>After this discovery, we pivoted the focus of the presentation to better explain to the owner seeking a high-profit ratio of rental income, the importance of showcasing cars and its positive effect on attracting prospective tenants.</p>"
         ]
       }
-    ],  
+    ],
     "related": [
       "garagebook",
       "audi"
@@ -579,6 +579,18 @@
         ]
       },
       {
+        "headline": "This is a video",
+        "images": [
+          {
+            "url": "assets/img/projects/alexey/test.mp4",
+            "caption": "this is a caption",
+            "video": true
+          }
+        ],
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+        "inline-img": true
+      },
+      {
         "headline": "1 image inline",
         "images": [
           {
@@ -828,7 +840,7 @@
             "url": "assets/img/projects/astute/logo.jpg"
           }
           ],
-       
+
         "inline-img": true,
         "layout": "v"
          },
@@ -839,7 +851,7 @@
             "url": "assets/img/projects/astute/card.jpg"
           }
           ],
-       
+
         "inline-img": true,
         "layout": "v"
          },
@@ -857,7 +869,7 @@
             "url": "assets/img/projects/astute/top.jpg"
           }
         ],
-       
+
         "inline-img": true,
         "layout": "v"
          },
@@ -874,7 +886,7 @@
             "url": "assets/img/projects/astute/we.jpg"
           }
         ],
-       
+
         "inline-img": true,
         "layout": "v"
          },
@@ -890,7 +902,7 @@
           {
             "url": "assets/img/projects/astute/problem1.jpg"
           }
-        ],      
+        ],
         "inline-img": true,
         "layout": "v"
          },
@@ -907,7 +919,7 @@
             "url": "assets/img/projects/astute/steps.jpg"
           }
         ],
-       
+
         "inline-img": true,
         "layout": "v"
          },
@@ -921,10 +933,12 @@
          {
         "images": [
           {
-            "url": "assets/img/projects/astute/problem.jpg"
+            "url": "assets/img/projects/astute/test.mp4",
+            "caption": "this is a caption",
+            "video": true
           }
         ],
-       
+
         "inline-img": true,
         "layout": "v"
          },
@@ -939,7 +953,7 @@
           {
             "url": "assets/img/projects/astute/landing page Blue.svg"
           }
-        ],      
+        ],
         "inline-img": true,
         "layout": "v"
          }
@@ -951,34 +965,140 @@
     ]
   },
   {
-    "id": "kot",
-    "category": "photography",
+    "id": "furniture",
+    "category": "product",
     "tags": [
-      "Art Direction",
-      "Photoshoot",
-      "Product Design"
+      "Marketing",
+      "Furniture Design",
+      "Graphic Design",
+      "Art Direction"
     ],
-    "shortTitle": "Nya Vinchi",
-    "longTitle": "Kot Nya Vinchi",
-    "startDate": "2015",
-    "endDate": "2019",
-    "client": "Nya Inc.",
-    "heroUrl": "assets/img/projects/kot/hero.jpg",
+    "shortTitle": "Furniture Design - Photo Collection",
+    "longTitle": "Furniture Design - Photo Collection",
+    "startDate": "2002",
+    "endDate": "2008",
+    "client": "MK Maeda Co.,Ltd, In The Room, Otsuka Furniture, Nafco Two-One Style, ACTUS, etc,.",
+    "heroUrl": "assets/img/projects/furniture/NEO_1.jpg",
     "description": "<p>Nya nya nya~~</p>",
     "blocks": [
       {
-        "headline": "This is my family",
+        "headline": "Kitchen / Dining Room Furniture",
+        "description": [ "<p>In Japan, unlike an apartment or a house in the U.S, there are no cabinets in the kitchen when we move in is common, and we need to buy them by ourselves. </p>"
+          ],
+           "small-margin": true
+         },
+         {
         "images": [
-          "assets/img/projects/kot/1.jpg",
-          "assets/img/projects/kot/2.jpg",
-          "assets/img/projects/kot/3.jpg"
-        ],
-        "description": "It's a dummy text again"
-      }
+          {
+            "url": "assets/img/projects/furniture/dining1.jpg"
+          },
+          {
+            "url": "assets/img/projects/furniture/dining2.jpg"
+          }
+          ],
+        "inline-img": true,
+        "group-caption": "Fruh - 2004",
+        "layout": "h"
+         },
+         {
+        "images": [
+          {
+            "url": "assets/img/projects/furniture/dining3.jpg"
+          },
+          {
+            "url": "assets/img/projects/furniture/dining4.jpg"
+          }
+          ],
+        "inline-img": true,
+        "group-caption": "Water Planet - 2005",
+        "layout": "h"
+         },
+         {
+        "headline": "Living Room Furniture",
+           "small-margin": true
+         },
+         {
+        "images": [
+          {
+            "url": "assets/img/projects/furniture/IMY_image2.jpg",
+            "caption": "Illumy - 2006"
+          }
+          ]
+         },
+         {
+        "images": [
+          {
+            "url": "assets/img/projects/furniture/FEM_6.jpg"
+          },
+          {
+            "url": "assets/img/projects/furniture/living1.jpg"
+          }
+          ],
+        "inline-img": true,
+        "group-caption": "Frem - 2004",
+        "layout": "v"
+         },
+         {
+        "images": [
+          {
+            "url": "assets/img/projects/furniture/NEO_2.jpg",
+            "caption": "Neon - 2005"
+          }
+          ],
+        "inline-img": true
+         },
+         {
+        "images": [
+          {
+            "url": "assets/img/projects/furniture/living3.jpg",
+            "caption": "Filo - 2008"
+          }
+          ],
+        "inline-img": true
+         },
+         {
+        "headline": "Bed Room Furniture",
+           "small-margin": true
+         },
+         {
+        "images": [
+          {
+            "url": "assets/img/projects/furniture/bed2.jpg"
+          },
+          {
+            "url": "assets/img/projects/furniture/bed1.jpg"
+          }
+          ],
+        "inline-img": true,
+        "group-caption": "Can - 2007",
+        "layout": "v"
+         },
+         {
+        "headline": "Small Office Furniture",
+           "small-margin": true
+         },
+         {
+        "images": [
+          {
+            "url": "assets/img/projects/furniture/AOM_1.jpg",
+            "caption": "Axiom - 2005"
+          }
+          ]
+         },
+         {
+        "images": [
+          {
+            "url": "assets/img/projects/furniture/desk.jpg",
+            "caption": "Rivus - 2008"
+          }
+          ],
+        "inline-img": true
+         }
+
     ],
     "related": [
-      "alexey",
-      "nyanko"
+      "soundpanels",
+      "garageinterior"
     ]
   }
 
