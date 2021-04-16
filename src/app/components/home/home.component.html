@@ -5,13 +5,15 @@
   <app-filter></app-filter>
 </div>
 <ul class="projects">
-  <li *ngFor="let project of projects" routerLink="{{ '/project/' + project.id }}">
-    <img [src]="project.heroUrl" onError="this.nextSibling.classList.add('no-image')" />
-    <div class="hero" [ngStyle]="{'background-image': 'url(' + project.heroUrl + ')'}" [ngClass]="{'no-image': !project.heroUrl}"></div>
-    <h4>{{ project.shortTitle }}</h4>
-    <div class="tags">
-      <span *ngFor="let tag of project.tags">{{ tag }}</span>
-    </div>
-    <!-- <span class="category">{{ project.category | titlecase }}</span> -->
+  <li *ngFor="let project of projects">
+    <a routerLink="{{ '/project/' + project.id }}" data-test="Asd">
+      <img [src]="project.heroUrl" onError="this.nextSibling.classList.add('no-image')" />
+      <div class="hero" [ngStyle]="{'background-image': 'url(' + project.heroUrl + ')'}" [ngClass]="{'no-image': !project.heroUrl}"></div>
+      <h4>{{ project.shortTitle }}</h4>
+      <div class="tags">
+        <span *ngFor="let tag of project.tags">{{ tag }}</span>
+      </div>
+      <!-- <span class="category">{{ project.category | titlecase }}</span> -->
+    </a>
   </li>
 </ul>
