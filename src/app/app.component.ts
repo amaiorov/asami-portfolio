@@ -43,7 +43,7 @@ export class AppComponent implements OnInit {
   }
 
   public generateTitle(page) {
-    let newTitle;
+    // let newTitle;
     switch(page) {
       case 'project':
         // this.title.setTitle(`Project - ${this.dataManager.mainTitle}`);
@@ -63,6 +63,9 @@ export class AppComponent implements OnInit {
     handleKeyboardEvent(event: KeyboardEvent) {
       if (event.key === 'd') {
         document.body.classList.toggle('debug');
+        document.querySelectorAll('picture').forEach((item) => {
+          item.dataset.currentSrc = item.querySelector('img').currentSrc.replace(/^.*[\\\/]/, '').split('.').slice(0, -1).join('.');
+        });
       }
     }
 

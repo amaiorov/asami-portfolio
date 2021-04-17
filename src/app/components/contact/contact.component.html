@@ -26,18 +26,20 @@
             assets/img/test-480.jpg 480w,
             assets/img/test-800.jpg 800w,
             assets/img/huge.jpg 3200w"
-     sizes="(max-width: 375px) 320px,
-            (max-width: 1023em) 480px,
-            (max-width: 1199em) 800px,
-            3200px"
-     src="assets/img/test-800.jpg" />
+     sizes="(max-width: 320px) 320px,
+            (max-width: 480px) 480px,
+            (max-width: 800px) 800px,
+            1920px"
+     src="assets/img/projects/tone/sounddesign.jpg" />
 
 <h1>picture</h1>
 <picture>
-  <source media="(max-width: 320px)" srcset="assets/img/test-320.jpg">
-  <source media="(max-width: 480px)" srcset="assets/img/test-480.jpg">
-  <source media="(max-width: 800px)" srcset="assets/img/test-800.jpg">
-  <img src="assets/img/huge.jpg" style="width: 100%;">
+  <source media="(max-width: 480px)" srcset="assets/img/test2-480.jpg">
+  <source media="(max-width: 768px)" srcset="assets/img/test2-768.jpg">
+  <source media="(max-width: 1440px)" srcset="assets/img/test2-1440.jpg">
+  <source media="(max-width: 1920px)" srcset="assets/img/test2-1920.jpg">
+  <source srcset="assets/img/huge.jpg">
+  <img src="assets/img/huge.jpg" loading="lazy" />
 </picture>
 
 <!-- <picture>

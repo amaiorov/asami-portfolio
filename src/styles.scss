@@ -135,4 +135,24 @@ body.debug {
   app-root > * {
     border: 1px solid blue;
   }
+  picture,
+  picture[class] {
+    position: relative;
+    border: 10px solid red;
+    &:before {
+      font-size: 14px;
+      font-style: italic;
+      background: rgba(255,0,0,0.7);
+      color: #fff;
+      display: inline-block;
+      content: attr(data-current-src);
+      padding: 8px;
+      font-weight: 400;
+      position: absolute;
+      left: 0;
+      top: 100%;
+      white-space: nowrap;
+      z-index: 10;
+    }
+  }
 }

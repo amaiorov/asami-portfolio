@@ -51,9 +51,16 @@
       [ngClass]="{'inline-img': block['inline-img']}">
     <!-- <div *ngIf="block.image" class="images" [ngClass]="{'inline-img': block['inline-img'], 'layout': block['layout']}"> -->
       <div *ngFor="let image of block.images">
-        <img *ngIf="!image.video" src="{{ image.url }}" onError="this.classList.add('no-image')" loading="lazy"
-          onLoad="console.log('loaded', this)"
-        />
+        <img *ngIf="!image.video" src="{{ image.url }}" onError="this.classList.add('no-image')" loading="lazy" />
+        <picture *ngIf="!image.video">
+          <source media="(max-width: 480px)" srcset="{{ getSrc('assets/img/test2.jpg', 480) }}">
+          <source media="(max-width: 768px)" srcset="{{ getSrc('assets/img/test2.jpg', 768) }}">
+          <source media="(max-width: 1440px)" srcset="{{ getSrc('assets/img/test2.jpg', 1440) }}">
+          <source media="(max-width: 1920px)" srcset="{{ getSrc('assets/img/test2.jpg', 1920) }}">
+          <source srcset="assets/img/huge.jpg">
+          <img src="{{ image.url }}" loading="lazy" />
+        </picture>
+
         <video *ngIf="image.video" src="{{ image.url }}" onError="this.classList.add('no-image')" playsinline autoplay muted loop></video>
         <span *ngIf="image.caption" class="caption">{{ image.caption }}</span>
       </div>
