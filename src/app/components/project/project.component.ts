@@ -3,6 +3,7 @@ import { Router, ActivatedRoute } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 
 import { DataManagerService } from '@app/datamanager.service';
+import { getSrc } from '@app/util';
 
 @Component({
   selector: 'app-project',
@@ -10,10 +11,10 @@ import { DataManagerService } from '@app/datamanager.service';
   styleUrls: ['./project.component.scss']
 })
 export class ProjectComponent implements OnInit {
-
   projects;
   currentProject;
   relatedProjects;
+  getSrc = getSrc;
 
   constructor(
     private dataManager: DataManagerService,
@@ -47,14 +48,6 @@ export class ProjectComponent implements OnInit {
     return this.projects.find((item) => {
       return item.id === id;
     });
-  }
-
-  getSrc(file, size) {
-    const path = file.substr(0, file.lastIndexOf('/'));
-    const filename = file.replace(/^.*[\\\/]/, '').split('.').slice(0, -1).join('.');
-    const resized = path + '/resize/' + filename + '-' + size + '.jpg';
-    // console.log(resized);
-    return resized;
   }
 
   onLoad() {

@@ -8,21 +8,21 @@ const responsiveOpts = [{
       width: '100%',
     },
     {
-      width: 320,
+      width: 480,
       rename: {
-        suffix: '-320'
+        suffix: '-480'
       }
     },
     {
-      width: 720,
+      width: 768,
       rename: {
-        suffix: '-720'
+        suffix: '-768'
       }
     },
     {
-      width: 1200,
+      width: 1440,
       rename: {
-        suffix: '-1200'
+        suffix: '-1440'
       }
     },
     {
@@ -50,7 +50,7 @@ const resize = (path) => {
     }));
 }
 
-gulp.task('default', function () {
+gulp.task('watch', function () {
   const watcher = gulp.watch(['src/assets/img/projects/**/*.jpg', '!src/assets/img/projects/**/resize/*.jpg'], (cb) => {
     console.log('file changed');
     cb();

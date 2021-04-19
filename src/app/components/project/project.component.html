@@ -2,8 +2,18 @@
 
 <!-- project image -->
 <div class="hero">
-  <img src="{{ currentProject.heroUrl }}" onError="this.nextSibling.classList.add('no-image')" />
-  <div class="wrapper" [ngStyle]="{'background-image': 'url(' + currentProject.heroUrl + ')'}" [ngClass]="{'no-image': !currentProject.heroUrl}"></div>
+  <!-- <img src="{{ currentProject.heroUrl }}" onError="this.nextSibling.classList.add('no-image')" /> -->
+  <!-- <div class="wrapper" [ngStyle]="{'background-image': 'url(' + currentProject.heroUrl + ')'}" [ngClass]="{'no-image': !currentProject.heroUrl}"></div> -->
+  <div class="wrapper">
+    <picture>
+      <source media="(max-width: 480px)" srcset="{{ getSrc(currentProject.heroUrl, 480) }}">
+      <source media="(max-width: 768px)" srcset="{{ getSrc(currentProject.heroUrl, 768) }}">
+      <source media="(max-width: 1440px)" srcset="{{ getSrc(currentProject.heroUrl, 1440) }}">
+      <source media="(max-width: 1920px)" srcset="{{ getSrc(currentProject.heroUrl, 1920) }}">
+      <source srcset="{{ currentProject.heroUrl }}">
+      <img src="{{ currentProject.heroUrl }}" loading="lazy" onError="this.parentElement.parentElement.classList.add('no-image')"  alt="{{ currentProject.shortTitle || currentProject.heroUrl }}" />
+    </picture>
+  </div>
 </div>
 
 <!-- project title -->
@@ -51,14 +61,14 @@
       [ngClass]="{'inline-img': block['inline-img']}">
     <!-- <div *ngIf="block.image" class="images" [ngClass]="{'inline-img': block['inline-img'], 'layout': block['layout']}"> -->
       <div *ngFor="let image of block.images">
-        <img *ngIf="!image.video" src="{{ image.url }}" onError="this.classList.add('no-image')" loading="lazy" />
+        <!-- <img *ngIf="!image.video" src="{{ image.url }}" onError="this.classList.add('no-image')" loading="lazy" /> -->
         <picture *ngIf="!image.video">
-          <source media="(max-width: 480px)" srcset="{{ getSrc('assets/img/test2.jpg', 480) }}">
-          <source media="(max-width: 768px)" srcset="{{ getSrc('assets/img/test2.jpg', 768) }}">
-          <source media="(max-width: 1440px)" srcset="{{ getSrc('assets/img/test2.jpg', 1440) }}">
-          <source media="(max-width: 1920px)" srcset="{{ getSrc('assets/img/test2.jpg', 1920) }}">
-          <source srcset="assets/img/huge.jpg">
-          <img src="{{ image.url }}" loading="lazy" />
+          <source media="(max-width: 480px)" srcset="{{ getSrc(image.url, 480) }}">
+          <source media="(max-width: 768px)" srcset="{{ getSrc(image.url, 768) }}">
+          <source media="(max-width: 1440px)" srcset="{{ getSrc(image.url, 1440) }}">
+          <source media="(max-width: 1920px)" srcset="{{ getSrc(image.url, 1920) }}">
+          <source srcset="{{ image.url }}">
+          <img src="{{ image.url }}" loading="lazy" onError="this.parentElement.parentElement.classList.add('no-image')" alt="{{ image.caption || image.url }}" />
         </picture>
 
         <video *ngIf="image.video" src="{{ image.url }}" onError="this.classList.add('no-image')" playsinline autoplay muted loop></video>
@@ -86,13 +96,25 @@
   <h3>Related Work</h3>
   <ul>
     <ng-template ngFor let-project [ngForOf]="relatedProjects">
-      <li *ngIf="project" routerLink="{{ '/project/' + project.id }}">
-        <img src="{{ project.heroUrl }}" onError="this.nextSibling.classList.add('no-image')" />
-        <div class="thumb" [ngStyle]="{'background-image': 'url(' + project.heroUrl + ')'}"></div>
-        <h4>{{ project.shortTitle }}</h4>
-        <div class="tags">
-          <span *ngFor="let tag of project.tags">{{ tag }}</span>
-        </div>
+      <li *ngIf="project">
+        <a routerLink="{{ '/project/' + project.id }}">
+          <!-- <img src="{{ project.heroUrl }}" onError="this.nextSibling.classList.add('no-image')" /> -->
+          <!-- <div class="thumb" [ngStyle]="{'background-image': 'url(' + project.heroUrl + ')'}"></div> -->
+          <div class="thumb">
+            <picture>
+              <source media="(max-width: 480px)" srcset="{{ getSrc(project.heroUrl, 480) }}">
+              <source media="(max-width: 768px)" srcset="{{ getSrc(project.heroUrl, 768) }}">
+              <source media="(max-width: 1440px)" srcset="{{ getSrc(project.heroUrl, 1440) }}">
+              <source media="(max-width: 1920px)" srcset="{{ getSrc(project.heroUrl, 1920) }}">
+              <source srcset="{{ project.heroUrl }}">
+              <img src="{{ project.heroUrl }}" loading="lazy" onError="this.parentElement.parentElement.classList.add('no-image')" alt="{{ project.shortTitle || project.heroUrl }}" />
+            </picture>
+          </div>
+          <h4>{{ project.shortTitle }}</h4>
+          <div class="tags">
+            <span *ngFor="let tag of project.tags">{{ tag }}</span>
+          </div>
+        </a>
       </li>
     </ng-template>
   </ul>

@@ -1,5 +1,7 @@
 import { Component, OnInit, Input, HostListener, ViewChild, ElementRef } from '@angular/core';
 
+import { getSrc } from '@app/util';
+
 @Component({
   selector: 'app-slider',
   templateUrl: './slider.component.html',
@@ -13,6 +15,7 @@ export class SliderComponent implements OnInit {
   activeSlide: number;
   totalSlides: number;
   isAnimating = false;
+  getSrc = getSrc;
 
   constructor() { }
 

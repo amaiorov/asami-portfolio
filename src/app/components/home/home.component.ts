@@ -2,6 +2,7 @@ import { Component, OnInit, OnDestroy, Input } from '@angular/core';
 import { Subscription } from 'rxjs';
 
 import { DataManagerService } from '@app/datamanager.service';
+import { getSrc } from '@app/util';
 
 @Component({
   selector: 'app-home',
@@ -16,6 +17,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   currentCategory;
   categorySubscription;
   projectsSubscription;
+  getSrc = getSrc;
 
   constructor(
     private dataManager: DataManagerService
