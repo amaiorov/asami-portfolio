@@ -50,12 +50,15 @@ export class DataManagerService {
       this.http
       .get('assets/data/projects.json')
       .subscribe((response: any)=> {
-        this.setProjects(response);
-        this.projects = response;
+        this.setProjects(response.projects);
+        this.projects = response.projects;
         // this.categories = [...new Set(response.map(item => item.category))];
         // console.log([...new Set(response.map(item => item.category))]);
-        this.categories = response.map(item => item.category);
-        this.categories = this.categories.filter((item, index) => this.categories.indexOf(item) === index);
+        // this.categories = response.projects.map(item => item.category);
+        // console.log(this.categories)
+        // this.categories = this.categories.filter((item, index) => this.categories.indexOf(item) === index);
+        // console.log(this.categories)
+        this.categories = response.categories;
         resolve(true);
       });
     });
@@ -63,6 +66,7 @@ export class DataManagerService {
 
   setProjects(projects) {
     console.log('set projects');
+    console.log(projects);
     // this.projects = projects;
     this.projectsSource.next(projects);
   }
@@ -94,9 +98,8 @@ export class DataManagerService {
     if (!category) {
       this.setProjects(this.projects);
     } else {
-      this.setProjects(this.projects.filter(item => item.category === category));
+      this.setProjects(this.projects.filter(item => item.category === category.id));
     }
-
   }
 
 }

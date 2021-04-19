@@ -44,7 +44,8 @@ export class FilterComponent implements OnInit, OnDestroy {
             window.scrollTo({top: 0});
           // // }, 500);
         } else {
-          this.currentCategory = this.dataManager.setCurrentCategory(category);
+          const categoryObj = this.dataManager.getCategories().find((item) => item.route === category);
+          this.currentCategory = this.dataManager.setCurrentCategory(categoryObj);
           // window.setTimeout(() => {
           //   // document.querySelector('.filter-wrapper').scrollIntoView();
             let el = <HTMLElement> document.querySelector('.filter-wrapper')
@@ -63,6 +64,6 @@ export class FilterComponent implements OnInit, OnDestroy {
 
   setCategory(category?) {
     this.currentCategory = this.dataManager.setCurrentCategory(category);
-    this.router.navigate(['', category])
+    this.router.navigate(['', category.route || '' ])
   }
 }
