@@ -3,7 +3,7 @@
     <a (click)="setCategory('')">Home</a>
   </li>
   <li *ngFor="let category of categories" [ngClass]="{selected: currentCategory?.route === category?.route}" class="category">
-    <a (click)="setCategory(category)">{{ category.name }}</a>
+    <a routerLink="{{ '/' + category.route }}">{{ category.name }}</a>
   </li>
   <li [ngClass]="{selected: currentCategory === 'about'}">
     <a routerLink="/about">About</a>
