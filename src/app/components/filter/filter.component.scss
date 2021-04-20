@@ -63,7 +63,7 @@
         background: $text;
         transition: 200ms all ease;
         /deep/ .short & {
-          bottom: 34px !important;
+          bottom: 100% !important;
         }
         @media (max-width: $break-medium) {
           content: none;
