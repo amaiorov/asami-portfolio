@@ -29,6 +29,16 @@
       padding-bottom: 64.81vw;
     }
     @include no-image;
+    picture {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
   }
 }
 
