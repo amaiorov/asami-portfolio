@@ -18,8 +18,43 @@
   ],
   "projects": [
     {
-      "id": "garageinterior",
+      "id": "museumapp",
       "category": 1,
+      "tags": [
+        "UI/UX design"
+      ],
+      "shortTitle": "Museum Virtual Map App",
+      "longTitle": "Museum Virtual Map App",
+      "startDate": "2021",
+      "endDate": "2022",
+      "client": "Case Study on Google UX Design Certificate Course",
+      "heroUrl": "assets/img/projects/museum/hero1.jpg",
+      "description": "<p>The NY Museum is the huge museum with many categories of art so visiters are easy to get lost in the museum. This virtual map app is to help customers that leads to art wherever they want to. The virtual map moves with users, so that users won’t get lost in the museum and enjoy art efficiently in limited time.  </p>",
+      "blocks": [
+        {
+          "headline": "Mark and card",
+          "images": [
+            {
+              "url": "assets/img/projects/mari/card_3.jpg"
+            },
+            {
+              "url": "assets/img/projects/mari/card_hero2.jpg"
+            }
+          ],
+          "description": "<p>I sketched the Volkswagen van and her dogs as a hand-drawn illustration with her name in a playful font. This shows her character as friendly and outgoing.</p> <p> In addition to her name, I added her dog's names in the mark to give a topic for the conversation with the people who exchange the business cards.</p>",
+          "inline-img": true,
+          "layout": "v"
+        }
+      ],
+      "related": [
+        "audi",
+        "garagebook",
+        "reminisce"
+      ]
+    },
+    {
+      "id": "garageinterior",
+      "category": 2,
       "tags": [
         "Art Direction",
         "Interior Design",
@@ -245,7 +280,7 @@
     },
     {
       "id": "soundpanels",
-      "category": 1,
+      "category": 2,
       "tags": [
         "Research",
         "Product Design",
@@ -391,8 +426,8 @@
         }
       ],
       "related": [
-        "table",
-        "alexey"
+      	"furniture",
+        "garageinterior"
       ]
     },
     {
@@ -824,7 +859,7 @@
     },
     {
       "id": "astute",
-      "category": 3,
+      "category": 1,
       "tags": [
         "Art direction",
         "Logo design",
@@ -984,7 +1019,7 @@
     },
     {
       "id": "furniture",
-      "category": 1,
+      "category": 2,
       "tags": [
         "Marketing",
         "Furniture Design",
