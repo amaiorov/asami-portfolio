@@ -1,4 +1,4 @@
-@import '~assets/scss/variables.scss';
+@import '/src/assets/scss/variables.scss';
 
 :host {
   padding: 0 16.6667%;
@@ -62,8 +62,8 @@
         height: 2px;
         background: $text;
         transition: 200ms all ease;
-        /deep/ .short & {
-          bottom: 100% !important;
+        ::ng-deep .short & {
+          bottom: -3px !important;
         }
         @media (max-width: $break-medium) {
           content: none;
@@ -77,7 +77,7 @@
   @media (max-width: $break-medium) {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     height: auto;
     width: 100%;

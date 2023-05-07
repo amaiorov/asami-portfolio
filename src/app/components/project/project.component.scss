@@ -1,4 +1,4 @@
-@import '~assets/scss/variables.scss';
+@import '/src/assets/scss/variables.scss';
 
 .hero {
   img {
@@ -118,8 +118,8 @@ section {
   }
 }
 
-.description {
-}
+// .description {
+// }
 
 .client {
   margin-bottom: 32px;
@@ -215,7 +215,7 @@ section {
       line-height: 2rem;
     }
     .description {
-      /deep/ h5 {
+      ::ng-deep h5 {
         font-family: 'ff-dagny-web-pro', sans-serif;
         font-size: 2.7rem;
         font-weight: 400;
@@ -223,7 +223,7 @@ section {
           font-size: 2.1rem;
         }
       }
-      /deep/ ul {
+      ::ng-deep ul {
         li {
           margin-left: 64px;
           list-style-type: disc;
@@ -234,7 +234,7 @@ section {
           }
         }
       }
-      /deep/ q {
+      ::ng-deep q {
         // width: 100vw;
         display: block;
         // margin: 0 auto;

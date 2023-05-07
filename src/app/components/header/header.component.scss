@@ -1,4 +1,4 @@
-@import '~assets/scss/variables.scss';
+@import '/src/assets/scss/variables.scss';
 
 $transition-300: all 300ms ease;
 
@@ -96,7 +96,7 @@ app-nav {
   @media (max-width: $break-medium) {
     display: block;
   }
-  /deep/ ul {
+  ::ng-deep ul {
     transition: $transition-300;
     li {
       transition: $transition-300;
@@ -109,7 +109,7 @@ app-nav {
       padding: 0;
       // background: rgba(246, 243, 233, 0.7);
       background: $light-brown-alpha;
-      /deep/ ul {
+      ::ng-deep ul {
         padding-left: 230px;
         li {
           font-size: 2rem;
