@@ -29,21 +29,135 @@
       "endDate": "2022",
       "client": "Case Study on Google UX Design Certificate Course",
       "heroUrl": "assets/img/projects/museum/hero1.jpg",
-      "description": "<p>The NY Museum is the huge museum with many categories of art so visiters are easy to get lost in the museum. This virtual map app is to help customers that leads to art wherever they want to. The virtual map moves with users, so that users won’t get lost in the museum and enjoy art efficiently in limited time.  </p>",
+      "description": "<p>Built an app for The NY Museum which I made up for Case Study on Google UX Design Certificate Course that is huge with many categories of art so customers are easy to get lost in the museum. </p><p>This virtual map app is to help customers that leads to art wherever they want to in the museum. The virtual map moves with users, so that users won’t get lost in the museum and enjoy art efficiently in limited time.</p><p>This app has another feature as a virtual museum tour that the users enjoy art from their home whenever they want to. However, this prototype focuses on only the virtual map feature</p>",
       "blocks": [
         {
-          "headline": "Mark and card",
+          "headline": "The problem",
+          "description": "<p>The NY Museum is huge so customers tend to get lost and that is waste of time and feel frustrated.</p>"
+        },
+        {
+          "headline": "The goal",
+          "description": "<p>The virtual map app lead customers to the arts on a route with whatever they want to see which is made by themselves, so that they won’t get lost in the museum and can enjoy the museum efficiently</p>"
+        },
+        {
+          "headline": "User research: Summary",
+          "description": "<p>I conducted the interviews and made an empathy maps to find what users need are. A primary user groups identified through research is having a frustration that tend to get lost in the museum.</p><p>This research result revealed that getting lost cause another frustration which is wasting time. They are also frustrated difficulty to see the description next to art in the museum.</p><p>We started to make a hypothesis that we can solve all of their pain points by making the virtual map app</p>"
+        },
+        {
+          "headline": "User research: Pain points",
+          "description": [
+          "<h5>1: Easy to get lost</h5>",
+          "<p>The museum is huge and has many selections so customers tend to get lost even though they have a paper map</p>"
+          ],
+          "small-margin": true
+        },
+        {
+          "description": [
+          "<h5>2: Not efficient</h5>",
+          "<p>When the customers know what they want to see, the time looking for the art in the museum is not efficient</p>"
+          ],
+          "small-margin": true
+        },
+        {
+          "description": [
+          "<h5>3: Difficult to see the description</h5>",
+          "<p>Around the description next to the art is usually crowded and have to wait to the turn until it’s clear</p>"
+          ]
+        },
+        {
+          "headline": "Persona: Alex",
+          "small-margin": true
+          },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/museum/persona1.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": [
+          "<h5>Problem statement</h5>",
+          "<p>Alex is an English teacher who is an enthusiast of art who needs a map app that leads to art in a museum because the museum is huge so he tends to get lost and that is waste of time</p>"
+          ]
+        },
+        {
+          "description": [
+          "<h5>User journey map</h5>",
+          "<p>Mapping Alex’s journey map revealed that if he has the virtual map app how helpful and satisfied for enjoying the museum </p>"
+          ],
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/museum/persona1.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Paper wireframes",
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/museum/hand.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>Making paper wireframes ensured that the process would work well for all of user’s pain points</p>"
+        },
+        {
+          "headline": "Desital wireframes",
+          "description": "<p>On the first digital wireframe phase, I made sure that every action would be simple and easy to understand next steps based on the pain points from the research</p>",
+          "small-margin": true
+        },
+        {
           "images": [
             {
               "url": "assets/img/projects/mari/card_3.jpg"
-            },
-            {
-              "url": "assets/img/projects/mari/card_hero2.jpg"
             }
           ],
-          "description": "<p>I sketched the Volkswagen van and her dogs as a hand-drawn illustration with her name in a playful font. This shows her character as friendly and outgoing.</p> <p> In addition to her name, I added her dog's names in the mark to give a topic for the conversation with the people who exchange the business cards.</p>",
           "inline-img": true,
-          "layout": "v"
+          "small-margin": true
+        },
+        {
+          "description": "<p>Art is the main elements for users when they use this app so I focused on being clean design and easy to lead to next step</p>",
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/mari/card_3.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Low-fidelity prototype",
+          "description": "<p>Low-fidelity prototype connected the primary user flow as a virtual map with images and was used in the first usability study by users</p>",
+          "images": [
+            {
+              "url": "assets/img/projects/mari/card_3.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Usability study: findings",
+          "description": [
+          "<p>I conducted two round of usability studies. What I learned from the first round helped to be simplified from wireframes to mockups. High-fidelity prototype was used for the second round, and that revealed what aspects of the mockups needed refining</p>",
+          "<h5>Round 1 findings</h5>",
+          "<ul><li>Overwhelming functions on one screen made users confused</li></ul><ul><li>User need more accessible words when explaining the feature</li></ul><ul><li>Users need a more intuitive design/animation to click the button</li></ul>"
+          ]
         }
       ],
       "related": [
