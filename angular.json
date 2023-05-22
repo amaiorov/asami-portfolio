@@ -134,5 +134,8 @@
       }
     }
   },
-  "defaultProject": "asami-portfolio"
+  "defaultProject": "asami-portfolio",
+  "cli": {
+    "analytics": false
+  }
 }
