@@ -1,12 +1,9 @@
-var gulp = require('gulp');
-var del = require('del');
-var responsive = require('gulp-responsive');
+const { src, dest, watch, task } = require('gulp');
+const { rimraf } = require('rimraf');
+const responsive = require('gulp-sharp-responsive');
 
-const responsiveOpts = [{
-  '**/*.jpg': [
-    {
-      width: '100%',
-    },
+const responsiveOpts = {
+  formats: [
     {
       width: 480,
       rename: {
@@ -31,30 +28,36 @@ const responsiveOpts = [{
         suffix: '-1920'
       }
     }
-  ]
-}, {
+  ],
+  includeOriginalFile: true,
   errorOnEnlargement: false,
   withMetadata: false,
   skipOnEnlargement: false,
   withoutEnlargement: true,
   errorOnUnusedConfig: false,
   errorOnUnusedImage: false
-}];
+};
 
 const resize = (path) => {
-  return gulp
-    .src(path)
-    .pipe(responsive(...responsiveOpts))
-    .pipe(gulp.dest((file) => {
-      return file.base + '/resize';
-    }));
+  return src(path)
+  .pipe(responsive(responsiveOpts))
+  .pipe(dest((file) => {
+    return file.base + '/resize';
+  }));
+
+  return;
+  // return src(path)
+  //   .pipe(responsive(...responsiveOpts))
+  //   .pipe(dest((file) => {
+  //     console.log('hello in pipe')
+  //     return file.base + '/resize';
+  //   }));
 }
 
-gulp.task('watch', function () {
-  const watcher = gulp.watch(['src/assets/img/projects/**/*.jpg', '!src/assets/img/projects/**/resize/*.jpg'], (cb) => {
-    console.log('file changed');
+task('watch', function () {
+  const watcher = watch(['src/assets/img/projects/**/*.jpg', '!src/assets/img/projects/**/resize/*.jpg'], (cb) => {
     cb();
-  })
+  });
 
   watcher.on('change', function(path, stats) {
     console.log(`File ${path} was changed`);
@@ -72,19 +75,22 @@ gulp.task('watch', function () {
     var path = path.substr(0, path.lastIndexOf('/'));
     console.log(path);
     console.log(filename);
-    const deletePattern = path + '/resize/' + filename + '*.jpg';
-    const deletedFiles = await del([deletePattern]);
-    console.log('Files deleted:\n', deletedFiles.join('\n'));
 
-    // del('./resize/' + filename + '*');
+    const deletePattern = path + '/resize/' + filename + '*.jpg';
+    const deletedFiles = await rimraf(deletePattern, { glob: true });
+    console.log('Files deleted:\n', deletePattern);
+
     // console.log(path.split('/')[path.length - 1] .split('.')[0]  );
   });
 
 });
 
-gulp.task('resize-images', function() {
-  return gulp
-    .src('src/assets/img/projects/**/*.jpg')
+task('resize-images', function() {
+  return src('src/assets/img/projects/**/*.jpg')
     .pipe(responsive(...responsiveOpts))
-    .pipe(gulp.dest('dist/assets/img/projects/'))
+    .pipe(dest('dist/assets/img/projects/'))
 });
+
+module.exports = {
+
+};
