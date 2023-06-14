@@ -56,12 +56,51 @@ img {
   }
   @include no-image;
 }
-video {
-  width: 100%;
-  height: auto;
-  @include no-image;
+.video-wrapper {
+  position: relative;
+  &.h {
+    video {
+      width: 100%;
+      height: auto;
+    }
+  }
+  &.v {
+    background-color: $black;
+    // @media (max-width: $break-xlarge) {
+    //   &:after {
+    //     content: "x-large";
+    //   }
+    // }
+    // @media (max-width: $break-large) {
+    //   &:after {
+    //     content: "large";
+    //   }
+    // }
+    // @media (max-width: $break-medium) {
+    //   &:after {
+    //     content: "medium";
+    //   }
+    // }
+    video {
+      width: 65%;
+      height: auto;
+      margin: 0 auto;
+      @media (max-width: $break-xlarge) {
+        width: 70%;
+      }
+      @media (max-width: $break-large) {
+        width: 75%;
+      }
+      @media (max-width: $break-medium) {
+        width: 80%;
+      }
+    }
+  }
+  video {
+    display: block;
+    @include no-image;
+  }
 }
-
 
 h1 {
   font-size: 4.0rem;

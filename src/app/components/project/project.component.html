@@ -71,7 +71,9 @@
           <img src="{{ image.url }}" loading="lazy" onError="this.parentElement.parentElement.classList.add('no-image')" alt="{{ image.caption || image.url }}" />
         </picture>
 
-        <video *ngIf="image.video" src="{{ image.url }}" onError="this.classList.add('no-image')" playsinline autoplay muted loop></video>
+        <div class="video-wrapper" [class.h]="image.layout === 'h'" [class.v]="image.layout === 'v'">
+          <video *ngIf="image.video" src="{{ image.url }}" onError="this.classList.add('no-image')" playsinline autoplay muted loop></video>
+        </div>
         <span *ngIf="image.caption" class="caption">{{ image.caption }}</span>
       </div>
       <span *ngIf="block['group-caption']" class="group-caption">{{ block['group-caption'] }}</span>

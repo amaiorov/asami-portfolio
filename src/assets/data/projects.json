@@ -746,16 +746,24 @@
           ]
         },
         {
-          "headline": "This is a video",
+          "headline": "These are some videos",
           "images": [
             {
               "url": "assets/img/projects/alexey/test.mp4",
-              "caption": "this is a caption",
-              "video": true
+              "caption": "this is a horizontal (landscape) video",
+              "video": true,
+              "layout": "h"
+            },
+            {
+              "url": "assets/img/projects/alexey/test.mp4",
+              "caption": "this is a vertical (portrait) video",
+              "video": true,
+              "layout": "v"
             }
           ],
           "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
-          "inline-img": true
+          "inline-img": true,
+          "layout": "v"
         },
         {
           "headline": "1 image inline",
