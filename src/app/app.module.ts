@@ -3,7 +3,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { APP_INITIALIZER, NgModule } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { HttpClientModule } from '@angular/common/http';
-import { HAMMER_GESTURE_CONFIG, HammerGestureConfig } from '@angular/platform-browser';
 
 import { AppRoutingModule } from '@app/app-routing.module';
 import { DataManagerService } from '@app/datamanager.service';
@@ -24,13 +23,6 @@ import { ConcatPipe } from '@app/concat.pipe';
 
 export function dataManagerFactory(provider: DataManagerService) {
   return () => provider.load();
-}
-
-export class MyHammerConfig extends HammerGestureConfig {
-  overrides = <any> {
-    'pinch': { enable: false },
-    'rotate': { enable: false }
-  }
 }
 
 @NgModule({
@@ -62,10 +54,6 @@ export class MyHammerConfig extends HammerGestureConfig {
       provide: APP_INITIALIZER,
       useFactory: dataManagerFactory,
       deps: [DataManagerService], multi: true
-    },
-    {
-      provide: HAMMER_GESTURE_CONFIG,
-      useClass: MyHammerConfig
     }
   ],
   bootstrap: [AppComponent]

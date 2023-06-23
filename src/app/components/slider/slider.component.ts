@@ -16,6 +16,7 @@ export class SliderComponent implements OnInit {
   totalSlides: number;
   isAnimating = false;
   getSrc = getSrc;
+  defaultTouch = { x: 0, y: 0, time: 0 };
 
   constructor() { }
 
@@ -42,35 +43,70 @@ export class SliderComponent implements OnInit {
     this.activeSlide = slide;
   }
 
+  handleTouch(event) {
+    let touch = event.touches[0] || event.changedTouches[0];
+
+    // check the events
+    if (event.type === 'touchstart') {
+      this.defaultTouch.x = touch.pageX;
+      this.defaultTouch.y = touch.pageY;
+      this.defaultTouch.time = event.timeStamp;
+    } else if (event.type === 'touchend') {
+      let deltaX = touch.pageX - this.defaultTouch.x;
+      let deltaY = touch.pageY - this.defaultTouch.y;
+      let deltaTime = event.timeStamp - this.defaultTouch.time;
+
+      // simulte a swipe -> less than 500 ms and more than 60 px
+      if (deltaTime < 500) {
+        // touch movement lasted less than 500 ms
+        if (Math.abs(deltaX) > 60) {
+          // delta x is at least 60 pixels
+          if (deltaX > 0) {
+            // go to previous slide
+            if (this.activeSlide > 0) {
+              this.goto(this.activeSlide - 1);
+            } else {
+              this.gallery.nativeElement.classList.add('bounce-left');
+            }
+          } else {
+            // go to next slide
+            if (this.activeSlide < this.totalSlides - 1) {
+              this.goto(this.activeSlide + 1);
+            } else {
+              this.gallery.nativeElement.classList.add('bounce-right');
+            }
+          }
+        }
+      }
+    }
+  }
+
   @HostListener('click', ['$event']) onClick($event) {
-    console.log('click');
     if ($event.clientX <= this.gallery.nativeElement.offsetWidth / 2) {
-      console.log('LEFT');
       if (this.activeSlide > 0) {
         this.goto(this.activeSlide - 1);
+      } else {
+        this.gallery.nativeElement.classList.add('bounce-left');
       }
     } else {
-      console.log('RIGHT');
       if (this.activeSlide < this.totalSlides - 1) {
         this.goto(this.activeSlide + 1);
+      } else {
+        this.gallery.nativeElement.classList.add('bounce-right');
       }
     }
   }
 
-  @HostListener('swipeleft', ['$event']) onSwipeLeft($event) {
-    console.log('swipe left');
-    if (this.activeSlide < this.totalSlides - 1) {
-      this.goto(this.activeSlide + 1);
-    }
-    // console.log($event)
+  @HostListener('touchstart', ['$event']) onTouchStart($event) {
+    this.handleTouch($event);
   }
 
-  @HostListener('swiperight', ['$event']) onSwipeRight($event) {
-    console.log('swipe right');
-    if (this.activeSlide > 0) {
-      this.goto(this.activeSlide - 1);
-    }
-    // console.log($event)
+  @HostListener('touchend', ['$event']) onTouchEnd($event) {
+    this.handleTouch($event);
+  }
+
+  @HostListener('animationend', ['$event']) onAnimationEnd() {
+    this.gallery.nativeElement.classList.remove('bounce-left', 'bounce-right');
   }
 
   @HostListener('transitionend', ['$event']) onTransitionEnd($event) {
@@ -81,6 +117,4 @@ export class SliderComponent implements OnInit {
       this.isAnimating = false;
     }
   }
-
-
 }

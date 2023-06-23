@@ -54,6 +54,23 @@
                   "maximumError": "5mb"
                 }
               ]
+            },
+            "development": {
+              "optimization": false,
+              "outputHashing": "none",
+              "sourceMap": true,
+              "namedChunks": true,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": false,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                }
+              ]
             }
           }
         },
@@ -65,6 +82,9 @@
           "configurations": {
             "production": {
               "browserTarget": "asami-portfolio:build:production"
+            },
+            "development": {
+              "browserTarget": "asami-portfolio:build:development"
             }
           }
         },
