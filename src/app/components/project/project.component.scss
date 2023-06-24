@@ -278,32 +278,39 @@ section {
         // width: 100vw;
         display: block;
         // margin: 0 auto;
-        font-size: 10rem;
-        line-height: 10rem;
-        font-weight: 400;
+        font-size: 3rem;
+        line-height: 4rem;
+        font-weight: 500;
         color: $gray-quote;
+        font-style: italic;
         // position: relative;
         // left: -25%;
-        padding: 40px 30px;
+        padding: 40px 42px;
         @media (max-width: $break-medium) {
-          font-size: 5.4rem;
-          line-height: 6rem;
+          font-size: 2.2rem;
+          line-height: 3.2rem;
         }
         &:before,
         &:after {
           position: absolute;
-          font-size: 12rem;
+          font-size: 10rem;
           @media (max-width: $break-medium) {
             font-size: 8rem;
             line-height: 6rem;
           }
         }
         &:before {
-          left: 0;
+          left: -10px;
         }
         &:after {
-          transform: translateY(75%);
-          right: 0;
+          // transform: translateY(75%);
+          // right: 0;
+          content: none;
+        }
+        span {
+          display: block;
+          padding-top: 12px;
+          text-align: right;
         }
       }
     }
