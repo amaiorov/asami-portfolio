@@ -98,6 +98,7 @@ img {
   }
   video {
     display: block;
+    max-width: 100%;
     @include no-image;
   }
 }
@@ -389,6 +390,30 @@ section {
           line-height: 2rem;
         }
       }
+    }
+  }
+}
+
+.gallery {
+  background: rgba(255, 255, 255, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1001;
+  div {
+    position: absolute;
+    display: none;
+    &:last-child {
+      display: block;
+    }
+    img {
+      width: 100%;
+      height: auto;
     }
   }
 }

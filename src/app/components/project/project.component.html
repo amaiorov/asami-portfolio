@@ -62,7 +62,7 @@
     <!-- <div *ngIf="block.image" class="images" [ngClass]="{'inline-img': block['inline-img'], 'layout': block['layout']}"> -->
       <div *ngFor="let image of block.images">
         <!-- <img *ngIf="!image.video" src="{{ image.url }}" onError="this.classList.add('no-image')" loading="lazy" /> -->
-        <picture *ngIf="!image.video">
+        <picture *ngIf="!image.video" (click)="onClick($event)">
           <source media="(max-width: 480px)" srcset="{{ getSrc(image.url, 480) }}">
           <source media="(max-width: 768px)" srcset="{{ getSrc(image.url, 768) }}">
           <source media="(max-width: 1440px)" srcset="{{ getSrc(image.url, 1440) }}">
@@ -71,8 +71,8 @@
           <img src="{{ image.url }}" loading="lazy" onError="this.parentElement.parentElement.classList.add('no-image')" alt="{{ image.caption || image.url }}" />
         </picture>
 
-        <div class="video-wrapper" [class.h]="image.layout === 'h'" [class.v]="image.layout === 'v'">
-          <video *ngIf="image.video" src="{{ image.url }}" onError="this.classList.add('no-image')" playsinline autoplay muted loop></video>
+        <div *ngIf="image.video" class="video-wrapper" [class.h]="image.layout === 'h'" [class.v]="image.layout === 'v'">
+          <video src="{{ image.url }}" onError="this.classList.add('no-image')" playsinline autoplay muted loop></video>
         </div>
         <span *ngIf="image.caption" class="caption">{{ image.caption }}</span>
       </div>
@@ -120,4 +120,11 @@
       </li>
     </ng-template>
   </ul>
+</section>
+
+<section class="gallery" *ngIf="isGalleryVisible" (click)="hideGallery()">
+      <div *ngFor="let image of images" (click)="rotateImage($event)">
+        <img src="{{ image }}" />
+        this is an image
+      </div>
 </section>

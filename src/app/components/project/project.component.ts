@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 
@@ -15,6 +15,8 @@ export class ProjectComponent implements OnInit {
   currentProject;
   relatedProjects;
   getSrc = getSrc;
+  images;
+  isGalleryVisible = false;
 
   constructor(
     private dataManager: DataManagerService,
@@ -42,12 +44,33 @@ export class ProjectComponent implements OnInit {
       }
       return project || false;
     });
+
+    this.images = this.currentProject.blocks.filter(item => item.images).map(item => item.images).flat().map(item => item.url);
+    // imageURLs.forEach(item => {
+    //   console.log(item);
+    // });
+  }
+
+  onClick($event) {
+    console.log($event.target.currentSrc);
+    console.log($event.target.src);
+    this.isGalleryVisible = true;
   }
 
   getProjectById(id) {
     return this.projects.find((item) => {
       return item.id === id;
     });
+  }
+
+  hideGallery() {
+    this.isGalleryVisible = false;
+  }
+
+  rotateImage($event) {
+    alert('rotate')
+    $event.target.parentElement.insertBefore($event.target);
+    $event.stopPropagation();
   }
 
   onLoad() {
