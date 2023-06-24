@@ -2,8 +2,8 @@
   "categories": [
     {
       "id": 1,
-      "name": "Web, UI/UX",
-      "route": "web-ui-ux"
+      "name": "UI/UX, Web",
+      "route": "ui-ux-web"
     },
     {
       "id": 2,
@@ -23,14 +23,25 @@
       "tags": [
         "UI/UX design"
       ],
-      "shortTitle": "Museum Virtual Map App",
-      "longTitle": "Museum Virtual Map App",
+      "shortTitle": "The NY Museum - Museum Virtual Map App",
+      "longTitle": "The NY Museum - Museum Virtual Map App",
       "startDate": "2021",
       "endDate": "2022",
       "client": "Case Study on Google UX Design Certificate Course",
-      "heroUrl": "assets/img/projects/museum/hero1.jpg",
-      "description": "<p>Built an app for The NY Museum which I made up for Case Study on Google UX Design Certificate Course that is huge with many categories of art so customers are easy to get lost in the museum. </p><p>This virtual map app is to help customers that leads to art wherever they want to in the museum. The virtual map moves with users, so that users won’t get lost in the museum and enjoy art efficiently in limited time.</p><p>This app has another feature as a virtual museum tour that the users enjoy art from their home whenever they want to. However, this prototype focuses on only the virtual map feature</p>",
+      "heroUrl": "assets/img/projects/museum/hero_2.jpg",
+      "description": "<p>Built an app for The NY Museum, I created for Case Study on Google UX Design Certificate Course, that is huge with many categories of art so customers are easy to get lost in the museum. </p><p>This virtual map app is to help customers that leads to art wherever they want to in the museum. The virtual map moves with users, so that users won’t get lost in the museum and enjoy art efficiently in limited time.</p><p>This app has another feature as a virtual museum tour that the users enjoy art from their home whenever they want to. However, this prototype focuses on only the virtual map feature</p>",
       "blocks": [
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/museum/inhand_1.jpg"
+            },
+            {
+              "url": "assets/img/projects/museum/inhand_2_2.jpg"
+            }
+          ],
+          "inline-img": true
+        },
         {
           "headline": "The problem",
           "description": "<p>The NY Museum is huge so customers tend to get lost and that is waste of time and feel frustrated.</p>"
@@ -86,14 +97,14 @@
         {
           "description": [
           "<h5>User journey map</h5>",
-          "<p>Mapping Alex’s journey map revealed that if he has the virtual map app how helpful and satisfied for enjoying the museum </p>"
+          "<p>Mapping Alex’s journey map revealed that if he has the virtual map app is how helpful and satisfied for enjoying the museum </p>"
           ],
           "small-margin": true
         },
         {
           "images": [
             {
-              "url": "assets/img/projects/museum/persona1.jpg"
+              "url": "assets/img/projects/museum/user journey-museum.jpg"
             }
           ],
           "inline-img": true
@@ -116,14 +127,14 @@
           "<p>Making paper wireframes ensured that the process would work well for all of user’s pain points</p>"
         },
         {
-          "headline": "Desital wireframes",
+          "headline": "Digital wireframes",
           "description": "<p>On the first digital wireframe phase, I made sure that every action would be simple and easy to understand next steps based on the pain points from the research</p>",
           "small-margin": true
         },
         {
           "images": [
             {
-              "url": "assets/img/projects/mari/card_3.jpg"
+              "url": "assets/img/projects/museum/museum_wf_1.jpg"
             }
           ],
           "inline-img": true,
@@ -136,7 +147,7 @@
         {
           "images": [
             {
-              "url": "assets/img/projects/mari/card_3.jpg"
+              "url": "assets/img/projects/museum/museum_wf_2.jpg"
             }
           ],
           "inline-img": true
@@ -146,24 +157,438 @@
           "description": "<p>Low-fidelity prototype connected the primary user flow as a virtual map with images and was used in the first usability study by users</p>",
           "images": [
             {
-              "url": "assets/img/projects/mari/card_3.jpg"
+              "url": "assets/img/projects/museum/low-prototype.jpg"
             }
           ],
           "inline-img": true
         },
         {
-          "headline": "Usability study: findings",
+          "headline": "Usability study: Findings",
           "description": [
           "<p>I conducted two round of usability studies. What I learned from the first round helped to be simplified from wireframes to mockups. High-fidelity prototype was used for the second round, and that revealed what aspects of the mockups needed refining</p>",
           "<h5>Round 1 findings</h5>",
-          "<ul><li>Overwhelming functions on one screen made users confused</li></ul><ul><li>User need more accessible words when explaining the feature</li></ul><ul><li>Users need a more intuitive design/animation to click the button</li></ul>"
+          "<p><ul><li>Overwhelming functions on one screen made users confused</li></ul><ul><li>User need more accessible words when explaining the feature</li></ul><ul><li>Users need a more intuitive design/animation to click the button</li></ul></p>",
+          "<h5>Round 2 findings</h5>",
+          "<p><ul><li>There are unnecessary “Cancel” and “Back” buttons</li></ul><ul><li>Inconsistency of the word in the button made users confused</li></ul></p>"
+          ]
+        },
+        {
+          "headline": "Mockups",
+          "description": [
+          "<h5>The screen infront of the art</h5>"
+          ],
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/museum/museum_mockups_1.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>Early design had “Add Art” button on the screen when users arrived in front of art, but it made all of participants confused if the button means to add art to the favorite or not. And no one noticed that if you click on that image you can see the detail of art.</p><p>On the high-fidelity prototype, I deleted the “Add Art” and, put a background under the button of the art’s detail and add animation which becomes bigger when hovering over it, so that user notice it’s clickable</p>"
+        },
+        {
+          "description": [
+          "<h5>The detail of the art</h5>"
+          ],
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/museum/museum_mockups_2.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>On low-fidelity prototype, all of users checked a detail page before choosing art to a route. So I put bigger image to get more attention after the first study. And after the second study, I prioritized information that user want to know more. And I delete a “back” button to be simplified to let users easy to understand next action</p>"
+        },
+        {
+          "description": [
+          "<h5>Final designs</h5>"
+          ],
+          "small-margin": true
+          },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/museum/museum_mockups_3.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "High-fidelity prototype",
+          "description": "<p>The final high-fidelity prototype presented more intuitive process for users applied smart animation. The animation leads users to the next step correctly. Please try my prototype from the link below</p>",
+          "images": [
+            {
+              "url": "assets/img/projects/museum/prototype_high-fe.mov",
+              "caption": "Final design prototype",
+              "video": true,
+              "layout": "v"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Take aways",
+          "description": [
+          "<h5>Impact</h5>",
+          "<p>This app is my personal project, however, the usability study revealed this app met users’ need.</p><p>One of participants of the usability study said;</p>",
+          "<q>I think this app is very useful in the museum because I get lost quite often and usually many people around the description of art so I can't see the detail of art well.<span> - Naoko</span></q>",
+          "<h5>What I learned</h5>",
+          "<p>I thought I understood users feelings well from the beginning of this project. But I realized that was really wrong and not enough when I conducted the usability study.</p>"
           ]
         }
       ],
       "related": [
-        "audi",
-        "garagebook",
-        "reminisce"
+        "bookbook",
+        "astute"
+      ]
+    },
+    {
+      "id": "bookbook",
+      "category": 1,
+      "tags": [
+        "UI/UX design"
+      ],
+      "shortTitle": "BookBook - Used Book Marketplace",
+      "longTitle": "BookBook - Used Book Marketplace",
+      "startDate": "2022",
+      "endDate": "2023",
+      "client": "Case Study on Google UX Design Certificate Course",
+      "heroUrl": "assets/img/projects/bookbook/hero_1.jpg",
+      "description": "<p>BookBook is a used book marketplace which I made up for Case Study on Google UX Design Certificate Course that specializes in books in various languages. The target users are immigrants living in the US. Users can search for books written in their native language and sell their books. The goal of BookBook is to make easy to access to books with affordable cost  for immigrants and to sell books to people from same country</p>",
+      "blocks": [
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/macbook_using_2.jpg"
+            },
+            {
+              "url": "assets/img/projects/bookbook/Mobile-in-Hand.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "The problems",
+          "description": "<p><ul><li>Books written in non-English are very expensive in the US. Usually the cost is more than double the original price. And access to these books is very limited</li></ul></p><p><ul><li>There are not many places to sell used books in the US. Even if you can sell books to a bookstore, you won't make much money.</li></ul></p>"
+        },
+        {
+          "headline": "The goal",
+          "description": "<p>BookBook is to make easy access to used books with affordable cost for immigrants and to sell used books to people from same country.</p><p>Users can leave a review to books they're selling and communicate with each other through its social media, so that BookBook gives enjoyable buy/sell experience to users.</p>"
+        },
+        {
+          "headline": "User research: Summary",
+          "description": "<p>I conducted user interviews and created empathy maps and an affinity diagram to organize the needs. I found that many users who live in the US are struggling to access to books in their native language, and books tend to be expensive when they are new. There are a few used book stores online but they are mainly for English books which makes users feel frustrated. And also some users use ebay buying/selling books but the app is not specifically for books so it’s complicated for user who loves books</p>"
+        },
+        {
+          "headline": "User research: Pain points",
+          "description": [
+          "<h5>1: New books are expensive for immigrants</h5>",
+          "<p>Books written in non-English are very expensive in the US. Usually the cost is more than double of the original price</p>"
+          ],
+          "small-margin": true
+        },
+        {
+          "description": [
+          "<h5>2: No place to buy/sell used books for immigrants</h5>",
+          "<p>There are not many places to buy/sell used books in non-English in the US. Even if you can sell books to a bookstore, you won't make much money</p>"
+          ],
+          "small-margin": true
+        },
+        {
+          "description": [
+          "<h5>3: You can sell books on ebay but it's complicated</h5>",
+          "<p>A few used books shop online in the US but books are mostly in English and users can’t sell books simply. You can sell on ebay but it’s a complicated process because it’s not for books specifically</p>"
+          ]
+        },
+        {
+          "headline": "Persona: Aya",
+          "small-margin": true
+          },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/persona.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": [
+          "<h5>Problem statement</h5>",
+          "<p>Aya is a bookworm who lives in the US, originally from Japan who needs a place to buy & sell for used Japanese books easily online because new Japanese books are too expensive here and no place to sell them</p>"
+          ]
+        },
+        {
+          "description": [
+          "<h5>User journey map</h5>",
+          "<p>I created Aya’s user journey map that helps to understand user’s experience and pain points </p>"
+          ],
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/user journey-bookbook.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Sitemap",
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/sitemap.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>The most important thing is user can find books in their language so I planned to put “shop in your language” on first of the home</p>"
+        },
+        {
+          "headline": "Paper wireframes",
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/bookbook_pwf.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>I made paper wireframes for each page, based on user pain points and journey maps</p>"
+        },
+        {
+          "headline": "Digital wireframes",
+          "description":"<p>Creating digital wireframes shows if the app really solves users’ pain points and if the users enjoy the experience.</p><p>The priority in this Home is to be able to find users’ native language so that they can start searching without difficulty</p>",
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/bookbook_wf1.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": "<p>Searching for books in users own language on Home is the priority on the mobile as well</p>",
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/bookbook_wf2.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Low-fidelity prototype",
+          "description": "<p>In a low-fidelity prototype, I connected all the screens from searching books to checkout as the primary user flow.</p><p>At first, I put a search box on only the Home then I changed that to the simple search bar on the top of each screen</p>",
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/low-fidelity.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Usability study: Findings",
+          "description": [
+          "<p>Discovered the main three findings by the usability study</p>",
+          "<h5>1: Too simple flow</h5>",
+          "<p>Users felt this app flow is too simple. In another word, it’s boring. Book lovers are gathering here, there is an opportunity to make a community</p>",
+          "<h5>2: Is the book in the cart?</h5>",
+          "<p>It was difficult for users to see if the book was already in the cart, because only a number appeared on the cart when users added the book to the cart</p>",
+          "<h5>3: Unsure if the order has been placed</h5>",
+          "<p>The last screen was too similar to the previous screen, so users couldn’t notice the order already had been placed</p>"
+          ]
+        },
+        {
+          "headline": "Mockups",
+          "description": [
+          "<h5>Added the social media features</h5>"
+          ],
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/bookbook_mockup1.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>Users felt this marketplace's buying/selling flows were too simple. A lot of book lovers suppose to be gathering here, and there is an opportunity to create a community so I added the social media features so that users can communicated each other, the buyer and the seller by following, messages, leaving likes, and comment for reviews.</p>"
+        },
+        {
+          "description": [
+          "<h5>Cart</h5>"
+          ],
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/bookbook_mockup2.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>It was difficult for users to recognize if the book was already in the cart, because only a number appeared on the cart when users added the book to the cart. Based on thit, I added the detail pop-up window of the cart</p>"
+        },
+        {
+          "description": [
+          "<h5>Placed order</h5>"
+          ],
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/bookbook_mockup3.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>The last screen was too similar to the previous screen, so users couldn't tell if the order had been placed. I made changes to improve the design so that it is easier to see that the order has been placed</p>"
+        },
+        {
+          "description": [
+          "<h5>Final design: Desktop</h5>"
+          ],
+          "small-margin": true
+          },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/bookbook_mockup4.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "description": [
+          "<h5>Final design: Mobile</h5>"
+          ],
+          "small-margin": true
+          },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/bookbook_finalmobile.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Typography",
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/Typography - Design System.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Colors & Iconography",
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/Colors & Iconography - Design System.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "High-fidelity prototype",
+          "description": "<p>The high-fidelity prototype followed the same user flow as the low-fidelity prototype except the new feature that was added after the usability study that users could communicate with each other</p>",
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/Hi-fi_bookmarketplace.mp4",
+              "caption": "Final design prototype",
+              "video": true,
+              "layout": "h"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Takeaways",
+          "description": [
+          "<h5>Impact</h5>",
+          "<p>The target users were already used to shopping online and were not satisfied only shopping on our site. They wanted to communicate with people who had the same interests.</p>",
+          "<q>I think this app is very useful in the museum because I get lost quite often and usually many people around the description of art so I can't see the detail of art well.<span> - Naoko</span></q>",
+          "<h5>What I learned</h5>",
+          "<p>I found that websites have a good design is quite obvious nowadays so having unique features that enhance users' experience is very important to consider when I create web apps</p>"
+          ]
+        }
+      ],
+      "related": [
+        "museumapp",
+        "astute"
+      ]
+    },
+    {
+      "id": "bathroom",
+      "category": 2,
+      "tags": [
+        "Interior design"
+      ],
+      "shortTitle": "Bathroom Renovation in NJ",
+      "longTitle": "Bathroom Renovation in River Edge, NJ",
+      "startDate": "2022",
+      "endDate": "2023",
+      "client": "K Familiy",
+      "heroUrl": "assets/img/projects/n_bath/hero1_2.jpg",
+      "description": "<p>I designed this business card for my friend, Mari Shirai, who works as a location coordinator in the filming industry. She goes to work with her dogs in her yellow Volkswagen van. She is kind of famous because of this to her coworkers and makes a strong impression on new clients. The business card reflects these elements of her style. </p>",
+      "blocks": [
+        {
+          "headline": "After",
+          "images": [
+            {
+              "url": "assets/img/projects/n_bath/after5_1.jpg"
+            }
+          ],
+          "description": "<p>I sketched the Volkswagen van and her dogs as a hand-drawn illustration with her name in a playful font. This shows her character as friendly and outgoing.</p> <p> In addition to her name, I added her dog's names in the mark to give a topic for the conversation with the people who exchange the business cards.</p>",
+          "inline-img": true
+        }
+      ],
+
+      "related": [
+        "garageinterior"
       ]
     },
     {
@@ -389,7 +814,8 @@
       ],
       "related": [
         "garagebook",
-        "audi"
+        "audi",
+        "bathroom"
       ]
     },
     {
@@ -1110,7 +1536,8 @@
             {
               "url": "assets/img/projects/astute/test.mp4",
               "caption": "this is a caption",
-              "video": true
+              "video": true,
+              "layout": "h"
             }
           ],
 
@@ -1134,9 +1561,8 @@
         }
       ],
       "related": [
-        "audi",
-        "garagebook",
-        "reminisce"
+       "museumapp",
+        "bookbook"
       ]
     },
     {
