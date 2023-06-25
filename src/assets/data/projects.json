@@ -221,9 +221,13 @@
           "images": [
             {
               "url": "assets/img/projects/museum/museum_mockups_3.jpg"
+            },
+            {
+              "url": "assets/img/projects/museum/museum_mockups_4.jpg"
             }
           ],
-          "inline-img": true
+          "inline-img": true,
+          "layout": "v"
         },
         {
           "headline": "High-fidelity prototype",
@@ -537,7 +541,7 @@
           "description": "<p>The high-fidelity prototype followed the same user flow as the low-fidelity prototype except the new feature that was added after the usability study that users could communicate with each other</p>",
           "images": [
             {
-              "url": "assets/img/projects/bookbook/Hi-fi_bookmarketplace.mp4",
+              "url": "assets/img/projects/bookbook/Hi-fi_bookmarketplace.mov",
               "caption": "Final design prototype",
               "video": true,
               "layout": "h"
