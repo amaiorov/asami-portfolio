@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener, ViewChild, ElementRef, ChangeDetectorRef } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 
@@ -11,16 +11,23 @@ import { getSrc } from '@app/util';
   styleUrls: ['./project.component.scss']
 })
 export class ProjectComponent implements OnInit {
+  @ViewChild('fullscreenGallery') fullscreenGallery: ElementRef;
+
   projects;
   currentProject;
   relatedProjects;
   getSrc = getSrc;
+  images;
+  isGalleryVisible = false;
+  currentImage
+  totalImages
 
   constructor(
     private dataManager: DataManagerService,
     private router: Router,
     private route: ActivatedRoute,
-    private title: Title
+    private title: Title,
+    private changeDetector: ChangeDetectorRef
   ) {
     this.router.routeReuseStrategy.shouldReuseRoute = () => {
       return false;
@@ -42,12 +49,70 @@ export class ProjectComponent implements OnInit {
       }
       return project || false;
     });
+
+    this.images = this.currentProject.blocks
+      .filter(item => item.images)
+      .map(item => item.images)
+      .flat()
+      .filter(item => !item.video)
+      .map(item => item.url);
+    this.totalImages = this.images.length;
+  }
+
+  showGallery($event) {
+    this.isGalleryVisible = true;
+    this.changeDetector.detectChanges();
+
+    for (let i = 0; i < this.fullscreenGallery.nativeElement.children.length; i++) {
+      const el = this.fullscreenGallery.nativeElement.children[i];
+      if (el.dataset.src === $event.currentTarget.dataset.src) {
+        el.classList.add('current');
+        this.currentImage = i + 1;
+        break;
+      }
+    }
+
+    document.body.classList.add('no-scroll');
   }
 
   getProjectById(id) {
     return this.projects.find((item) => {
       return item.id === id;
     });
+  }
+
+  hideGallery() {
+    this.isGalleryVisible = false;
+    document.body.classList.remove('no-scroll');
+  }
+
+  rotateImage($event) {
+    $event.stopPropagation();
+
+    if ($event.clientX <= document.body.offsetWidth / 2 && this.currentImage > 1) {
+      this.previousImage($event.currentTarget);
+    } else if ($event.clientX > document.body.offsetWidth / 2 && this.currentImage < this.totalImages) {
+      this.nextImage($event.currentTarget);
+    } else {
+      console.log('no go');
+    }
+
+
+    // if (this.currentImage === this.totalImages || this.currentImage === 1) {
+    //   console.log('end of gallery')
+    //   return;
+    // }
+  }
+  previousImage(el) {
+    this.currentImage--;
+    this.fullscreenGallery.nativeElement.querySelector('.current').classList.remove('current');
+    el.previousSibling.classList.add('current');
+  }
+
+  nextImage(el) {
+    this.currentImage++;
+    this.fullscreenGallery.nativeElement.querySelector('.current').classList.remove('current');
+    el.nextSibling.classList.add('current');
   }
 
   onLoad() {
@@ -58,4 +123,10 @@ export class ProjectComponent implements OnInit {
     alert('on error')
   }
 
+  @HostListener('document:keydown', ['$event'])
+  handleKeyboardEvent(event: KeyboardEvent) {
+    if (event.key === 'Escape' && this.isGalleryVisible) {
+      this.hideGallery();
+    }
+  }
 }
