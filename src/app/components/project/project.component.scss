@@ -414,7 +414,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1001;
+  z-index: 1001;  
   .fullscreen-gallery {
     div {
       position: absolute;
@@ -429,6 +429,13 @@ section {
       align-self: center;
       cursor: pointer;
       animation: fade 300ms cubic-bezier(0.36, 0.07, 0.19, 0.97) none;
+      @media (max-width: $break-medium) {
+        animation: none;
+      }
+      @media (max-width: $break-small) {
+        width: calc(100% - 64px);
+        left: 32px;
+      }
       &.current {
         display: flex;
       }
@@ -439,7 +446,6 @@ section {
         top: 0;
         height: 100%;
         width: 64px;
-        // background: rgba(255, 205, 0, 0.75);
       }
       &:before {
         left: -64px;
@@ -448,8 +454,6 @@ section {
         right: -64px;
       }
       img {
-        // width: 100%;
-        // height: auto;
         max-width: 100%;
         max-height: 100%;
         align-self: center;
@@ -464,11 +468,14 @@ section {
   }
   .pagination {
     position: absolute;
-    bottom: 32px;
+    bottom: 0;
     left: 0;
     width: 100%;
-    text-align: center;
+    height: 64px;
     font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .prev,
   .next {
@@ -480,6 +487,9 @@ section {
     z-index: -1;
     transform: translateY(-50%);
     text-align: center;
+    @media (max-width: $break-small) {
+      width: 32px;
+    }
   }
   .next {
     right: 0;
@@ -491,10 +501,19 @@ section {
     position: absolute;
     top: 32px;
     right: 32px;
+    width: 48px;
+    height: 48px;
     font-size: 3.6rem;
     transform: rotate(45deg);
     transform-origin: center center;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: $break-small) {
+      top: 0;
+      right: 0;
+    }
   }
 }
 
