@@ -49,9 +49,15 @@ export class FilterComponent implements OnInit, OnDestroy {
           // window.setTimeout(() => {
           //   // document.querySelector('.filter-wrapper').scrollIntoView();
             let el = <HTMLElement> document.querySelector('.filter-wrapper')
+            console.log('SCROOOOOOOLLLLL')
             window.scrollTo({top: el.offsetTop});
           // }, 501);
         }
+      } else {
+        console.log('other event')
+        console.log(event)
+        let el = <HTMLElement>document.querySelector('.filter-wrapper')
+        console.log(el?.offsetTop);
       }
     });
 
