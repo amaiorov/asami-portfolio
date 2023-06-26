@@ -93,26 +93,26 @@ export class ProjectComponent implements OnInit {
       this.previousImage($event.currentTarget);
     } else if ($event.clientX > document.body.offsetWidth / 2 && this.currentImage < this.totalImages) {
       this.nextImage($event.currentTarget);
-    } else {
-      console.log('no go');
     }
-
-
-    // if (this.currentImage === this.totalImages || this.currentImage === 1) {
-    //   console.log('end of gallery')
-    //   return;
-    // }
   }
   previousImage(el) {
     this.currentImage--;
     this.fullscreenGallery.nativeElement.querySelector('.current').classList.remove('current');
     el.previousSibling.classList.add('current');
+    this.fullscreenGallery.nativeElement.classList.remove('first', 'last');
+    if (this.currentImage === 1) {
+      this.fullscreenGallery.nativeElement.classList.add('first');
+    }
   }
 
   nextImage(el) {
     this.currentImage++;
     this.fullscreenGallery.nativeElement.querySelector('.current').classList.remove('current');
     el.nextSibling.classList.add('current');
+    this.fullscreenGallery.nativeElement.classList.remove('first', 'last');
+    if (this.currentImage === this.totalImages) {
+      this.fullscreenGallery.nativeElement.classList.add('last');
+    }
   }
 
   onLoad() {

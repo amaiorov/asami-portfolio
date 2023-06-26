@@ -122,14 +122,14 @@
   </ul>
 </section>
 
-<section class="fullscreen-gallery-wrapper" *ngIf="isGalleryVisible" (click)="hideGallery()">
+<section class="fullscreen-gallery-wrapper" *ngIf="isGalleryVisible">
   <div class="fullscreen-gallery" #fullscreenGallery>
     <div *ngFor="let image of images" (click)="rotateImage($event)" [attr.data-src]="image">
       <img src="{{ image }}" />
     </div>
   </div>
   <span class="pagination"> {{ currentImage }} / {{ totalImages }}</span>
-  <span class="close">+</span>
+  <span class="close" (click)="hideGallery()">+</span>
   <span class="prev">&lsaquo;</span>
   <span class="next">&rsaquo;</span>
 </section>
