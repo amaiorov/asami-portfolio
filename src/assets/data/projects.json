@@ -500,9 +500,16 @@
           "images": [
             {
               "url": "assets/img/projects/bookbook/bookbook_mockup4.jpg"
+            },
+            {
+              "url": "assets/img/projects/bookbook/bookbook_mockup5.jpg"
+            },
+            {
+              "url": "assets/img/projects/bookbook/bookbook_mockup6.jpg"
             }
           ],
-          "inline-img": true
+          "inline-img": true,
+          "layout": "v"
         },
         {
           "description": [
@@ -580,14 +587,40 @@
       "description": "<p>I designed this business card for my friend, Mari Shirai, who works as a location coordinator in the filming industry. She goes to work with her dogs in her yellow Volkswagen van. She is kind of famous because of this to her coworkers and makes a strong impression on new clients. The business card reflects these elements of her style. </p>",
       "blocks": [
         {
+          "headline": "Problem : The bathroom makes feel too tight and uncomfortable to use",
+          "description": [
+            "<p>As our design firm was a small-scale one,  I conducted market research, concept planning, and created persona sheets. I then shared all my findings with my team and we reached a consensus on how to proceed with the branding.</p>"
+          ]
+        },
+        {
+          "headline": "Solutions",
+          "description": [
+            "<p>As our design firm was a small-scale one,  I conducted market research, concept planning, and created persona sheets. I then shared all my findings with my team and we reached a consensus on how to proceed with the branding.</p>"
+          ],
+          "images": [
+            {
+              "url": "assets/img/projects/n_bath/solution1_bathroom.jpg"
+            },
+            {
+              "url": "assets/img/projects/n_bath/solution2_bathroom.jpg"
+            }
+          ],
+          "inline-img": true,
+          "layout": "v"
+        },
+        {
           "headline": "After",
           "images": [
             {
               "url": "assets/img/projects/n_bath/after5_1.jpg"
+            },
+            {
+              "url": "assets/img/projects/n_bath/after6_1.jpg"
             }
           ],
           "description": "<p>I sketched the Volkswagen van and her dogs as a hand-drawn illustration with her name in a playful font. This shows her character as friendly and outgoing.</p> <p> In addition to her name, I added her dog's names in the mark to give a topic for the conversation with the people who exchange the business cards.</p>",
-          "inline-img": true
+          "inline-img": true,
+          "layout": "v"
         }
       ],
 
@@ -633,7 +666,7 @@
           "inline-img": true
         },
         {
-          "headline": "There are no garages for fancy cars in metropolitan Tokyo",
+          "headline": "Problem : There are no garages for fancy cars in metropolitan Tokyo",
           "description": [
             "<p>Since the housing in the metropolitan Tokyo area is smaller than the suburbs, people who own a car cannot have a garage on the premises and have to rent parking space far from home. </p>",
             "<p>Although Japanese car enthusiasts tend to prefer to watch their cars in their spare time and maintain the cars by themselves, they cannot have those experiences at their home. Therefore, we thought there was a market for the garage house that could provide rich experiences for car enthusiasts.</p>",
@@ -658,7 +691,7 @@
           "description": [
             "<h5>Concept Planning</h5>",
             "<p>Based on the market research, I defined the principal brand concept:</p>",
-            "<q> the garage house which lives with your beloved car</q>",
+            "<q> The garage house which lives with your beloved car</q>",
             "<p>from the idea that there is a garage+house combo where you can live and store your car in style. For car enthusiasts who cherish and take care of their cars like family, I aimed to create a space where</p>",
             "<ul><li>the car is in a good environment</li><li>the tenant feels comfortable</li><li>the tenant wants to show off the garage to friends and family</li></ul>"
           ]
