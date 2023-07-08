@@ -57,6 +57,6 @@ export class FilterComponent implements OnInit, OnDestroy {
 
   setCategory(category?) {
     this.currentCategory = this.dataManager.setCurrentCategory(category);
-    this.router.navigate(['', category.route || '' ])
+    this.router.navigate(['', category.route || '' ]);
   }
 }
