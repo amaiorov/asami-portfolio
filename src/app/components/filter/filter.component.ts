@@ -30,7 +30,6 @@ export class FilterComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit() {
-    // this.currentCategory = this.dataManager.currentCategory;
     this.routerSubscription = this.router.events.subscribe(event => {
       if (event instanceof ActivationEnd) {
         // this.currentCategory = this.dataManager.setCurrentCategory(event.snapshot.paramMap.get('category'));
@@ -40,27 +39,15 @@ export class FilterComponent implements OnInit, OnDestroy {
         let category = event.snapshot.paramMap.get('category');
         if (!category) {
           this.currentCategory = page;
-          // // window.setTimeout(() => {
-            window.scrollTo({top: 0});
-          // // }, 500);
+          window.scrollTo({top: 0});
         } else {
           const categoryObj = this.dataManager.getCategories().find((item) => item.route === category);
           this.currentCategory = this.dataManager.setCurrentCategory(categoryObj);
-          // window.setTimeout(() => {
-          //   // document.querySelector('.filter-wrapper').scrollIntoView();
-            let el = <HTMLElement> document.querySelector('.filter-wrapper')
-            console.log('SCROOOOOOOLLLLL')
-            window.scrollTo({top: el.offsetTop});
-          // }, 501);
+          let el = <HTMLElement> document.querySelector('.filter-wrapper');
+          window.scrollTo({top: el.offsetTop});
         }
-      } else {
-        console.log('other event')
-        console.log(event)
-        let el = <HTMLElement>document.querySelector('.filter-wrapper')
-        console.log(el?.offsetTop);
       }
     });
-
   }
 
   ngOnDestroy() {
@@ -70,6 +57,6 @@ export class FilterComponent implements OnInit, OnDestroy {
 
   setCategory(category?) {
     this.currentCategory = this.dataManager.setCurrentCategory(category);
-    this.router.navigate(['', category.route || '' ])
+    this.router.navigate(['', category.route || '' ]);
   }
 }

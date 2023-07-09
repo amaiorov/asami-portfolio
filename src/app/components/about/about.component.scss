@@ -68,6 +68,9 @@ section {
       line-height: 3.4rem;
       list-style-type: disc;
       margin-left: 64px;
+      @media (max-width: $break-medium) {
+        margin-left: 18px;
+      }
     }
   }
   a {

@@ -1,5 +1,7 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 
+import { DataManagerService } from '@app/datamanager.service';
+
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -8,7 +10,9 @@ import { Component, OnInit, HostListener } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   shrinkNav = false;
-  constructor() { }
+  constructor(
+    private dataManager: DataManagerService,
+  ) { }
 
   ngOnInit() { }
 
@@ -20,4 +24,9 @@ export class HeaderComponent implements OnInit {
       this.shrinkNav = false;
     }
   }
+
+  setCategory(category?) {
+    this.dataManager.setCurrentCategory(category);
+  }
+
 }
