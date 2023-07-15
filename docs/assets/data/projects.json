@@ -59,15 +59,13 @@
           "description": [
           "<h5>1: Easy to get lost</h5>",
           "<p>The museum is huge and has many selections so customers tend to get lost even though they have a paper map</p>"
-          ],
-          "small-margin": true
+          ]
         },
         {
           "description": [
           "<h5>2: Not efficient</h5>",
           "<p>When the customers know what they want to see, the time looking for the art in the museum is not efficient</p>"
-          ],
-          "small-margin": true
+          ]
         },
         {
           "description": [
@@ -300,15 +298,13 @@
           "description": [
           "<h5>1: New books are expensive for immigrants</h5>",
           "<p>Books written in non-English are very expensive in the US. Usually the cost is more than double of the original price</p>"
-          ],
-          "small-margin": true
+          ]
         },
         {
           "description": [
           "<h5>2: No place to buy/sell used books for immigrants</h5>",
           "<p>There are not many places to buy/sell used books in non-English in the US. Even if you can sell books to a bookstore, you won't make much money</p>"
-          ],
-          "small-margin": true
+          ]
         },
         {
           "description": [
@@ -579,34 +575,130 @@
         "Interior design"
       ],
       "shortTitle": "Bathroom Renovation in NJ",
-      "longTitle": "Bathroom Renovation in River Edge, NJ",
+      "longTitle": "Bathroom Renovation in Riveredge, NJ",
       "startDate": "2022",
       "endDate": "2023",
       "client": "K Familiy",
-      "heroUrl": "assets/img/projects/n_bath/hero1_2.jpg",
-      "description": "<p>I designed this business card for my friend, Mari Shirai, who works as a location coordinator in the filming industry. She goes to work with her dogs in her yellow Volkswagen van. She is kind of famous because of this to her coworkers and makes a strong impression on new clients. The business card reflects these elements of her style. </p>",
+      "heroUrl": "assets/img/projects/n_bath/hero1_3.jpg",
+      "description": "<p>Designed the renovation of the bathroom for the K family in NJ. They just bought the 40s house and the bathroom hasn’t been remodeled since it was built.</p><p>They would like to finish the renovation before they moved into the house, however, I suggested them to start designing after they live here for at least 3 months to find out how they use it and what the problems are.</p><p>The result of the suggestion met their satisfaction and they enjoy taking a bath every day.</p>",
       "blocks": [
         {
           "headline": "Problem : The bathroom makes feel too tight and uncomfortable to use",
           "description": [
-            "<p>As our design firm was a small-scale one,  I conducted market research, concept planning, and created persona sheets. I then shared all my findings with my team and we reached a consensus on how to proceed with the branding.</p>"
+            "<p>The huge problem with this bathroom was “feels tight” for the family. There were many blockers at the family’s eye level, such as the walls of closets on both sides and the wall-mounted cabinet, that made them uncomfortable. They said, “The space we don’t want to enter”.</p><p>I focused on design that made the space more open feeling, bright, and bigger.</p>"
           ]
+        },
+        {
+          "headline": "Before",
+          "description": "<p>The floor tile looked beautiful but many parts were missing and some places dented. There were closets on both sides of the entrance that was good for the plenty of storage, but that made feel tight from inside of the bathroom.</p>",
+          "images": [
+            {
+              "url": "assets/img/projects/n_bath/before6_1.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "description": "<p>The right image shows how the bathroom feels tight when you enter there. Moreover the door opens inward makes more feel it narrow.</p>",
+          "images": [
+            {
+              "url": "assets/img/projects/n_bath/before5_1.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Mood board",
+          "images": [
+            {
+              "url": "assets/img/projects/n_bath/moodboard.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>The family had lived in Europe for a while, so they preferred the mixed style of the midcentury and minimum design.</p>"
+        },
+        {
+          "headline": "Design",
+          "images": [
+            {
+              "url": "assets/img/projects/n_bath/design2.jpg"
+            },
+            {
+              "url": "assets/img/projects/n_bath/design1.jpg"
+            },
+            {
+              "url": "assets/img/projects/n_bath/design4.jpg"
+            }
+          ],
+          "inline-img": true,
+           "small-margin": true,
+          "layout": "v"
+        },
+        {
+          "description": 
+          "<p>These are partial designs from the final designs(Three designs of 6). I usually make these design sheets for clients so that they can handout them to the general contractor directly.</p><p>To reach the final designs, I made the rough design to make sure the direction of the style(by Adobe Illustrator), then check the materials with the client.</p>"
         },
         {
           "headline": "Solutions",
           "description": [
-            "<p>As our design firm was a small-scale one,  I conducted market research, concept planning, and created persona sheets. I then shared all my findings with my team and we reached a consensus on how to proceed with the branding.</p>"
+          "<h5>1. Remove the closets, and moves the wall to expand inside</h5>"
           ],
+          "small-margin": true
+          },
+          {
           "images": [
             {
               "url": "assets/img/projects/n_bath/solution1_bathroom.jpg"
-            },
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>There were closets on both sides of the entrance that made the space narrow. To solve it remove both of the closets and move the wall 12” to the hallway to expand the inside of the bathroom.</p><p>Because of this, the bathroom lose storage space, so I choose a vanity with as much storage capacity as possible.</p>"
+        },
+        {
+          "description": [
+          "<h5>2. Change the door to be outward and wider width</h5>"
+          ],
+          "small-margin": true
+          },
+          {
+          "images": [
             {
               "url": "assets/img/projects/n_bath/solution2_bathroom.jpg"
             }
           ],
           "inline-img": true,
-          "layout": "v"
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>Changed the door to open outward from opening inward so that the layout can be more flexible.</p><p>Additionally, the door width was 24”, which was smaller than usual, so I changed the door width to 28” to feel more comfortable entering the bathroom.</p>"
+        },
+        {
+          "description": [
+          "<h5>3. Divide the space by clear glass wall and makes it spacious</h5>"
+          ],
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/n_bath/solution3_bathroom.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>Moved the toilet to next to the bathtub because the family felt too tight when they sat on the toilet. And divide the space between the bathtub and the toilet by the clear glass wall so that they can have an open feeling.</p><p>The bathtub door with glass also helps to make the open feeling space.</p>"
         },
         {
           "headline": "After",
@@ -618,13 +710,206 @@
               "url": "assets/img/projects/n_bath/after6_1.jpg"
             }
           ],
-          "description": "<p>I sketched the Volkswagen van and her dogs as a hand-drawn illustration with her name in a playful font. This shows her character as friendly and outgoing.</p> <p> In addition to her name, I added her dog's names in the mark to give a topic for the conversation with the people who exchange the business cards.</p>",
           "inline-img": true,
           "layout": "v"
+        },
+        {
+          "headline": "Takeaways",
+          "description": [
+          "<p>While doing the renovation, there were a few problems such as totally different tiles were delivered and the contractor forgot to install the hand shower, however, those problems were solved quickly and the bathroom was finished as a beautiful space.</p><p>The K Family sent me a text after the renovation ;</p>",
+          "<q>The bathroom has become our favorite place in the home. We’re taking bath and relax every day<span> - The K Family</span></q>",
+          "<p>The K Family and I communicated quite often and well in this project, and they are very satisfied with the result. I realized again how important communication with clients is, and then gathering information from that for doing design that meets their satisfaction.</p>"
+          ]
         }
       ],
-
       "related": [
+        "m_kitchen",
+        "garageinterior"
+      ]
+    },
+    {
+      "id": "m_kitchen",
+      "category": 2,
+      "tags": [
+        "Interior design"
+      ],
+      "shortTitle": "Kitchen Renovation in NJ",
+      "longTitle": "Kitchen Renovation in Livingston, NJ",
+      "startDate": "2021",
+      "endDate": "2021",
+      "client": "M Familiy",
+      "heroUrl": "assets/img/projects/m_kitchen/after4.jpg",
+      "description": "<p>The M family bought a house in 2020 in Livingston, NJ, and moved from Manhattan. The kitchen hasn’t been remodeled since the 90s which is inconvenient to cook for them and is used unwelcome materials such as linoleum floor and laminate countertop.</p><p>The family love and enjoy cooking but their apartment’s kitchen in Manhattan was quite small and didn’t have enough storage for plates and tools. The kitchen in NJ is huge so they can make their dream kitchen. I was happy to design making their cooking experience more fun as a dream kitchen.</p>",
+      "blocks": [
+        {
+          "headline": "The problems",
+          "description": [
+          "<h5>1. The stove is in dangerous place</h5>",
+          "<p>While cooking, sometimes the handle of the frying pan or the pot is hooked when people are walking through the doorway because the stove is next to the entrance of the kitchen</p>"
+          ]
+        },
+        {
+          "description": [
+          "<h5>2.Too dark in the back of the kitchen</h5>",
+          "<p>The kitchen shape is a long narrow rectangle and there are no windows facing outside. That makes the back of the kitchen pretty dark and has a negative mood</p>"
+          ]
+        },
+        {
+          "description": [
+          "<h5>3. The doorway is narrow</h5>",
+          "<p>The doorway is narrow for walking through and moving furniture. It needs a more inviting feeling</p>"
+          ]
+        },
+        {
+          "headline": "Before",
+          "description": "<p>The family decided to do a renovation the moment they saw this kitchen because the kitchen design was outdated and the inside of the cabinets were already got damaged</p>",
+          "images": [
+            {
+              "url": "assets/img/projects/m_kitchen/before1.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "description": "<p>Somehow the middle of the kitchen floor was heaped. We found out the cause of that was four layers of the linoleum floors when the demolition</p>",
+          "images": [
+            {
+              "url": "assets/img/projects/m_kitchen/before2.jpg"
+            },
+            {
+              "url": "assets/img/projects/m_kitchen/before3.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Mood board",
+          "images": [
+            {
+              "url": "assets/img/projects/m_kitchen/moodboard.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>*****On low-fidelity prototype, all of users checked a detail page before choosing art to a route. So I put bigger image to get more attention after the first study. And after the second study, I prioritized information that user want to know more. And I delete a “back” button to be simplified to let users easy to understand next action</p>"
+        },
+        {
+          "headline": "Design",
+          "images": [
+            {
+              "url": "assets/img/projects/m_kitchen/design1.jpg"
+            },
+            {
+              "url": "assets/img/projects/m_kitchen/design2.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true,
+          "layout": "v"
+        },
+        {
+          "description": 
+          "<p>*****On low-fidelity prototype, all of users checked a detail page before choosing art to a route. So I put bigger image to get more attention after the first study. And after the second study, I prioritized information that user want to know more. And I delete a “back” button to be simplified to let users easy to understand next action</p>"
+        },
+        {
+          "headline": "Solutions",
+          "description": [
+    
+          "<h5>1. Moves the stove and lined all appliances in one line</h5>"
+          ],
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/m_kitchen/solution_m_1.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>*****On low-fidelity prototype, all of users checked a detail page before choosing art to a route. So I put bigger image to get more attention after the first study. And after the second study, I prioritized information that user want to know more. And I delete a “back” button to be simplified to let users easy to understand next action</p>"
+        },
+        {
+          "description": [
+          "<h5>2. Install the skylight</h5>"
+          ],
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/m_kitchen/solution_m_2.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>*****On low-fidelity prototype, all of users checked a detail page before choosing art to a route. So I put bigger image to get more attention after the first study. And after the second study, I prioritized information that user want to know more. And I delete a “back” button to be simplified to let users easy to understand next action</p>"
+        },
+        {
+          "description": [
+          "<h5>3. Expand the doorway 100mm and make it an arched doorway</h5>"
+          ],
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/m_kitchen/solution_m_3.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>*****On low-fidelity prototype, all of users checked a detail page before choosing art to a route. So I put bigger image to get more attention after the first study. And after the second study, I prioritized information that user want to know more. And I delete a “back” button to be simplified to let users easy to understand next action</p>"
+        },
+        {
+          "headline": "After",
+          "images": [
+            {
+              "url": "assets/img/projects/m_kitchen/after4.jpg"
+            },
+            {
+              "url": "assets/img/projects/m_kitchen/after1.jpg"
+            }
+          ],
+          "inline-img": true,
+          "layout": "v",
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/m_kitchen/after2.jpg"
+            },
+            {
+              "url": "assets/img/projects/m_kitchen/after3.jpg"
+            }
+          ],
+          "description": "<p>*****I sketched the Volkswagen van and her dogs as a hand-drawn illustration with her name in a playful font. This shows her character as friendly and outgoing.</p> <p> In addition to her name, I added her dog's names in the mark to give a topic for the conversation with the people who exchange the business cards.</p>",
+          "inline-img": true
+        },
+        {
+          "headline": "Takeaways",
+          "description": [
+          "<p>****The target users were already used to shopping online and were not satisfied only shopping on our site. They wanted to communicate with people who had the same interests.</p>",
+          "<q>****I think this app is very useful in the museum because I get lost quite often and usually many people around the description of art so I can't see the detail of art well.<span> - Naoko</span></q>",
+          "<p>****I found that websites have a good design is quite obvious nowadays so having unique features that enhance users' experience is very important to consider when I create web apps</p>"
+          ]
+        }
+      ],
+      "related": [
+        "bathroom",
         "garageinterior"
       ]
     },
@@ -674,7 +959,7 @@
           ]
         },
         {
-          "headline": "Market Research / Persona / Concept Planning",
+          "headline": "Market Research / Concept Planning / Persona",
           "description": [
             "<p>As our design firm was a small-scale one,  I conducted market research, concept planning, and created persona sheets. I then shared all my findings with my team and we reached a consensus on how to proceed with the branding.</p>"
           ]
