@@ -282,7 +282,7 @@
           "inline-img": true
         },
         {
-          "headline": "The problems",
+          "headline": "Problems",
           "description": "<p><ul><li>Books written in non-English are very expensive in the US. Usually the cost is more than double the original price. And access to these books is very limited</li></ul></p><p><ul><li>There are not many places to sell used books in the US. Even if you can sell books to a bookstore, you won't make much money.</li></ul></p>"
         },
         {
@@ -431,7 +431,7 @@
         {
           "headline": "Mockups",
           "description": [
-          "<h5>Added the social media features</h5>"
+          "<h5>Added social media features</h5>"
           ],
           "small-margin": true
           },
@@ -557,7 +557,7 @@
           "description": [
           "<h5>Impact</h5>",
           "<p>The target users were already used to shopping online and were not satisfied only shopping on our site. They wanted to communicate with people who had the same interests.</p>",
-          "<q>I think this app is very useful in the museum because I get lost quite often and usually many people around the description of art so I can't see the detail of art well.<span> - Naoko</span></q>",
+          "<q>I might not sell my books that much but I would love to buy used books in my mother language from BookBook. There are definitely people who need this service, especially in the US.  <span> - Alexey</span></q>",
           "<h5>What I learned</h5>",
           "<p>I found that websites have a good design is quite obvious nowadays so having unique features that enhance users' experience is very important to consider when I create web apps</p>"
           ]
@@ -580,7 +580,7 @@
       "endDate": "2023",
       "client": "K Familiy",
       "heroUrl": "assets/img/projects/n_bath/hero1_3.jpg",
-      "description": "<p>Designed the renovation of the bathroom for the K family in NJ. They just bought the 40s house and the bathroom hasn’t been remodeled since it was built.</p><p>They would like to finish the renovation before they moved into the house, however, I suggested them to start designing after they live here for at least 3 months to find out how they use it and what the problems are.</p><p>The result of the suggestion met their satisfaction and they enjoy taking a bath every day.</p>",
+      "description": "<p>Designed the renovation of the bathroom for the K family in NJ. They just bought the 40s house and the bathroom hasn’t been remodeled since it was built.</p><p>They wanted to finish the renovation before they moved into the house, however, I suggested them to start designing after they live here for at least 3 months to find out how they use it and what the problems are.</p><p>The result of the suggestion met their satisfaction and now, they enjoy taking a bath every day.</p>",
       "blocks": [
         {
           "headline": "Problem : The bathroom makes feel too tight and uncomfortable to use",
@@ -619,7 +619,7 @@
         },
         {
           "description": 
-          "<p>The family had lived in Europe for a while, so they preferred the mixed style of the midcentury and minimum design.</p>"
+          "<p>The family had lived in Nordic country for a while, so they preferred a minimum style and natural feelings</p>"
         },
         {
           "headline": "Design",
@@ -640,7 +640,7 @@
         },
         {
           "description": 
-          "<p>These are partial designs from the final designs(Three designs of 6). I usually make these design sheets for clients so that they can handout them to the general contractor directly.</p><p>To reach the final designs, I made the rough design to make sure the direction of the style(by Adobe Illustrator), then check the materials with the client.</p>"
+          "<p>These are partial designs from the final designs(Three designs of 6). I usually make these design sheets for clients so that they can handout them to the general contractor directly.</p><p>To reach the final designs, I made the rough design to make sure the direction of the style(by Adobe Illustrator), then check the materials with the client.</p><p>The problem with this bathroom was too small and felt tight, I choose colors that feel more bright and reflected natural light. Mixed with several neutral tones and textured surfaces of wall tiles and the brass gold bathroom fixtures help make a natural atmosphere.</p><p>The walnut vanity cabinet became an accent material here and has enough storage for the family.</p>"
         },
         {
           "headline": "Solutions",
@@ -716,7 +716,7 @@
         {
           "headline": "Takeaways",
           "description": [
-          "<p>While doing the renovation, there were a few problems such as totally different tiles were delivered and the contractor forgot to install the hand shower, however, those problems were solved quickly and the bathroom was finished as a beautiful space.</p><p>The K Family sent me a text after the renovation ;</p>",
+          "<p>Whenever I work on the renovation, one thing that I do is even if it will be eventually removed or destroyed, measure the current vanity, window size and height, bathtub size, doors, and all other areas involved, and draw rough, hand-drawn drawings. This will be proof of existing problems, and that will be definitely solved by design.</p><p>The K Family sent me a text after the renovation ;</p>",
           "<q>The bathroom has become our favorite place in the home. We’re taking bath and relax every day<span> - The K Family</span></q>",
           "<p>The K Family and I communicated quite often and well in this project, and they are very satisfied with the result. I realized again how important communication with clients is, and then gathering information from that for doing design that meets their satisfaction.</p>"
           ]
@@ -739,7 +739,7 @@
       "endDate": "2021",
       "client": "M Familiy",
       "heroUrl": "assets/img/projects/m_kitchen/after4.jpg",
-      "description": "<p>The M family bought a house in 2020 in Livingston, NJ, and moved from Manhattan. The kitchen hasn’t been remodeled since the 90s which is inconvenient to cook for them and is used unwelcome materials such as linoleum floor and laminate countertop.</p><p>The family love and enjoy cooking but their apartment’s kitchen in Manhattan was quite small and didn’t have enough storage for plates and tools. The kitchen in NJ is huge so they can make their dream kitchen. I was happy to design making their cooking experience more fun as a dream kitchen.</p>",
+      "description": "<p>The M family bought a house in 2020 in Livingston, NJ, and moved from Manhattan. The kitchen hasn’t been remodeled since the 90s which is inconvenient to cook for them and is used unwelcome materials such as linoleum floor and laminate countertop.</p><p>The family love and enjoy cooking but their apartment’s kitchen in Manhattan was quite small and didn’t have enough storage for plates and tools. The new home's kitchen in NJ is spacious so they can renovate here as their dream kitchen. I was happy to help  make their cooking experience more fun and memorable through design.</p>",
       "blocks": [
         {
           "headline": "The problems",
@@ -757,7 +757,7 @@
         {
           "description": [
           "<h5>3. The doorway is narrow</h5>",
-          "<p>The doorway is narrow for walking through and moving furniture. It needs a more inviting feeling</p>"
+          "<p>The doorway is narrow for walking through and, moving furniture and a refrigerator. It needs a more inviting feeling</p>"
           ]
         },
         {
@@ -794,16 +794,16 @@
         },
         {
           "description": 
-          "<p>*****On low-fidelity prototype, all of users checked a detail page before choosing art to a route. So I put bigger image to get more attention after the first study. And after the second study, I prioritized information that user want to know more. And I delete a “back” button to be simplified to let users easy to understand next action</p>"
+          "<p>The house was built in the 1920s with many elements from that time, and the family preferred the mixed style of modern and classic. I made a mood board that focused on transition style with some natural textures and materials</p>"
         },
         {
           "headline": "Design",
           "images": [
             {
-              "url": "assets/img/projects/m_kitchen/design1.jpg"
+              "url": "assets/img/projects/m_kitchen/design2.jpg"
             },
             {
-              "url": "assets/img/projects/m_kitchen/design2.jpg"
+              "url": "assets/img/projects/m_kitchen/design1.jpg"
             }
           ],
           "inline-img": true,
@@ -812,66 +812,7 @@
         },
         {
           "description": 
-          "<p>*****On low-fidelity prototype, all of users checked a detail page before choosing art to a route. So I put bigger image to get more attention after the first study. And after the second study, I prioritized information that user want to know more. And I delete a “back” button to be simplified to let users easy to understand next action</p>"
-        },
-        {
-          "headline": "Solutions",
-          "description": [
-    
-          "<h5>1. Moves the stove and lined all appliances in one line</h5>"
-          ],
-          "small-margin": true
-          },
-          {
-          "images": [
-            {
-              "url": "assets/img/projects/m_kitchen/solution_m_1.jpg"
-            }
-          ],
-          "inline-img": true,
-          "small-margin": true
-        },
-        {
-          "description": 
-          "<p>*****On low-fidelity prototype, all of users checked a detail page before choosing art to a route. So I put bigger image to get more attention after the first study. And after the second study, I prioritized information that user want to know more. And I delete a “back” button to be simplified to let users easy to understand next action</p>"
-        },
-        {
-          "description": [
-          "<h5>2. Install the skylight</h5>"
-          ],
-          "small-margin": true
-          },
-          {
-          "images": [
-            {
-              "url": "assets/img/projects/m_kitchen/solution_m_2.jpg"
-            }
-          ],
-          "inline-img": true,
-          "small-margin": true
-        },
-        {
-          "description": 
-          "<p>*****On low-fidelity prototype, all of users checked a detail page before choosing art to a route. So I put bigger image to get more attention after the first study. And after the second study, I prioritized information that user want to know more. And I delete a “back” button to be simplified to let users easy to understand next action</p>"
-        },
-        {
-          "description": [
-          "<h5>3. Expand the doorway 100mm and make it an arched doorway</h5>"
-          ],
-          "small-margin": true
-          },
-          {
-          "images": [
-            {
-              "url": "assets/img/projects/m_kitchen/solution_m_3.jpg"
-            }
-          ],
-          "inline-img": true,
-          "small-margin": true
-        },
-        {
-          "description": 
-          "<p>*****On low-fidelity prototype, all of users checked a detail page before choosing art to a route. So I put bigger image to get more attention after the first study. And after the second study, I prioritized information that user want to know more. And I delete a “back” button to be simplified to let users easy to understand next action</p>"
+          "<p>Red oak is used on the entire floor of this house, I choose red oak floorings for the kitchen, too. The floor is the largest superficial area in this kitchen that would influence the impression, it took  time to check and chose the material.</p><p>To get more natural light and makes feel spacious, get rid of the upper cabinets next to the window, and chose a white color for the cabinets. The storages would decrease so I lay out the tall pantry in dark blue color as a focal point in this kitchen.</p><p>To make a warm atmosphere, I mix materials such as textured tiles with several beige tones, brass gold handles and knobs, and solid oak shelves.</p>"
         },
         {
           "headline": "After",
@@ -896,15 +837,71 @@
               "url": "assets/img/projects/m_kitchen/after3.jpg"
             }
           ],
-          "description": "<p>*****I sketched the Volkswagen van and her dogs as a hand-drawn illustration with her name in a playful font. This shows her character as friendly and outgoing.</p> <p> In addition to her name, I added her dog's names in the mark to give a topic for the conversation with the people who exchange the business cards.</p>",
           "inline-img": true
+        },
+        {
+          "headline": "Solutions",
+          "description": [
+    
+          "<h5>1. Moves the stove and lined all appliances in one line</h5>"
+          ],
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/m_kitchen/solution_m_1.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>The stove and the range hood were moved next to the window which is safe to walk through the doorway, and more practical to cook.</p><p>Instead of the stove, the pantry was installed, providing plenty of storage space with an accent color as a focal point in this kitchen.</p>"
+        },
+        {
+          "description": [
+          "<h5>2. Install the skylight</h5>"
+          ],
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/m_kitchen/solution_m_2.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>The back of the kitchen had a depressed feeling, however, installing the skylight provides a lot of natural light and more positive feeling</p>"
+        },
+        {
+          "description": [
+          "<h5>3. Expand the doorway 100mm and make it an arched doorway</h5>"
+          ],
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/m_kitchen/solution_m_3.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>The doorway was not able to through especially a refrigerator, so I expanded the doorway 100mm (4 inches) and make it an arched doorway to give more transition style atmosphere.</p><p>As a result, the arched doorway is one of the important design elements in this kitchen with an inviting feeling.</p>"
         },
         {
           "headline": "Takeaways",
           "description": [
-          "<p>****The target users were already used to shopping online and were not satisfied only shopping on our site. They wanted to communicate with people who had the same interests.</p>",
-          "<q>****I think this app is very useful in the museum because I get lost quite often and usually many people around the description of art so I can't see the detail of art well.<span> - Naoko</span></q>",
-          "<p>****I found that websites have a good design is quite obvious nowadays so having unique features that enhance users' experience is very important to consider when I create web apps</p>"
+          "<p>This project was the first renovation project in the US for me, there were so many things different from the way of working as a interior designer in Japan.</p><p>Unlike Japan, I was able to choose materials and kitchen equipment from a lot of choices, but at the same time, I have to have broad knowledge about those. That was challenging for me because it took long time researching but I really enjoyed learning new things.</p><p>One thing I can say for sure, the most important thing to design that knowing well what clients want is the same between the US and Japan. </p>"
           ]
         }
       ],
@@ -918,8 +915,9 @@
       "category": 2,
       "tags": [
         "Art Direction",
-        "Interior Design",
-        "Graphic Design"
+        "Branding",
+        "Interior Design"
+        
       ],
       "shortTitle": "The Garage House",
       "longTitle": "The Garage House",
@@ -1137,7 +1135,7 @@
       "related": [
         "garagebook",
         "audi",
-        "bathroom"
+        "m_kitchen"
       ]
     },
     {
@@ -1731,7 +1729,6 @@
       "id": "astute",
       "category": 1,
       "tags": [
-        "Art direction",
         "Logo design",
         "Web design"
       ],
@@ -1894,7 +1891,7 @@
         "Marketing",
         "Furniture Design",
         "Graphic Design",
-        "Art Direction"
+        "Shoothing Direction"
       ],
       "shortTitle": "Furniture Design - Photo Collection",
       "longTitle": "Furniture Design - Photo Collection",
@@ -1902,11 +1899,12 @@
       "endDate": "2008",
       "client": "MK Maeda Co.,Ltd, In The Room, Otsuka Furniture, Nafco Two-One Style, ACTUS, etc,.",
       "heroUrl": "assets/img/projects/furniture/NEO_1.jpg",
-      "description": "<p>Nya nya nya~~</p>",
+      "description": "<p>My first design career was in furniture design. The images below are part of my work.</p><p>I learned a lot from this first career as a designer, especially the design process in industrial design from concepts to finish, such as marketing, research, making concepts and persona, product design, photo shoot direction, graphic design for sales catalogs, and visual merchandising for clients.</p><p>These experiences became the basis of my professional.</p>",
       "blocks": [
         {
-          "headline": "Kitchen / Dining Room Furniture",
-          "description": [ "<p>In Japan, unlike an apartment or a house in the U.S, there are no cabinets in the kitchen when we move in is common, and we need to buy them by ourselves. </p>"
+          "headline": "Fruh",
+          "description": [ 
+             "<p>2004 / Kitchen cabinet</p>"
           ],
           "small-margin": true
         },
@@ -1920,33 +1918,37 @@
             }
           ],
           "inline-img": true,
-          "group-caption": "Fruh - 2004",
           "layout": "h"
         },
         {
-          "images": [
-            {
-              "url": "assets/img/projects/furniture/dining3.jpg"
-            },
-            {
-              "url": "assets/img/projects/furniture/dining4.jpg"
-            }
+          "headline": "Illumy",
+          "description": [ 
+             "<p>2006 / TV Stand & Entertainment Center</p>"
           ],
-          "inline-img": true,
-          "group-caption": "Water Planet - 2005",
-          "layout": "h"
-        },
-        {
-          "headline": "Living Room Furniture",
           "small-margin": true
         },
         {
           "images": [
             {
-              "url": "assets/img/projects/furniture/IMY_image2.jpg",
-              "caption": "Illumy - 2006"
+              "url": "assets/img/projects/furniture/IMY_image2.jpg"
             }
-          ]
+          ],
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/furniture/IMY_image1.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Frem",
+          "description": [ 
+             "<p>2004 / TV Stand & Entertainment Center</p>"
+          ],
+          "small-margin": true
         },
         {
           "images": [
@@ -1954,65 +1956,52 @@
               "url": "assets/img/projects/furniture/FEM_6.jpg"
             },
             {
-              "url": "assets/img/projects/furniture/living1.jpg"
+              "url": "assets/img/projects/furniture/FEM_4.jpg"
             }
           ],
           "inline-img": true,
-          "group-caption": "Frem - 2004",
           "layout": "v"
         },
         {
-          "images": [
-            {
-              "url": "assets/img/projects/furniture/NEO_2.jpg",
-              "caption": "Neon - 2005"
-            }
+          "headline": "Neon",
+          "description": [ 
+             "<p>2005 / TV Stand & Entertainment Center</p>"
           ],
-          "inline-img": true
-        },
-        {
-          "images": [
-            {
-              "url": "assets/img/projects/furniture/living3.jpg",
-              "caption": "Filo - 2008"
-            }
-          ],
-          "inline-img": true
-        },
-        {
-          "headline": "Bed Room Furniture",
           "small-margin": true
         },
         {
           "images": [
             {
-              "url": "assets/img/projects/furniture/bed2.jpg"
-            },
-            {
-              "url": "assets/img/projects/furniture/bed1.jpg"
+              "url": "assets/img/projects/furniture/NEO_2.jpg"
             }
           ],
-          "inline-img": true,
-          "group-caption": "Can - 2007",
-          "layout": "v"
+          "inline-img": true
         },
         {
-          "headline": "Small Office Furniture",
+          "headline": "Axiom",
+          "description": [ 
+             "<p>2005 / Desk</p>"
+          ],
           "small-margin": true
         },
         {
           "images": [
             {
-              "url": "assets/img/projects/furniture/AOM_1.jpg",
-              "caption": "Axiom - 2005"
+              "url": "assets/img/projects/furniture/AOM_1.jpg"
             }
           ]
         },
         {
+          "headline": "Rivus",
+          "description": [ 
+             "<p>2008 / Desk and Drawers</p>"
+          ],
+          "small-margin": true
+        },
+        {
           "images": [
             {
-              "url": "assets/img/projects/furniture/desk.jpg",
-              "caption": "Rivus - 2008"
+              "url": "assets/img/projects/furniture/desk.jpg"
             }
           ],
           "inline-img": true
@@ -2021,7 +2010,8 @@
       ],
       "related": [
         "soundpanels",
-        "garageinterior"
+        "garageinterior",
+        "m_kitchen"
       ]
     }
 
