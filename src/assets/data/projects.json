@@ -29,7 +29,7 @@
       "endDate": "2022",
       "client": "Case Study on Google UX Design Certificate Course",
       "heroUrl": "assets/img/projects/museum/hero_2.jpg",
-      "description": "<p>Built an app for The NY Museum, I created for Case Study on Google UX Design Certificate Course, that is huge with many categories of art so customers are easy to get lost in the museum. </p><p>This virtual map app is to help customers that leads to art wherever they want to in the museum. The virtual map moves with users, so that users won’t get lost in the museum and enjoy art efficiently in limited time.</p><p>This app has another feature as a virtual museum tour that the users enjoy art from their home whenever they want to. However, this prototype focuses on only the virtual map feature</p>",
+      "description": "<p>I created an app for “The NY Museum” (a made up museum in New York) as part of a case study for the Google UX Design Certificate Course.</p><p>This virtual map app helps customers by leading them to art anywhere in the museum. The map moves together with the user so that they don’t get lost in the museum and can enjoy art efficiently in a limited time.</p><p>This app has another feature: it can function as a virtual museum tour that lets users enjoy art from their home whenever they want to. However, this prototype focuses on only the virtual map feature.</p>",
       "blocks": [
         {
           "images": [
@@ -44,33 +44,33 @@
         },
         {
           "headline": "The problem",
-          "description": "<p>The NY Museum is huge so customers tend to get lost and that is waste of time and feel frustrated.</p>"
+          "description": "<p>The NY Museum is huge and has many categories of art, so customers tend to get lost; as a result, they feel that they have wasted time and this leaves them frustrated.</p>"
         },
         {
           "headline": "The goal",
-          "description": "<p>The virtual map app lead customers to the arts on a route with whatever they want to see which is made by themselves, so that they won’t get lost in the museum and can enjoy the museum efficiently</p>"
+          "description": "<p>The virtual map app leads customers through the museum by letting them  specify which art they want to see and then creating a route for them. As a result, customers don’t get lost and can enjoy the museum experience efficiently.</p>"
         },
         {
-          "headline": "User research: Summary",
-          "description": "<p>I conducted the interviews and made an empathy maps to find what users need are. A primary user groups identified through research is having a frustration that tend to get lost in the museum.</p><p>This research result revealed that getting lost cause another frustration which is wasting time. They are also frustrated difficulty to see the description next to art in the museum.</p><p>We started to make a hypothesis that we can solve all of their pain points by making the virtual map app</p>"
+          "headline": "User research: summary",
+          "description": "<p>I conducted interviews and made empathy maps to find what users’ needs are. Research identified a primary user group that tended to get lost in the museum and was frustrated by it. This research result revealed that getting lost caused another frustration: wasting time.</p><p>Finally, users reported the description next to art in the museum as being difficult to see; this was an additional cause of frustration.</p><p>Based on this information, I came up with the hypothesis that all of their pain points could be solved by a virtual map app.</p>"
         },
         {
           "headline": "User research: Pain points",
           "description": [
-          "<h5>1: Easy to get lost</h5>",
-          "<p>The museum is huge and has many selections so customers tend to get lost even though they have a paper map</p>"
+          "<h5>1. Easy to get lost</h5>",
+          "<p>The museum is huge and has many selections, so even customers who have a paper map tend to get lost.</p>"
           ]
         },
         {
           "description": [
-          "<h5>2: Not efficient</h5>",
-          "<p>When the customers know what they want to see, the time looking for the art in the museum is not efficient</p>"
+          "<h5>2. Not efficient</h5>",
+          "<p>When customers know what they want to see, they spend too much time looking for the art in the museum.</p>"
           ]
         },
         {
           "description": [
-          "<h5>3: Difficult to see the description</h5>",
-          "<p>Around the description next to the art is usually crowded and have to wait to the turn until it’s clear</p>"
+          "<h5>3. Difficult to see the description</h5>",
+          "<p>The art description plaque is quite small and difficult to read; the area around it is usually crowded, so customers have to wait to read the description.</p>"
           ]
         },
         {
@@ -89,13 +89,13 @@
         {
           "description": [
           "<h5>Problem statement</h5>",
-          "<p>Alex is an English teacher who is an enthusiast of art who needs a map app that leads to art in a museum because the museum is huge so he tends to get lost and that is waste of time</p>"
+          "<p>Alex is an English teacher who is an enthusiast of art. He needs a map app that leads him to artwork; he does not want to waste time by getting lost in the museum due to its size.</p>"
           ]
         },
         {
           "description": [
           "<h5>User journey map</h5>",
-          "<p>Mapping Alex’s journey map revealed that if he has the virtual map app is how helpful and satisfied for enjoying the museum </p>"
+          "<p>Creating Alex’s journey map revealed that having a virtual map app would be helpful and lead to a more satisfying and enjoyable museum visit.</p>"
           ],
           "small-margin": true
         },
@@ -122,11 +122,11 @@
         },
         {
           "description": 
-          "<p>Making paper wireframes ensured that the process would work well for all of user’s pain points</p>"
+          "<p>Making paper wireframes ensured that the process would work well for all of a user’s pain points.</p>"
         },
         {
           "headline": "Digital wireframes",
-          "description": "<p>On the first digital wireframe phase, I made sure that every action would be simple and easy to understand next steps based on the pain points from the research</p>",
+          "description": "<p>On the first digital wireframe phase, I made sure that every action would be simple and next steps were easy to understand, based on the pain points from the research.</p>",
           "small-margin": true
         },
         {
@@ -139,7 +139,7 @@
           "small-margin": true
         },
         {
-          "description": "<p>Art is the main elements for users when they use this app so I focused on being clean design and easy to lead to next step</p>",
+          "description": "<p>Art is the main element for users when they use this app, so I focused on a  clean design and simplicity in leading users between steps.</p>",
           "small-margin": true
         },
         {
@@ -152,7 +152,7 @@
         },
         {
           "headline": "Low-fidelity prototype",
-          "description": "<p>Low-fidelity prototype connected the primary user flow as a virtual map with images and was used in the first usability study by users</p>",
+          "description": "<p>I decide to add hi-fi images to the lo-fi prototype in order to help users better understand the flow of the app. This prototype was then used in the first usability study.</p>",
           "images": [
             {
               "url": "assets/img/projects/museum/low-prototype.jpg"
@@ -161,19 +161,19 @@
           "inline-img": true
         },
         {
-          "headline": "Usability study: Findings",
+          "headline": "Usability study: findings",
           "description": [
-          "<p>I conducted two round of usability studies. What I learned from the first round helped to be simplified from wireframes to mockups. High-fidelity prototype was used for the second round, and that revealed what aspects of the mockups needed refining</p>",
+          "<p>I conducted two rounds of usability studies. What I learned from the first round helped to simplify from wireframes to mockups. Next, a high-fidelity prototype was used for the second round, and that revealed what aspects of the mockups needed refining.</p>",
           "<h5>Round 1 findings</h5>",
-          "<p><ul><li>Overwhelming functions on one screen made users confused</li></ul><ul><li>User need more accessible words when explaining the feature</li></ul><ul><li>Users need a more intuitive design/animation to click the button</li></ul></p>",
+          "<p><ul><li>Overwhelming number of functions on one screen make users confused</li></ul><ul><li>  User need more accessible words when explaining a feature, i.e. call-to-action text in button</li></ul><ul><li>Users don’t always understand that they need to interact with elements, i.e. direction to click the button is unclear</li></ul></p>",
           "<h5>Round 2 findings</h5>",
-          "<p><ul><li>There are unnecessary “Cancel” and “Back” buttons</li></ul><ul><li>Inconsistency of the word in the button made users confused</li></ul></p>"
+          "<p><ul><li>  The “Cancel” and “Back” buttons are unnecessary</li></ul><ul><li> Inconsistency of action words in buttons makes users confused</li></ul></p>"
           ]
         },
         {
           "headline": "Mockups",
           "description": [
-          "<h5>The screen infront of the art</h5>"
+          "<h5>The screen when in front of the art</h5>"
           ],
           "small-margin": true
           },
@@ -188,7 +188,7 @@
         },
         {
           "description": 
-          "<p>Early design had “Add Art” button on the screen when users arrived in front of art, but it made all of participants confused if the button means to add art to the favorite or not. And no one noticed that if you click on that image you can see the detail of art.</p><p>On the high-fidelity prototype, I deleted the “Add Art” and, put a background under the button of the art’s detail and add animation which becomes bigger when hovering over it, so that user notice it’s clickable</p>"
+          "<p>Early design had an “Add Art” button on the screen when users arrived in front of the art, but none of the participants understood if the button meant to add art to favorites or something else. Additionally no one noticed that clicking on the image would show details about the art.</p><p>On the high-fidelity prototype, I removed the “Add Art” button, put a background under the button of the art’s detail and added an animation making the image bigger on hover to help the user notice that it is clickable.</p>"
         },
         {
           "description": [
@@ -207,7 +207,7 @@
         },
         {
           "description": 
-          "<p>On low-fidelity prototype, all of users checked a detail page before choosing art to a route. So I put bigger image to get more attention after the first study. And after the second study, I prioritized information that user want to know more. And I delete a “back” button to be simplified to let users easy to understand next action</p>"
+          "<p>After the first study, all users checked the detail page before choosing to add art to a route in the low-fidelity prototype; this drove the decision to put a bigger image to get more attention. After the second study, I prioritized key information about the art in a more concise (and therefore easier to comprehend) format. I also removed the “Back” button to make the interface more simple and let users clearly understand the next action.</p>"
         },
         {
           "description": [
@@ -229,7 +229,7 @@
         },
         {
           "headline": "High-fidelity prototype",
-          "description": "<p>The final high-fidelity prototype presented more intuitive process for users applied smart animation. The animation leads users to the next step correctly. Please try my prototype from the link below</p>",
+          "description": "<p>The final high-fidelity prototype presented a more intuitive process for users and applied smart animation which led users to the next step correctly.</p><p>You can see the final prototype here:<a href='https://www.figma.com/proto/pEYzMBN3g1UgpVGjBHjGtk/2nd-visual-tour-app?page-id=820%3A3671&type=design&node-id=820-3673&viewport=-1258%2C525%2C0.5&scaling=scale-down&starting-point-node-id=1019%3A6067&mode=design&t=Hd02ts4rAlkx6482-1' target='_blank'> <b><u>High-fidelity prototype - The NY Museun Virtual Map App (Figma)</u></b></a></p>",
           "images": [
             {
               "url": "assets/img/projects/museum/prototype_high-fe.mov",
@@ -244,10 +244,10 @@
           "headline": "Take aways",
           "description": [
           "<h5>Impact</h5>",
-          "<p>This app is my personal project, however, the usability study revealed this app met users’ need.</p><p>One of participants of the usability study said;</p>",
-          "<q>I think this app is very useful in the museum because I get lost quite often and usually many people around the description of art so I can't see the detail of art well.<span> - Naoko</span></q>",
+          "<p>Although this app is my personal project, the usability study revealed that this app met actual user needs.</p><p>One of participants of the usability study said:</p>",
+          "<q>I think this app is very useful in the museum because I get lost quite often. Also there are usually many people around the description of art so I can't see details about the art very well.<span> - Naoko</span></q>",
           "<h5>What I learned</h5>",
-          "<p>I thought I understood users feelings well from the beginning of this project. But I realized that was really wrong and not enough when I conducted the usability study.</p>"
+          "<p>Even before starting this project, I thought that I had a good understanding of users’ feelings. The usability study helped me uncover many areas where my initial assumptions were proven to be incorrect.</p>"
           ]
         }
       ],
@@ -268,7 +268,7 @@
       "endDate": "2023",
       "client": "Case Study on Google UX Design Certificate Course",
       "heroUrl": "assets/img/projects/bookbook/hero_1.jpg",
-      "description": "<p>BookBook is a used book marketplace which I made up for Case Study on Google UX Design Certificate Course that specializes in books in various languages. The target users are immigrants living in the US. Users can search for books written in their native language and sell their books. The goal of BookBook is to make easy to access to books with affordable cost  for immigrants and to sell books to people from same country</p>",
+      "description": "<p>BookBook is a used book marketplace, which I created as part of a case study for the Google UX Design Certificate Course, that specializes in books in various languages. The target users are immigrants living in the US. Users can search for books written in their native language and sell their books. The goal of BookBook is to make it easy to access books with an affordable cost for immigrants, as well as to sell books to people from the same country.</p>",
       "blocks": [
         {
           "images": [
@@ -283,33 +283,33 @@
         },
         {
           "headline": "Problems",
-          "description": "<p><ul><li>Books written in non-English are very expensive in the US. Usually the cost is more than double the original price. And access to these books is very limited</li></ul></p><p><ul><li>There are not many places to sell used books in the US. Even if you can sell books to a bookstore, you won't make much money.</li></ul></p>"
+          "description": "<p><ul><li>Books written in non-English are very expensive in the US. Usually the cost is more than double the original price and access to these books is very limited.</li></ul></p><p><ul><li>There are not many places that sell used books in the US.</li></ul></p><p><ul><li>Even if you can sell books to a bookstore, you won't make much money.</li></ul></p>"
         },
         {
           "headline": "The goal",
-          "description": "<p>BookBook is to make easy access to used books with affordable cost for immigrants and to sell used books to people from same country.</p><p>Users can leave a review to books they're selling and communicate with each other through its social media, so that BookBook gives enjoyable buy/sell experience to users.</p>"
+          "description": "<p>BookBook is designed to give easy access to used books with affordable cost for immigrants and to sell used books to people from the same country.</p><p>Users can leave a review for books they are selling and communicate with each other through BookBook social media features, such as likes or comments. These features let BookBook present an enjoyable buying/selling experience to users.</p>"
         },
         {
-          "headline": "User research: Summary",
-          "description": "<p>I conducted user interviews and created empathy maps and an affinity diagram to organize the needs. I found that many users who live in the US are struggling to access to books in their native language, and books tend to be expensive when they are new. There are a few used book stores online but they are mainly for English books which makes users feel frustrated. And also some users use ebay buying/selling books but the app is not specifically for books so it’s complicated for user who loves books</p>"
+          "headline": "User research: summary",
+          "description": "<p>I conducted user interviews and created empathy maps and an affinity diagram to organize the needs. I found that many users who live in the US are struggling to find books in their native language, and books tend to be expensive when they are new. There are a few used book stores online but they are mainly for books in English, which makes users feel frustrated. Also, some users use eBay for buying/selling books but it is not built specifically for books, so it does not have features that would make it an optimal experience for user who are bookworms</p>"
         },
         {
-          "headline": "User research: Pain points",
+          "headline": "User research: pain points",
           "description": [
-          "<h5>1: New books are expensive for immigrants</h5>",
-          "<p>Books written in non-English are very expensive in the US. Usually the cost is more than double of the original price</p>"
+          "<h5>1. New books are expensive</h5>",
+          "<p>Books written in language other than English are typically expensive in the US, with prices double or more of the original cost.</p>"
           ]
         },
         {
           "description": [
-          "<h5>2: No place to buy/sell used books for immigrants</h5>",
-          "<p>There are not many places to buy/sell used books in non-English in the US. Even if you can sell books to a bookstore, you won't make much money</p>"
+          "<h5>2. No place to buy/sell used books for immigrants</h5>",
+          "<p>The number of these places is limited and usually they pay only a fraction of the book’s original cost.</p>"
           ]
         },
         {
           "description": [
-          "<h5>3: You can sell books on ebay but it's complicated</h5>",
-          "<p>A few used books shop online in the US but books are mostly in English and users can’t sell books simply. You can sell on ebay but it’s a complicated process because it’s not for books specifically</p>"
+          "<h5>3. You can sell books on ebay but it's complicated</h5>",
+          "<p>An overwhelming majority of book shops in the US do not carry non-English books, and their process of buying used books is convoluted. Another option is eBay, but it is designed as a generic marketplace without features focused on selling books.</p>"
           ]
         },
         {
@@ -328,13 +328,13 @@
         {
           "description": [
           "<h5>Problem statement</h5>",
-          "<p>Aya is a bookworm who lives in the US, originally from Japan who needs a place to buy & sell for used Japanese books easily online because new Japanese books are too expensive here and no place to sell them</p>"
+          "<p>Aya is a bookworm from Japan who lives in the US. She needs a place to buy & sell used Japanese books easily (preferably online) because new Japanese books are too expensive to buy and there is really no place for her to sell her books.</p>"
           ]
         },
         {
           "description": [
           "<h5>User journey map</h5>",
-          "<p>I created Aya’s user journey map that helps to understand user’s experience and pain points </p>"
+          "<p>I created Aya’s user journey map that helps to understand her experience and pain points.</p>"
           ],
           "small-margin": true
         },
@@ -361,7 +361,7 @@
         },
         {
           "description": 
-          "<p>The most important thing is user can find books in their language so I planned to put “shop in your language” on first of the home</p>"
+          "<p>The most important thing is that the user can find books in their language, so I planned to put a “shop in your language” section in the top of the home page.</p>"
         },
         {
           "headline": "Paper wireframes",
@@ -378,11 +378,11 @@
         },
         {
           "description": 
-          "<p>I made paper wireframes for each page, based on user pain points and journey maps</p>"
+          "<p>I made paper wireframes for each page based on user pain points and journey maps.</p>"
         },
         {
           "headline": "Digital wireframes",
-          "description":"<p>Creating digital wireframes shows if the app really solves users’ pain points and if the users enjoy the experience.</p><p>The priority in this Home is to be able to find users’ native language so that they can start searching without difficulty</p>",
+          "description":"<p>Creating digital wireframes showed if the app really solves users’ pain points and if they enjoy the experience.</p><p>The priority in this version on the home page is to give users the ability to find their native language so that they can start searching without difficulty.</p>",
           "small-margin": true
         },
         {
@@ -395,7 +395,7 @@
           "small-margin": true
         },
         {
-          "description": "<p>Searching for books in users own language on Home is the priority on the mobile as well</p>",
+          "description": "<p>Searching for books in the user’s own language from the home page is a priority on mobile as well.</p>",
           "small-margin": true
         },
         {
@@ -408,7 +408,7 @@
         },
         {
           "headline": "Low-fidelity prototype",
-          "description": "<p>In a low-fidelity prototype, I connected all the screens from searching books to checkout as the primary user flow.</p><p>At first, I put a search box on only the Home then I changed that to the simple search bar on the top of each screen</p>",
+          "description": "<p>In a low-fidelity prototype I connected all the screens, starting from searching for books, all the way through to checkout as the primary user flow.</p><p>At first, I put a search box on only the home page, but then I changed that to a more simple search bar on the top of each screen that users are accustomed to seeing across the web.</p>",
           "images": [
             {
               "url": "assets/img/projects/bookbook/low-fidelity.jpg"
@@ -417,15 +417,15 @@
           "inline-img": true
         },
         {
-          "headline": "Usability study: Findings",
+          "headline": "Usability study: findings",
           "description": [
-          "<p>Discovered the main three findings by the usability study</p>",
-          "<h5>1: Too simple flow</h5>",
-          "<p>Users felt this app flow is too simple. In another word, it’s boring. Book lovers are gathering here, there is an opportunity to make a community</p>",
-          "<h5>2: Is the book in the cart?</h5>",
-          "<p>It was difficult for users to see if the book was already in the cart, because only a number appeared on the cart when users added the book to the cart</p>",
-          "<h5>3: Unsure if the order has been placed</h5>",
-          "<p>The last screen was too similar to the previous screen, so users couldn’t notice the order already had been placed</p>"
+          "<p>I made three main findings from the usability study:</p>",
+          "<h5>1. Too simple flow</h5>",
+          "<p>Users felt this app flow was too simple – in other words, boring. Book lovers are gathering here, there is an opportunity to create a community.</p>",
+          "<h5>2. Is the book in the cart?</h5>",
+          "<p>It was difficult for users to see if the book was already in the cart, because the only feedback was that a number appeared next to the cart.</p>",
+          "<h5>3. Unsure if the order has been placed</h5>",
+          "<p>The final screen, “Order Placed”, was too similar to the one before it, “Order Review” so it was not clear to users that the order already had been placed.</p>"
           ]
         },
         {
@@ -446,7 +446,7 @@
         },
         {
           "description": 
-          "<p>Users felt this marketplace's buying/selling flows were too simple. A lot of book lovers suppose to be gathering here, and there is an opportunity to create a community so I added the social media features so that users can communicated each other, the buyer and the seller by following, messages, leaving likes, and comment for reviews.</p>"
+          "<p>Users felt BookBook’s buying/selling flows were too simple. The assumption is that a lot of book lovers are gathering here and so there is an opportunity to create a community. To aid in this, I added social media features so that users would be able to communicate with each other: following, messages, leaving likes and comment for reviews.</p>"
         },
         {
           "description": [
@@ -465,7 +465,7 @@
         },
         {
           "description": 
-          "<p>It was difficult for users to recognize if the book was already in the cart, because only a number appeared on the cart when users added the book to the cart. Based on thit, I added the detail pop-up window of the cart</p>"
+          "<p>Since I identified that it was difficult for users to determine whether the book was already in the cart, I added the detail pop-up window for the cart contents and summary.</p>"
         },
         {
           "description": [
@@ -484,7 +484,7 @@
         },
         {
           "description": 
-          "<p>The last screen was too similar to the previous screen, so users couldn't tell if the order had been placed. I made changes to improve the design so that it is easier to see that the order has been placed</p>"
+          "<p>As I mentioned above, usability studies showed that the the final screen, “Order Placed”, was too similar to the one before it, “Order Review”, so users were not able to tell if the order had been placed. I made changes to improve the design so that it would be easier for users to see that their order had indeed been placed, such as updating the layout for better information flow.</p>"
         },
         {
           "description": [
@@ -541,7 +541,7 @@
         },
         {
           "headline": "High-fidelity prototype",
-          "description": "<p>The high-fidelity prototype followed the same user flow as the low-fidelity prototype except the new feature that was added after the usability study that users could communicate with each other</p>",
+          "description": "<p>The high-fidelity prototype followed the same user flow as the low-fidelity prototype, with the exception of a new feature that was added after the usability study: allowing users to communicate with each other.</p>",
           "images": [
             {
               "url": "assets/img/projects/bookbook/Hi-fi_bookmarketplace.mov",
@@ -556,16 +556,210 @@
           "headline": "Takeaways",
           "description": [
           "<h5>Impact</h5>",
-          "<p>The target users were already used to shopping online and were not satisfied only shopping on our site. They wanted to communicate with people who had the same interests.</p>",
+          "<p>The target users were used to shopping online in general, but they were not satisfied with just the shopping aspect of BookBook. In addition to shopping, they also wanted to communicate with people who had the same interests.</p><p>One of the participants said:</p>",
           "<q>I might not sell my books that much but I would love to buy used books in my mother language from BookBook. There are definitely people who need this service, especially in the US.  <span> - Alexey</span></q>",
           "<h5>What I learned</h5>",
-          "<p>I found that websites have a good design is quite obvious nowadays so having unique features that enhance users' experience is very important to consider when I create web apps</p>"
+          "<p>I found that, although it is quite obvious that a good design is part of a successful website, having unique features that enhance users' experience is a consideration that is just as important.</p>"
           ]
         }
       ],
       "related": [
         "museumapp",
         "astute"
+      ]
+    },
+    {
+      "id": "astute",
+      "category": 1,
+      "tags": [
+        "Logo design",
+        "Web design"
+      ],
+      "shortTitle": "Astute",
+      "longTitle": "Astute",
+      "startDate": "2020",
+      "endDate": "2020",
+      "client": "Astute Subprime Consulting",
+      "heroUrl": "assets/img/projects/astute/hero.jpg",
+      "description": "<p>Astute is a consulting firm that helps car dealerships to reach out to low-credit customers that they have not been able to acquire. Using their unique knowledge and network, they help car dealers reduce opportunity losses and increase sales. </p><p>I redesigned the logo and created a new website for them.</p>",
+      "blocks": [
+        {
+          "images":[
+            {
+              "url":"assets/img/projects/astute/phone.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Logo Renewal",
+          "description": [ "<p>The motif of a puzzle piece and green shoots were used in the previous logo to represent their mission of solving problems and leading to new opportunities. I didn't change the motif used in the new logo, but designed it in a modern style.</p>"
+          ],
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/astute/logo.jpg"
+            }
+          ],
+
+          "inline-img": true,
+          "layout": "v"
+        },
+        {
+          "headline": "Business Card",
+          "images": [
+            {
+              "url": "assets/img/projects/astute/card.jpg"
+            }
+          ],
+
+          "inline-img": true,
+          "layout": "v"
+        },
+        {
+          "headline": "Web Design",
+          "description": [
+            "<h5>Top Page</h5>",
+            "<p>I pick a large image of a car as a main visual for being recognized that a car-related business to the main target audience. The Take a Test button which determines how much sales the client is losing is placed on the top page and in the header for easy access.</p>"
+          ],
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/astute/top.jpg"
+            }
+          ],
+
+          "inline-img": true,
+          "layout": "v"
+        },
+        {
+          "description": [
+            "<h5>Services</h5>",
+            "<p>Expressed what kind of services they provide with illustrations to understand easily.</p>"
+          ],
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/astute/we.jpg"
+            }
+          ],
+
+          "inline-img": true,
+          "layout": "v"
+        },
+        {
+          "description": [
+            "<h5>Client's Problems</h5>",
+            "<p>By presenting problems that clients often face, it concretely evokes the problem and leads the way to solve them.</p>"
+          ],
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/astute/problem1.jpg"
+            }
+          ],
+          "inline-img": true,
+          "layout": "v"
+        },
+        {
+          "description": [
+            "<h5>Explanation of Steps </h5>",
+            "<p>I expressed the steps with playful illustrations.</p>"
+          ],
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/astute/steps.jpg"
+            }
+          ],
+
+          "inline-img": true,
+          "layout": "v"
+        },
+        {
+          "description": [
+            "<h5>Take a Test </h5>",
+            "<p>After the client takes a test, the system shows a figure of how much sales they could have gotten if they got low-credit customers. It makes them motivated to solve the problem by showing the exact number.</p>"
+          ],
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/astute/test.mp4",
+              "video": true,
+              "layout": "h"
+            }
+          ],
+
+          "inline-img": true,
+          "layout": "v"
+        },
+        {
+          "description": [
+            "<h5>Whole Page</h5>"
+          ],
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/astute/landing page Blue.jpg"
+            }
+          ],
+          "inline-img": true,
+          "layout": "v"
+        }
+      ],
+      "related": [
+       "museumapp",
+        "bookbook"
+      ]
+    },
+    {
+      "id": "mari",
+      "category": 3,
+      "tags": [
+        "Graphic Design",
+        "Print Design"
+      ],
+      "shortTitle": "Business Card",
+      "longTitle": "Business Card",
+      "startDate": "2021",
+      "endDate": "2021",
+      "client": "Mari Shirai (Film Location Coordinator)",
+      "heroUrl": "assets/img/projects/mari/card_hero.jpg",
+      "description": "<p>I designed this business card for my friend, Mari Shirai, who works as a location coordinator in the filming industry. She goes to work with her dogs in her yellow Volkswagen van. She is kind of famous because of this to her coworkers and makes a strong impression on new clients. The business card reflects these elements of her style. </p>",
+      "blocks": [
+        {
+          "headline": "Mark and card",
+          "images": [
+            {
+              "url": "assets/img/projects/mari/card_3.jpg"
+            },
+            {
+              "url": "assets/img/projects/mari/card_hero2.jpg"
+            }
+          ],
+          "description": "<p>I sketched the Volkswagen van and her dogs as a hand-drawn illustration with her name in a playful font. This shows her character as friendly and outgoing.</p> <p> In addition to her name, I added her dog's names in the mark to give a topic for the conversation with the people who exchange the business cards.</p>",
+          "inline-img": true,
+          "layout": "v"
+        }
+      ],
+      "related": [
+        "audi",
+        "garagebook",
+        "reminisce"
       ]
     },
     {
@@ -1365,7 +1559,7 @@
       "endDate": "2018",
       "client": "infist Design co., Ltd",
       "heroUrl": "assets/img/projects/garage/book/garage01.jpg",
-      "description": "<p>The leaflet created in collaboration with The incell Garage House when the new Audi TT was launched in Japan in 2015. Pictures in the leaflet bring to mind the garage of the Audi TT owner. This leaflet was used as a sales tool for Audi Shinjuku and The incell Garage house.</p> <p>As an art director, I conducted photo shooting and graphic design.</p>",
+      "description": "<p>The Garagehouse is a brand of rental apartment with a garage in Tokyo, Japan. I created an image book to enhance brand awareness and sales after the brand built five buildings.</p><p>The brand made an image book every time when each building was completed. This image book is a collection of five buildings and conveys the brand message with visuals through this image book.</p><p>As an art director, I conducted photo shooting and graphic design for each building’s image book.</p><p>You can see the interior design work of The Garagehouse form here : <a href='https://asamitm.com/project/garageinterior' target='_blank'> <b><u>The Garage House - Interior Design</u></b></a></p>",
       "blocks": [
         {
           "images": [
@@ -1467,423 +1661,7 @@
         "garagebook",
         "mari"
       ]
-    },
-    {
-      "id": "alexey",
-      "category": 2,
-      "tags": [
-        "Product Design",
-        "Print Design",
-        "Sale Strategy"
-      ],
-      "shortTitle": "Alexey",
-      "longTitle": "This is the danna project",
-      "startDate": "2015",
-      "client": "danna",
-      "heroUrl": "assets/img/projects/alexey/hero.jpg",
-      "description": "<p>danna-san, suteki! ♥♥♥</p>",
-      "blocks": [
-        {
-          "description": [
-            "<p>test</p>",
-            "<q>cat quote</q>",
-            "<p>test</p>",
-            "<p>test</p>"
-          ]
-        },
-        {
-          "headline": "These are some videos",
-          "images": [
-            {
-              "url": "assets/img/projects/alexey/test.mp4",
-              "caption": "this is a horizontal (landscape) video",
-              "video": true,
-              "layout": "h"
-            },
-            {
-              "url": "assets/img/projects/alexey/test.mp4",
-              "caption": "this is a vertical (portrait) video",
-              "video": true,
-              "layout": "v"
-            }
-          ],
-          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
-          "inline-img": true,
-          "layout": "v"
-        },
-        {
-          "headline": "1 image inline",
-          "images": [
-            {
-              "url": "assets/img/projects/tone/tone_six.jpg"
-            }
-          ],
-          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
-          "inline-img": true
-        },
-        {
-          "headline": "1 image inline w/ caption",
-          "images": [
-            {
-              "url": "assets/img/projects/tone/tone_six.jpg",
-              "caption": "this is a caption"
-            }
-          ],
-          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
-          "inline-img": true
-        },
-        {
-          "headline": "2 images inline horizontal",
-          "images": [
-            {
-              "url": "assets/img/projects/tone/tone_six.jpg"
-            },
-            {
-              "url": "assets/img/projects/tone/tone_sq.jpg"
-            }
-          ],
-          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
-          "inline-img": true,
-          "layout": "h"
-        },
-        {
-          "headline": "2 images inline horizontal w/ caption",
-          "images": [
-            {
-              "url": "assets/img/projects/tone/tone_six.jpg"
-            },
-            {
-              "url": "assets/img/projects/tone/tone_sq.jpg"
-            }
-          ],
-          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
-          "inline-img": true,
-          "group-caption": "this is a group caption",
-          "layout": "h"
-        },
-        {
-          "headline": "2 images inline vertical",
-          "images": [
-            {
-              "url": "assets/img/projects/tone/tone_six.jpg"
-            },
-            {
-              "url": "assets/img/projects/tone/tone_sq.jpg"
-            }
-          ],
-          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
-          "inline-img": true,
-          "layout": "v"
-        },
-        {
-          "headline": "2 images inline vertical w/ caption",
-          "images": [
-            {
-              "url": "assets/img/projects/tone/tone_six.jpg",
-              "caption": "installed in a meeting room of the music event production "
-            },
-            {
-              "url": "assets/img/projects/tone/tone_sq.jpg",
-              "caption": "installed in a meeting room of the music event production "
-            }
-          ],
-          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
-          "inline-img": true,
-          "layout": "v"
-        },
-        {
-          "headline": "3 images inline horizontal",
-          "images": [
-            {
-              "url": "assets/img/projects/tone/tone_six.jpg"
-            },
-            {
-              "url": "assets/img/projects/tone/tone_sq.jpg"
-            },
-            {
-              "url": "assets/img/projects/tone/tone_hero.jpg"
-            }
-          ],
-          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
-          "inline-img": true,
-          "layout": "h"
-        },
-        {
-          "headline": "3 images inline horizontal w/ caption",
-          "images": [
-            {
-              "url": "assets/img/projects/tone/tone_six.jpg"
-            },
-            {
-              "url": "assets/img/projects/tone/tone_sq.jpg"
-            },
-            {
-              "url": "assets/img/projects/tone/tone_hero.jpg"
-            }
-          ],
-          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
-          "inline-img": true,
-          "group-caption": "this is a group caption",
-          "layout": "h"
-        },
-        {
-          "headline": "3 images inline vertical",
-          "images": [
-            {
-              "url": "assets/img/projects/tone/tone_six.jpg"
-            },
-            {
-              "url": "assets/img/projects/tone/tone_sq.jpg"
-            },
-            {
-              "url": "assets/img/projects/tone/tone_hero.jpg"
-            }
-          ],
-          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
-          "inline-img": true,
-          "layout": "v"
-        },
-        {
-          "headline": "3 images inline vertical w/ caption",
-          "images": [
-            {
-              "url": "assets/img/projects/tone/tone_six.jpg",
-              "caption": "image caption"
-            },
-            {
-              "url": "assets/img/projects/tone/tone_sq.jpg",
-              "caption": "image caption"
-            },
-            {
-              "url": "assets/img/projects/tone/tone_hero.jpg",
-              "caption": "image caption"
-            }
-          ],
-          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
-          "inline-img": true,
-          "layout": "v"
-        },
-        {
-          "headline": "4 images inline w/ caption",
-          "images": [
-            {
-              "url": "assets/img/projects/tone/tone_six.jpg"
-            },
-            {
-              "url": "assets/img/projects/tone/tone_sq.jpg"
-            },
-            {
-              "url": "assets/img/projects/tone/tone_hero.jpg"
-            },
-            {
-              "url": "assets/img/projects/tone/tone_im3.jpg"
-            }
-          ],
-          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
-          "inline-img": true,
-          "group-caption": "this is a group caption"
-        }
-      ],
-      "related": [
-        "chair",
-        "table"
-      ]
-    },
-    {
-      "id": "mari",
-      "category": 3,
-      "tags": [
-        "Graphic Design",
-        "Print Design"
-      ],
-      "shortTitle": "Business Card",
-      "longTitle": "Business Card",
-      "startDate": "2021",
-      "endDate": "2021",
-      "client": "Mari Shirai (Film Location Coordinator)",
-      "heroUrl": "assets/img/projects/mari/card_hero.jpg",
-      "description": "<p>I designed this business card for my friend, Mari Shirai, who works as a location coordinator in the filming industry. She goes to work with her dogs in her yellow Volkswagen van. She is kind of famous because of this to her coworkers and makes a strong impression on new clients. The business card reflects these elements of her style. </p>",
-      "blocks": [
-        {
-          "headline": "Mark and card",
-          "images": [
-            {
-              "url": "assets/img/projects/mari/card_3.jpg"
-            },
-            {
-              "url": "assets/img/projects/mari/card_hero2.jpg"
-            }
-          ],
-          "description": "<p>I sketched the Volkswagen van and her dogs as a hand-drawn illustration with her name in a playful font. This shows her character as friendly and outgoing.</p> <p> In addition to her name, I added her dog's names in the mark to give a topic for the conversation with the people who exchange the business cards.</p>",
-          "inline-img": true,
-          "layout": "v"
-        }
-      ],
-      "related": [
-        "audi",
-        "garagebook",
-        "reminisce"
-      ]
-    },
-    {
-      "id": "astute",
-      "category": 1,
-      "tags": [
-        "Logo design",
-        "Web design"
-      ],
-      "shortTitle": "Astute",
-      "longTitle": "Astute",
-      "startDate": "2020",
-      "endDate": "2020",
-      "client": "Astute Subprime Consulting",
-      "heroUrl": "assets/img/projects/astute/hero.jpg",
-      "description": "<p>Astute is a consulting firm that helps car dealerships to reach out to low-credit customers that they have not been able to acquire. Using their unique knowledge and network, they help car dealers reduce opportunity losses and increase sales. </p><p>I redesigned the logo and created a new website for them.</p>",
-      "blocks": [
-        {
-          "images":[
-            {
-              "url":"assets/img/projects/astute/phone.jpg"
-            }
-          ],
-          "inline-img": true
-        },
-        {
-          "headline": "Logo Renewal",
-          "description": [ "<p>The motif of a puzzle piece and green shoots were used in the previous logo to represent their mission of solving problems and leading to new opportunities. I didn't change the motif used in the new logo, but designed it in a modern style.</p>"
-          ],
-          "small-margin": true
-        },
-        {
-          "images": [
-            {
-              "url": "assets/img/projects/astute/logo.jpg"
-            }
-          ],
-
-          "inline-img": true,
-          "layout": "v"
-        },
-        {
-          "headline": "Business Card",
-          "images": [
-            {
-              "url": "assets/img/projects/astute/card.jpg"
-            }
-          ],
-
-          "inline-img": true,
-          "layout": "v"
-        },
-        {
-          "headline": "Web Design",
-          "description": [
-            "<h5>Top Page</h5>",
-            "<p>I pick a large image of a car as a main visual for being recognized that a car-related business to the main target audience. The Take a Test button which determines how much sales the client is losing is placed on the top page and in the header for easy access.</p>"
-          ],
-          "small-margin": true
-        },
-        {
-          "images": [
-            {
-              "url": "assets/img/projects/astute/top.jpg"
-            }
-          ],
-
-          "inline-img": true,
-          "layout": "v"
-        },
-        {
-          "description": [
-            "<h5>Services</h5>",
-            "<p>Expressed what kind of services they provide with illustrations to understand easily.</p>"
-          ],
-          "small-margin": true
-        },
-        {
-          "images": [
-            {
-              "url": "assets/img/projects/astute/we.jpg"
-            }
-          ],
-
-          "inline-img": true,
-          "layout": "v"
-        },
-        {
-          "description": [
-            "<h5>Client's Problems</h5>",
-            "<p>By presenting problems that clients often face, it concretely evokes the problem and leads the way to solve them.</p>"
-          ],
-          "small-margin": true
-        },
-        {
-          "images": [
-            {
-              "url": "assets/img/projects/astute/problem1.jpg"
-            }
-          ],
-          "inline-img": true,
-          "layout": "v"
-        },
-        {
-          "description": [
-            "<h5>Explanation of Steps </h5>",
-            "<p>I expressed the steps with playful illustrations.</p>"
-          ],
-          "small-margin": true
-        },
-        {
-          "images": [
-            {
-              "url": "assets/img/projects/astute/steps.jpg"
-            }
-          ],
-
-          "inline-img": true,
-          "layout": "v"
-        },
-        {
-          "description": [
-            "<h5>Take a Test </h5>",
-            "<p>After the client takes a test, the system shows a figure of how much sales they could have gotten if they got low-credit customers. It makes them motivated to solve the problem by showing the exact number.</p>"
-          ],
-          "small-margin": true
-        },
-        {
-          "images": [
-            {
-              "url": "assets/img/projects/astute/test.mp4",
-              "caption": "this is a caption",
-              "video": true,
-              "layout": "h"
-            }
-          ],
-
-          "inline-img": true,
-          "layout": "v"
-        },
-        {
-          "description": [
-            "<h5>Whole Page</h5>"
-          ],
-          "small-margin": true
-        },
-        {
-          "images": [
-            {
-              "url": "assets/img/projects/astute/landing page Blue.svg"
-            }
-          ],
-          "inline-img": true,
-          "layout": "v"
-        }
-      ],
-      "related": [
-       "museumapp",
-        "bookbook"
-      ]
-    },
+    },  
     {
       "id": "furniture",
       "category": 2,
