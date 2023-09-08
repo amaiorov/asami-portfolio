@@ -1,5 +1,7 @@
 @import '/src/assets/scss/variables.scss';
-
+:host ::ng-deep section:not(.related) a {
+  text-decoration: underline;
+}
 .hero {
   img {
     // display: none;
